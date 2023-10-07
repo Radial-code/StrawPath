@@ -14,10 +14,36 @@ html {
     cursor: pointer;
 }
 
+.lh_28 {
+    line-height: 93.5%;
+}
+
 .all_transition {
     transition: all 0.2s ease-in-out !important;
 }
 
+/* ==================== WE WORK WITH-CLASS-CSS-START ====================*/
+.main_heading_bg {
+    background-color: var(--color-Bandicoot);
+    padding: 22px 38px;
+    border-radius: 26px;
+}
+
+.work_cards:hover {
+    transform: translatey(-10px);
+}
+
+.work_cards {
+    border-left: 6px solid var(--color-Bandicoot);
+    padding: 0px 0 0 16px;
+}
+
+.work_cards_para {
+    max-width: 415px;
+    line-height: 136%;
+}
+
+/* ==================== FOOTER-CSS-START ====================*/
 .footer_icon_hover:hover {
     transform: scale(1.2);
 }
@@ -35,9 +61,6 @@ html {
     border-left: 0.5px solid var(--color-darkGreen) !important;
 }
 
-/* ==================== COMMON-CLASS-CSS-START ====================*/
-
-/* ==================== FOOTER-CSS-START ====================*/
 .footer_logo_w {
     max-width: 271px !important;
 }
@@ -65,7 +88,7 @@ html {
     color: white;
     padding: 10px 12px;
     border-radius: 50% !important;
-    background: #007aff;
+    background: #122B18;
     border: 1px solid transparent;
     animation: moves 3s infinite;
     transition: all 0.3s ease-in-out !important;
@@ -86,7 +109,7 @@ html {
 }
 
 #scroll:hover {
-    box-shadow: 0px 0px 4px 4px #007aff;
+    box-shadow: 0px 0px 4px 4px #122B18;
     border: 1px solid white;
     color: white !important;
 }
@@ -96,7 +119,7 @@ html {
 @media (min-width: 1400px) and (max-width: 1500px) {
     .custom_container {
         max-width: 1320px !important;
-        margin: auto !important;
+        margin: 0, auto !important;
     }
 
     .footer_logo_w {
@@ -107,7 +130,11 @@ html {
 @media (min-width: 1500px) {
     .custom_container {
         max-width: 1430px !important;
-        margin: auto !important;
+        margin: 0, auto !important;
+    }
+
+    .work_cards {
+        padding: 0 0 0 36px;
     }
 }
 
