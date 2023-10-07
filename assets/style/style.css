@@ -176,6 +176,9 @@
 .lh_116{
     line-height: 116.5%;
 }
+.lh_93{
+  line-height: 93.5%;
+}
 /* DEFINE NAVBAR CODE CSS============================================== */
 .navbar_bg{
     background: #121212bd !important;
@@ -223,6 +226,13 @@ video {
   z-index: 0;
   animation: fadeIn 2s;
 }
+.global_client_img_box{
+  height: 70px;
+  max-width: 190px !important;
+}
+.global_client_parent{
+  max-width: 950px;
+}
  /*------------------------ DEFINE-ALL = @media-queries ----------------------  */
 @media (max-width: 767.98px) {
     .common_btn{
@@ -257,6 +267,9 @@ video {
         line-height: 93.5%; /* 16.83px */
         letter-spacing: 2.25px;
         text-transform: uppercase;
+      }
+      .global_client_img_box{
+        max-width: 57px !important;
       }
 }
 @media (max-width: 575.98px) {
