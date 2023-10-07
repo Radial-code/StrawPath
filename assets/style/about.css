@@ -43,6 +43,40 @@ html {
     line-height: 136%;
 }
 
+/* ================DEFINE SLICK SLIDER CODE================ */
+.slick-dots li button:before {
+    background-color: #898989 !important;
+    border-radius: 50% !important;
+    width: 12px !important;
+    height: 13px !important;
+}
+
+.work_slider {
+    padding: 20px !important;
+}
+
+.slick-dots li button:before {
+    content: "" !important;
+    font-family: slick;
+    font-size: 10px !important;
+}
+
+.slick-dots li button {
+    border: 2px solid #89886D !important;
+    border-radius: 50% !important;
+    width: 10px !important;
+    height: 10px !important;
+}
+
+.slick-dots li.slick-active button:before {
+    background: #89886D !important;
+    content: "" !important;
+}
+
+.slick-dots {
+    bottom: -36px !important;
+}
+
 /* ==================== FOOTER-CSS-START ====================*/
 .footer_icon_hover:hover {
     transform: scale(1.2);
@@ -153,5 +187,10 @@ html {
 
     .footer_logo_w {
         width: 92px !important;
+    }
+
+    .work_cards {
+        border-left: none;
+        padding: unset;
     }
 }

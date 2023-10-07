@@ -146,18 +146,81 @@
         </header>
         <!------------------------- WE WORK WITH SECTION ------------------------->
         <section class="pt-xl-2">
-            <div class="container custom_container py-5 my-4 my-xl-5">
-                <span
-                    class="ff_tenor fw-normal text-uppercase d-inline-block font_xl lh_28 color_whiteCream main_heading_bg">we
-                    work with</span>
-                <p class="ff_montserrat font_xl fw_medium color_Bandicoot my-5 pb-4">Turning innovative ideas into
+            <div class="container custom_container pt-5 py-md-5 mt-4 mb-4 pb-3 my-md-4 my-xl-5">
+                <div class=" text-center text-lg-starts">
+                    <span
+                        class="ff_tenor  text-center text-lg-start fw-normal text-uppercase d-inline-block font_xl lh_28 color_whiteCream main_heading_bg">we
+                        work with</span>
+                </div>
+                <p
+                    class="ff_montserrat text-center text-lg-start font_xl fw_medium color_Bandicoot mb-0 mb-md-auto my-md-5 mt-5 pb-md-4">
+                    Turning
+                    innovative
+                    ideas
+                    into
                     market
                     ready
                     solutions</p>
-                <div class="d-none d-md-row justify-content-center justify-content-lg-evenly mb-xl-5 pb-xl-1">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="work_cards all_transition">
-                            <img src="/assets/images/svg/rocket_icon.svg" alt="rocket">
+                <div class="d-none d-md-block">
+                    <div class="row justify-content-center justify-content-lg-evenly mb-xl-5 pb-xl-1">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="work_cards all_transition">
+                                <img src="/assets/images/svg/rocket_icon.svg" alt="rocket">
+                                <h5 class="ff_montserrat font_xl color_Bandicoot fw-bold lh_28 mt-4 pt-1 mb-2">
+                                    startups
+                                </h5>
+                                <p class="font_lg ff_jost fw-normal color_Bandicoot work_cards_para pt-5 mb-0">Lorem
+                                    ipsum
+                                    dolor
+                                    sit amet
+                                    consectetur.
+                                    Feugiat augue egestas ac in pretium
+                                    ultrices ac ac. Eget ultricies elementum
+                                    amet pellentesque.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="work_cards all_transition">
+                                <img src="/assets/images/svg/plant_icon.svg" alt="plant">
+                                <h5 class="ff_montserrat font_xl color_Bandicoot fw-bold lh_28 mt-4 pt-1 mb-2">
+                                    innovation <br>
+                                    departments
+                                </h5>
+                                <p class="font_lg ff_jost fw-normal color_Bandicoot work_cards_para pt-4 mb-0">Lorem
+                                    ipsum
+                                    dolor
+                                    sit amet
+                                    consectetur.
+                                    Feugiat augue egestas ac in pretium
+                                    ultrices ac ac. Eget ultricies elementum
+                                    amet pellentesque.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 mt-5 mt-lg-0">
+                            <div class="work_cards all_transition">
+                                <img src="/assets/images/svg/inter_man_icon.svg" alt="inter_man_icon">
+                                <h5 class="ff_montserrat font_xl color_Bandicoot fw-bold lh_28 mt-4 pt-1 mb-2">
+                                    founders & <br>
+                                    entrepreneurs
+                                </h5>
+                                <p class="font_lg ff_jost fw-normal color_Bandicoot work_cards_para pt-4 mb-0">Lorem
+                                    ipsum
+                                    dolor
+                                    sit amet
+                                    consectetur.
+                                    Feugiat augue egestas ac in pretium
+                                    ultrices ac ac. Eget ultricies elementum
+                                    amet pellentesque.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!------------------- sm slider ----------------- -->
+                <div class="workslider pt-4 d-md-none">
+                    <div class="work_slider">
+                        <div class="work_cards all_transition text-center">
+                            <img src="/assets/images/svg/rocket_icon.svg" alt="rocket" class="mx-auto">
                             <h5 class="ff_montserrat font_xl color_Bandicoot fw-bold lh_28 mt-4 pt-1 mb-2">
                                 startups
                             </h5>
@@ -170,9 +233,9 @@
                                 amet pellentesque.</p>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="work_cards all_transition">
-                            <img src="/assets/images/svg/plant_icon.svg" alt="plant">
+                    <div class="work_slider">
+                        <div class="work_cards all_transition text-center">
+                            <img src="/assets/images/svg/plant_icon.svg" alt="plant" class="mx-auto">
                             <h5 class="ff_montserrat font_xl color_Bandicoot fw-bold lh_28 mt-4 pt-1 mb-2">
                                 innovation <br>
                                 departments
@@ -186,9 +249,9 @@
                                 amet pellentesque.</p>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 mt-5 mt-lg-0">
-                        <div class="work_cards all_transition">
-                            <img src="/assets/images/svg/inter_man_icon.svg" alt="inter_man_icon">
+                    <div class="work_slider">
+                        <div class="work_cards all_transition text-center">
+                            <img src="/assets/images/svg/inter_man_icon.svg" alt="inter_man_icon" class="mx-auto">
                             <h5 class="ff_montserrat font_xl color_Bandicoot fw-bold lh_28 mt-4 pt-1 mb-2">
                                 founders & <br>
                                 entrepreneurs
@@ -361,6 +424,26 @@
                     );
                     return false;
                 });
+            });
+        </script>
+        <script>
+            //------------- WE CAN HELP SLIDER ON SM SCREEN -------------
+            $('.workslider').slick({
+                dots: true,
+                arrows: false,
+                infinite: true,
+                speed: 1000,
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
             });
         </script>
         <!----------------- JS FLE LINK  --------------- -->
