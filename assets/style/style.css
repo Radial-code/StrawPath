@@ -7,8 +7,10 @@
     --color-lightBrown: #B7AC84;
     --color-Teal: #BEC9C0;
     --color-darkGreen: #122B18;
+    --font-2xs: 12px;
     --font-xs: 14px;
     --font-sm: 16px;
+    --font-base:18px;
     --font-md: 20px;
     --font-lg: 25px;
     --font-xl: 30px;
@@ -93,7 +95,9 @@
     font-weight: 500;
   }
   
-  
+.fw_extrablod{
+    font-weight: 800;
+}
   /*---------------------------- DEFINE-ALL = FONT-FAMILY---------------------------- */
   .ff_jost {
     font-family: 'Jost', sans-serif;
@@ -104,39 +108,155 @@
   }
   .ff_montserrat{
     font-family: 'Montserrat', sans-serif;
+    
   }
   /*------------------------ DEFINE-ALL = @media----FONT SIZE-SET--------------------  */
   
   @media (max-width: 1199.98px) {
     :root {
         --font-sm: 16px;
+        --font-base:18px;
         --font-md: 20px;
         --font-lg: 23px;
         --font-xl: 28px;
         --font-2xl: 32px;
-        --font-3xl: 64px;
+        --font-3xl: 56px;
     }
   }
   
   @media (max-width: 767.98px) {
     :root {
         --font-sm: 14px;
+        --font-base:16px;
         --font-md: 20px;
         --font-lg: 21px;
         --font-xl: 26px;
         --font-2xl: 28px;
-        --font-3xl: 56px;
+        --font-3xl: 42px;
     }
   }
   
   @media (max-width: 575.98px) {
     :root {
         --font-sm: 14px;
+        --font-base:16px;
         --font-md: 20px;
         --font-lg: 20px;
         --font-xl: 24px;
         --font-2xl: 26px;
-        --font-3xl: 46px;
+        --font-3xl: 28px;
     }
   }
+/* ====================DEFINE COMMON CSS CODE==================== */
+.common_btn{
+    border-radius: 9px;
+    border: 3px solid var(--Cream, #FFF9F0);
+    background: rgba(255, 249, 240, 0.25);
+    line-height: 93.5%;    
+    letter-spacing: 3.125px;
+    padding: 17.5px 62px;
+    transition: all 0.3s ease-in;
+}
+.common_btn:hover{
+    background:transparent !important;
+}
+.lh_108{
+    line-height: 108.5%;
+}
+.lh_116{
+    line-height: 116.5%;
+}
+/* DEFINE NAVBAR CODE CSS============================================== */
+.navbar_bg{
+    background: #121212bd !important;
+    z-index: 100;
+    min-height: 86px;
+  }
+   nav li a {
+     opacity: 0.8;
+     transition: all 0.3s linear;
+  }
+   nav li a:hover {
+     color: var(--color-light-green) !important;
+     opacity: 1;
+  }
+  .border_bottom_2{
+      border-bottom:1px solid #ffffff26 !important;
+  }
+  .line1,
+  .line2,
+  .line3 {
+      content: "";
+      height: 3px;
+      width: 30px;
+  }
+  .menu {
+      width: 30px;
+      height: 20px;
+      right: 10px ;
+      z-index: 1;
+  }
+  .show_nav {
+      top: 0% !important;
+      left: 0% !important;
+      opacity: 1 !important;
+      z-index: 77 !important;
+  }
   
+/* ====================DEFINE HERO SECTION CODE==================== */
+.nav_logo{
+    max-width: 300px ;
+}
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100%;
+  z-index: 0;
+  animation: fadeIn 2s;
+}
+ /*------------------------ DEFINE-ALL = @media-queries ----------------------  */
+@media (max-width: 767.98px) {
+    .common_btn{
+        font-size: 14px !important;
+        padding: 12px 21px;
+    }
+    .nav_logo{
+        max-width: 250px ;
+    }
+    .overlay {
+        position: absolute;
+        background-image: url("../images/png/overlay-bg.png");
+        background-repeat: no-repeat !important;
+        background-position: center;
+        background-size: 100% 100% !important;
+        width: 100%;
+        height: 100vh;
+        top: -150%;
+        left: -100%;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-transition: 0.3s all linear !important;
+        -o-transition: 0.3s all linear !important;
+        transition: 0.3s all linear !important;
+        z-index: 9999 !important;
+      }
+      .overflow_hidden{
+        overflow: hidden !important;
+      }
+      .nav_link {
+        opacity: 1 !important;
+      }
+}
+@media (max-width: 575.98px) {
+    .nav_logo{
+        max-width: 200px ;
+    }
+       .navbar_bg{
+        min-height:66.5px;
+       }
+       .menu{
+        right: 0px !important;
+       }
+    
+}
