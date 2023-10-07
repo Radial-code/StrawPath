@@ -1,15 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth !important;
+    background-color: var(--color-whiteCream);
+}
+
 /* ==================== COMMON-CLASS-CSS-START ====================*/
 .cursore_pointer {
     cursor: pointer;
 }
 
-.footer_link_hover {
+.all_transition {
     transition: all 0.2s ease-in-out !important;
+}
+
+.footer_icon_hover:hover {
+    transform: scale(1.2);
 }
 
 .footer_link_hover:hover {
     font-weight: 700;
     color: white !important;
+}
+
+.email_hover:hover {
+    color: var(--color-darkGreen) !important;
+}
+
+.footer_devide_line {
+    border-left: 0.5px solid var(--color-darkGreen) !important;
 }
 
 /* ==================== COMMON-CLASS-CSS-START ====================*/
