@@ -22,7 +22,35 @@ html {
     transition: all 0.2s ease-in-out !important;
 }
 
+.z_index_1 {
+    z-index: 1;
+}
+
 /* ==================== WE WORK WITH-CLASS-CSS-START ====================*/
+.after_line {
+    position: relative;
+}
+
+.after_line::before,
+.after_line::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 50%;
+    height: 2px;
+    background-color: #89886D;
+}
+
+.after_line::before {
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.after_line::after {
+    right: 0;
+    transform: translateY(-50%);
+}
+
 .main_heading_bg {
     background-color: var(--color-Bandicoot);
     padding: 22px 38px;
@@ -74,7 +102,7 @@ html {
 }
 
 .slick-dots {
-    bottom: -36px !important;
+    bottom: -26px !important;
 }
 
 /* ==================== FOOTER-CSS-START ====================*/
@@ -84,7 +112,7 @@ html {
 
 .footer_link_hover:hover {
     font-weight: 700;
-    color: white !important;
+    color: #89886D !important;
 }
 
 .email_hover:hover {
@@ -167,8 +195,20 @@ html {
         margin: 0, auto !important;
     }
 
+    .after_line {
+        max-width: 1720px !important;
+        margin: 0 auto !important;
+    }
+
     .work_cards {
         padding: 0 0 0 36px;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .main_heading_bg {
+        padding: 16px 18px;
+        border-radius: 17px;
     }
 }
 
