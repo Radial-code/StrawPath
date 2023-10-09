@@ -356,14 +356,9 @@ video {
   height: 54px;
   width: 54px;
 }
-<<<<<<< HEAD
-.approach_card_hover{
-  cursor: pointer !important ;
-=======
 
 .approach_card_hover {
   cursor: pointer !important;
->>>>>>> ca6e65520fb562fe01a5f11f35400fa52d15476f
   transition: all 0.3s ease-in-out;
 }
 
