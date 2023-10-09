@@ -61,6 +61,13 @@ html {
 .strapath_rounded_stamp {
     bottom: -16%;
     right: 4%;
+    width: 260px;
+}
+
+.strapath_rounded_stamp_2 {
+    width: 104px;
+    bottom: -4%;
+    right: 9.9%;
 }
 
 .rotate {
@@ -248,6 +255,12 @@ html {
 }
 
 @media (min-width: 1500px) {
+    .strapath_rounded_stamp {
+        right: 4.5%;
+    }
+}
+
+@media (min-width: 1600px) {
     .custom_container {
         max-width: 1430px !important;
         margin: 0, auto !important;
@@ -272,6 +285,20 @@ html {
         position: absolute;
         left: 0;
     }
+
+    .strapath_rounded_stamp_2 {
+        bottom: -3%;
+        right: 8.9%;
+        width: 100px;
+    }
+}
+
+@media (min-width: 1930px) {
+    .strapath_rounded_stamp_2 {
+        bottom: -3%;
+        right: 7.9%;
+        width: 100px;
+    }
 }
 
 @media (max-width: 1199.98px) {
@@ -282,12 +309,25 @@ html {
 
     .strapath_rounded_stamp {
         width: 150px !important;
+        height: 150px !important;
         bottom: -6%;
         z-index: 1;
+    }
+
+    .strapath_rounded_stamp_2 {
+        bottom: 1%;
+        right: 8.5%;
+        width: 57px;
     }
 }
 
 @media (max-width: 991.98px) {
+    .strapath_rounded_stamp_2 {
+        bottom: -1.5%;
+        right: 10%;
+        width: 57px;
+    }
+
     .max_w_375 {
         max-width: 375px;
     }
@@ -298,6 +338,13 @@ html {
 }
 
 @media (max-width: 576px) {
+    .strapath_rounded_stamp_2 {
+        bottom: -6.5%;
+        right: 14.3%;
+        width: 51px;
+        z-index: 1;
+    }
+
     #scroll {
         bottom: 15px !important;
         right: 8px !important;
