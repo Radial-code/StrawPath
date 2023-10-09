@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -10,11 +12,27 @@ html {
 }
 
 /* ==================== COMMON-CLASS-CSS-START ====================*/
+.ff_Libre {
+    font-family: 'Libre Baskerville', serif;
+}
+
 .cursore_pointer {
     cursor: pointer;
 }
 
+.lh_25 {
+    line-height: 128.5%;
+}
+
 .lh_28 {
+    line-height: 93.5%;
+}
+
+.lh_34 {
+    line-height: 136.5%;
+}
+
+.lh_45 {
     line-height: 93.5%;
 }
 
@@ -24,6 +42,39 @@ html {
 
 .z_index_1 {
     z-index: 1;
+}
+
+/* ==================== Hi,I'm Andrew--CSS-START ====================*/
+.andrew_bg {
+    background-color: var(--color-Bandicoot);
+    border-radius: 0px 168px 0px 0px !important;
+}
+
+.andrew_para {
+    letter-spacing: 2.5px;
+}
+
+.andrew_para_two {
+    max-width: 814px;
+}
+
+.strapath_rounded_stamp {
+    bottom: -16%;
+    right: 4%;
+}
+
+.rotate {
+    animation: rotation infinite 15s linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 /* ==================== WE WORK WITH-CLASS-CSS-START ====================*/
@@ -71,7 +122,7 @@ html {
     line-height: 136%;
 }
 
-/* ================DEFINE SLICK SLIDER CODE================ */
+/* ================ SLICK SLIDER CODE================ */
 .slick-dots li button:before {
     background-color: #898989 !important;
     border-radius: 50% !important;
@@ -176,8 +227,6 @@ html {
     color: white !important;
 }
 
-
-
 @media (min-width: 1400px) and (max-width: 1500px) {
     .custom_container {
         max-width: 1320px !important;
@@ -195,13 +244,24 @@ html {
         margin: 0, auto !important;
     }
 
+    .custom_container_xxl {
+        max-width: 1726px !important;
+        margin: 0, auto !important;
+    }
+
     .after_line {
-        max-width: 1720px !important;
+        max-width: 1726px !important;
         margin: 0 auto !important;
     }
 
     .work_cards {
         padding: 0 0 0 36px;
+    }
+
+    .andrew_img_set {
+        top: -41%;
+        position: absolute;
+        left: 0;
     }
 }
 
@@ -210,11 +270,21 @@ html {
         padding: 16px 18px;
         border-radius: 17px;
     }
+
+    .strapath_rounded_stamp {
+        width: 150px !important;
+        bottom: -6%;
+        z-index: 1;
+    }
 }
 
 @media (max-width: 991.98px) {
     .max_w_375 {
         max-width: 375px;
+    }
+
+    .andrew_bg {
+        border-radius: 0px 70px 0px 0px !important;
     }
 }
 
@@ -232,5 +302,19 @@ html {
     .work_cards {
         border-left: none;
         padding: unset;
+    }
+
+    .andrew_img_set {
+        margin-bottom: -100px;
+    }
+
+    .andrew_bg {
+        margin-bottom: 84px;
+    }
+
+    .strapath_rounded_stamp {
+        width: 130px !important;
+        bottom: -12%;
+        z-index: 1;
     }
 }
