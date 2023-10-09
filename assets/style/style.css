@@ -138,6 +138,13 @@
     --font-3xl: 45px;
   }
 }
+@media (max-width: 1366.98px) {
+  :root {
+    --font-md: 18px;
+    --font-lg: 22px;
+    --font-3xl: 45px;
+  }
+}
 
 @media (max-width: 1199.98px) {
   :root {
@@ -312,12 +319,37 @@ letter-spacing: 12.5% !important;
 .approach_card2{
   margin-left: -24px;
 }
+.approach_cricle{
+  height: 54px;
+  width: 54px;
+}
 
 /*------------------------ DEFINE-ALL = @media-queries ----------------------  */
 @media (max-width:1599.98px) {
 .what_we_do_sectionBg {
   border-radius: 0px 0px 0px 150px !important;
 }
+.approach_card {
+  width: 282.947px;
+  height: 290.947px;
+  max-width: 308px;
+  padding: 55px 33px 53px 45px !important;
+  opacity: 0.8;
+  margin-top: -42px;
+}
+.approach_card2 {
+  margin-left: -36px !important;
+}
+.approach_cricle{
+  height: 46px !important;
+  width: 46px !important;
+}
+}
+@media (max-width:1366.98px) {
+  .approach_card{
+    width: 270px;
+    height: 270px;
+  }
 }
 @media (max-width:1199.98px) {
 .what_we_do_sectionBg {
@@ -391,4 +423,14 @@ border-radius: 0px 0px 0px 72px !important;
      .global_client_img_box{
       max-width: 86px !important;
     }
+}
+@media (min-width:1366px) and (max-width:1399.98px) {
+  .container_modify{
+    max-width: 1280px !important;
+  }
+}
+@media (min-width:1200px) and (max-width:1365.98px) {
+  .container_modify{
+    max-width: 1220px !important;
+  }
 }
