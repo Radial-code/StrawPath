@@ -26,10 +26,10 @@ html {
     z-index: 1;
 }
 
-/* ==================== WE WORK WITH-CLASS-CSS-START ====================*/
+/* ==================== Hi,I'm Andrew--CSS-START ====================*/
 .andrew_bg {
     background-color: var(--color-Bandicoot);
-    border-radius: 0px, 168px, 0px, 0px !important;
+    border-radius: 0px 168px 0px 0px !important;
 }
 
 /* ==================== WE WORK WITH-CLASS-CSS-START ====================*/
@@ -77,7 +77,7 @@ html {
     line-height: 136%;
 }
 
-/* ================DEFINE SLICK SLIDER CODE================ */
+/* ================ SLICK SLIDER CODE================ */
 .slick-dots li button:before {
     background-color: #898989 !important;
     border-radius: 50% !important;
