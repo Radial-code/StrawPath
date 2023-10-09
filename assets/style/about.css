@@ -104,8 +104,8 @@ html {
 
 .main_heading_bg {
     background-color: var(--color-Bandicoot);
-    padding: 22px 38px;
-    border-radius: 26px;
+    padding: 22.5px 58.5px;
+    border-radius: 26px; 
 }
 
 .work_cards:hover {
