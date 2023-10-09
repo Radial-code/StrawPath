@@ -27,6 +27,12 @@ html {
 }
 
 /* ==================== WE WORK WITH-CLASS-CSS-START ====================*/
+.andrew_bg {
+    background-color: var(--color-Bandicoot);
+    border-radius: 0px, 168px, 0px, 0px !important;
+}
+
+/* ==================== WE WORK WITH-CLASS-CSS-START ====================*/
 .after_line {
     position: relative;
 }
@@ -195,8 +201,13 @@ html {
         margin: 0, auto !important;
     }
 
+    .custom_container_xxl {
+        max-width: 1726px !important;
+        margin: 0, auto !important;
+    }
+
     .after_line {
-        max-width: 1720px !important;
+        max-width: 1726px !important;
         margin: 0 auto !important;
     }
 
