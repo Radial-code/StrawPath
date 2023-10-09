@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -9,7 +11,35 @@ html {
     background-color: var(--color-whiteCream);
 }
 
+:root {
+    --color-whiteCream: #FFF9F0;
+    --color-Bandicoot: #89886D;
+    --color-lightPink: #E3DDD6;
+    --color-lightBrown: #B7AC84;
+    --color-Teal: #BEC9C0;
+    --color-darkGreen: #122B18;
+    --font-2xs: 12px;
+    --font-xs: 14px;
+    --font-sm: 16px;
+    --font-base: 18px;
+    --font-md: 20px;
+    --font-lg: 25px;
+    --font-xl: 30px;
+    --font-2xl: 36px;
+    --font-3xl: 45px;
+    --font-4xl: 50px;
+    --font-5xl: 70px;
+}
+
+.font_5xl {
+    font-size: var(--font-5xl);
+}
+
 /* ==================== COMMON-CLASS-CSS-START ====================*/
+.ff_Libre {
+    font-family: 'Libre Baskerville', serif;
+}
+
 .cursore_pointer {
     cursor: pointer;
 }
@@ -50,6 +80,25 @@ html {
 
 .andrew_para_two {
     max-width: 814px;
+}
+
+.strapath_rounded_stamp {
+    bottom: -16%;
+    right: 4%;
+}
+
+.rotate {
+    animation: rotation infinite 15s linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 /* ==================== WE WORK WITH-CLASS-CSS-START ====================*/
@@ -202,8 +251,6 @@ html {
     color: white !important;
 }
 
-
-
 @media (min-width: 1400px) and (max-width: 1500px) {
     .custom_container {
         max-width: 1320px !important;
@@ -247,11 +294,21 @@ html {
         padding: 16px 18px;
         border-radius: 17px;
     }
+
+    .strapath_rounded_stamp {
+        width: 150px !important;
+        bottom: -6%;
+        z-index: 1;
+    }
 }
 
 @media (max-width: 991.98px) {
     .max_w_375 {
         max-width: 375px;
+    }
+
+    .andrew_bg {
+        border-radius: 0px 70px 0px 0px !important;
     }
 }
 
@@ -269,5 +326,19 @@ html {
     .work_cards {
         border-left: none;
         padding: unset;
+    }
+
+    .andrew_img_set {
+        margin-bottom: -100px;
+    }
+
+    .andrew_bg {
+        margin-bottom: 84px;
+    }
+
+    .strapath_rounded_stamp {
+        width: 130px !important;
+        bottom: -12%;
+        z-index: 1;
     }
 }
