@@ -17,7 +17,8 @@
   --font-xl: 30px;
   --font-2xl: 36px;
   --font-3xl: 45px;
-  --font-4xl: 70px;
+  --font-4xl: 50px;
+  --font-5xl: 70px;
 }
 
 /*--------------------- DEFINE-ALL = ROOT-VALUE ------------------------------ */
@@ -102,6 +103,9 @@
 .font_4xl {
   font-size: var(--font-4xl);
 }
+.font_5xl {
+  font-size: var(--font-5xl);
+}
 
 /*---------------------------- DEFINE-ALL = FONT-WEIGHT ---------------------------- */
 
@@ -143,7 +147,7 @@
     --font-lg: 23px;
     --font-xl: 28px;
     --font-2xl: 32px;
-    --font-4xl: 56px;
+    --font-5xl: 56px;
   }
 }
 
@@ -162,7 +166,7 @@
     --font-lg: 21px;
     --font-xl: 26px;
     --font-2xl: 28px;
-    --font-4xl: 42px;
+    --font-5xl: 42px;
   }
 }
 
@@ -175,7 +179,7 @@
     --font-xl: 20px;
     --font-2xl: 26px;
     --font-3xl: 24px;
-    --font-4xl: 28px;
+    --font-5xl: 28px;
   }
 }
 /* ====================DEFINE COMMON CSS CODE==================== */
@@ -197,11 +201,26 @@
 .lh_108{
   line-height: 108.5%;
 }
+.lh_110{
+  line-height: 110%;
+}
 .lh_116{
   line-height: 116.5%;
 }
 .lh_93{
 line-height: 93.5%;
+}
+.z_index1{
+  z-index: 1;
+}
+.z_index2{
+  z-index: 2;
+}
+.z_index3{
+  z-index: 3;
+}
+.z_index4{
+  z-index: 4;
 }
 /* DEFINE NAVBAR CODE CSS============================================== */
 .navbar_bg{
@@ -250,6 +269,7 @@ height: 100%;
 z-index: 0;
 animation: fadeIn 2s;
 }
+/* ======================DEFINE GLOBAL CLIENT CSS CODE====================== */
 .global_client_img_box{
 height: 70px;
 max-width: 190px !important;
@@ -257,42 +277,39 @@ max-width: 190px !important;
 .global_client_parent{
 max-width: 950px;
 }
+/* ======================DEFINE WHAT WE DO CSS CODE====================== */
 .what_we_do_sectionBg{
 border-radius: 0px 0px 0px 200px !important;
-}
-.main_heading_bg{
-position: relative;
-z-index: 5;
-}
-.main_heading_parent{
-position: relative;
-z-index: 5;
-}
-.main_heading_parent::after{
-position: absolute;
-top: 40%;
-transform: translateY(-60%);
-content: '';
-width: 120%;
-height: 2px;
-left: -15%;
-background:#89886D !important;
-z-index: 0;
 }
 .what_we_do_cards_para {
   max-width: 440px;
   line-height: 136%;
 }
-
+/* ======================DEFINE OUR APPROACH CSS CODE====================== */
 .approach_heading_after_line::before,
 .approach_heading_after_line::after{
   background-color: var(--color-darkGreen) !important;
+}
+.approach_card_parent{
+  max-width: 308px;
+}
+.approach_card{
+  width: 307.947px;
+height: 307.947px;
+flex-shrink: 0;
+  max-width: 308px;
+  padding: 65px 33px 74px 45px;
+  border-radius: 100%;
+  /* opacity: 0.8; */
+  margin-top: -48px;
 }
 
 .letter_spacing_12{
 letter-spacing: 12.5% !important;
 }
-
+.approach_card2{
+  margin-left: -24px;
+}
 
 /*------------------------ DEFINE-ALL = @media-queries ----------------------  */
 @media (max-width:1599.98px) {
@@ -330,7 +347,6 @@ border-radius: 0px 0px 0px 72px !important;
       top: -100%;
       right: 0% !important;
       left: 0% !important;
-      /* right:-100%; */
       -webkit-box-pack: center;
       -ms-flex-pack: center;
       justify-content: center;
