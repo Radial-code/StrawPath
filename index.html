@@ -320,8 +320,9 @@
               </div>
               <div class="approach_card bg_lightBrown ">
                 <h3 class="color_whiteCream fw-bold ff_montserrat lh_93 font_md mb-1 mt_minus_12">MVPPP</h3>
-                <p class="color_whiteCream fw-normal  ff_jost lh_93 font_md mb-2">Minimal Viable Process <br>/Prototype/Product</p>
-                  
+                <p class="color_whiteCream fw-normal  ff_jost lh_93 font_md mb-2">Minimal Viable Process
+                  <br>/Prototype/Product</p>
+
                 <p class="color_whiteCream fw-normal  ff_jost lh_110 font_md ">What is the minimum amount of product
                   development you need to do validate your ideas?</p>
               </div>
@@ -686,6 +687,26 @@
           );
           return false;
         });
+      });
+    </script>
+    <script>
+      //------------- WE CAN HELP SLIDER ON SM SCREEN -------------
+      $('.workslider').slick({
+        dots: true,
+        arrows: false,
+        infinite: true,
+        speed: 1000,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
       });
     </script>
     <!----------------- JS FLE LINK  --------------- -->
