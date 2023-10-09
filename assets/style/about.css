@@ -14,7 +14,19 @@ html {
     cursor: pointer;
 }
 
+.lh_25 {
+    line-height: 128.5%;
+}
+
 .lh_28 {
+    line-height: 93.5%;
+}
+
+.lh_34 {
+    line-height: 136.5%;
+}
+
+.lh_45 {
     line-height: 93.5%;
 }
 
@@ -30,6 +42,14 @@ html {
 .andrew_bg {
     background-color: var(--color-Bandicoot);
     border-radius: 0px 168px 0px 0px !important;
+}
+
+.andrew_para {
+    letter-spacing: 2.5px;
+}
+
+.andrew_para_two {
+    max-width: 814px;
 }
 
 /* ==================== WE WORK WITH-CLASS-CSS-START ====================*/
@@ -213,6 +233,12 @@ html {
 
     .work_cards {
         padding: 0 0 0 36px;
+    }
+
+    .andrew_img_set {
+        top: -41%;
+        position: absolute;
+        left: 0;
     }
 }
 
