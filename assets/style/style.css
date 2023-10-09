@@ -323,7 +323,13 @@ letter-spacing: 12.5% !important;
   height: 54px;
   width: 54px;
 }
-
+.approach_card_hover{
+  cursor: pointer !important;
+  transition: all 0.3s ease-in-out;
+}
+.approach_card_hover:hover{
+  z-index: 6 !important;
+}
 /*------------------------ DEFINE-ALL = @media-queries ----------------------  */
 @media (max-width:1599.98px) {
 .what_we_do_sectionBg {
@@ -355,6 +361,27 @@ letter-spacing: 12.5% !important;
 .what_we_do_sectionBg {
   border-radius: 0px 0px 0px 100px !important;
 }
+.approach_card_parent{
+  max-width: unset !important;
+}
+.approach_card{
+  margin-top: 0px !important;
+}
+.mt_minus_60{
+  margin-left: -60px;
+}
+.approach_card {
+  width: 320px;
+  height: 300px;
+}
+.approach_card2{
+  margin-left: unset !important;
+  margin-top: -24px !important;
+}
+.approach_cricle {
+  height: 50px !important;
+  width: 50px !important;
+}
 }
 @media (max-width:991.98px) {
 .global_client_img_box {
@@ -363,6 +390,9 @@ letter-spacing: 12.5% !important;
 .what_we_do_sectionBg {
 border-radius: 0px 0px 0px 72px !important;
 }
+.global_client_img_box{
+  height:60px;
+  }
 }
 @media (max-width: 767.98px) {
   .common_btn{
@@ -417,6 +447,14 @@ border-radius: 0px 0px 0px 72px !important;
      }
      .global_client_img_box{
       max-width: 100px !important;
+    }
+    .approach_card {
+      width: 230px;
+      height: 230px;
+      padding: 55px 16px 53px 30px !important;
+  }
+  .global_client_img_box{
+    height:35px;
     }
 }
 @media (max-width:449.98px) {
