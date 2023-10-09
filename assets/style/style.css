@@ -324,7 +324,7 @@ letter-spacing: 12.5% !important;
   width: 54px;
 }
 .approach_card_hover{
-  cursor: pointer !important;
+  cursor: pointer !important ;
   transition: all 0.3s ease-in-out;
 }
 .approach_card_hover:hover{
