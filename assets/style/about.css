@@ -244,6 +244,7 @@ html {
 }
 
 /* ==================== 2nd page css start-CSS-START ====================*/
+
 .fs_40 {
     font-size: 40px;
 }
@@ -265,6 +266,7 @@ html {
 .straignt_img {
     position: absolute;
     top: -7%;
+    max-width: 565px;
 }
 
 .straignt_cuntent {
@@ -303,25 +305,29 @@ html {
 
     .about_rounded_stamp {
         left: 29%;
-        bottom: 3%;
+        bottom: 8%;
     }
 
     .about_rounded_stamp_logo {
         left: 31%;
-        bottom: 7%;
+        bottom: 12%;
     }
 }
 
 @media (min-width: 1600px) {
+    .straignt_img {
+        max-width: 627px;
+    }
+
     .about_rounded_stamp {
-        left: 22%;
-        bottom: -1%;
+        left: 24%;
+        bottom: -7%;
         max-width: 242px;
     }
 
     .about_rounded_stamp_logo {
-        left: 25%;
-        bottom: 7%;
+        left: 27%;
+        bottom: 1%;
         max-width: 112px;
     }
 
@@ -369,6 +375,14 @@ html {
 
     .about_rounded_stamp_logo {
         left: 19.5%;
+    }
+}
+
+@media (max-width: 1399.98px) {
+    .straignt_img {
+        position: absolute;
+        top: -7%;
+        max-width: 503px;
     }
 }
 
