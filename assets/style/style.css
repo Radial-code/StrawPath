@@ -335,9 +335,9 @@ video {
   z-index: 0;
   animation: fadeIn 2s;
 }
-.hero_section_height{
+/* .hero_section_height{
   min-height: calc(100vh - 220px);
-}
+} */
 /* ======================DEFINE GLOBAL CLIENT CSS CODE====================== */
 .global_client_img_box {
   height: 70px;
@@ -441,6 +441,7 @@ video {
 }
 
 @media (max-width:1199.98px) {
+
   .what_we_do_sectionBg {
     border-radius: 0px 0px 0px 100px !important;
   }
@@ -448,18 +449,15 @@ video {
   .approach_card_parent {
     max-width: unset !important;
   }
-
   .approach_card {
     margin-top: 0px !important;
-  }
+    padding: 64px 37px 53px 71px !important;
+    width: 320px;
+    height: 300px;
+}
 
   .mt_minus_60 {
     margin-left: -60px;
-  }
-
-  .approach_card {
-    width: 320px;
-    height: 300px;
   }
 
   .approach_card2 {
@@ -468,11 +466,11 @@ video {
   }
 
   .approach_cricle {
-    height: 50px !important;
-    width: 50px !important;
+    height: 70px !important;
+    width: 70px !important;
   }
-  .hero_section_height {
-    min-height: calc(100vh - 204px) !important;
+.approach_card_sm_img{
+  width: 135px !important;
 }
 .video_parent{
   max-width: 600px !important;
@@ -510,10 +508,15 @@ video {
   .video_side_img {
     max-width: 100px;
   }
-
+  .approach_card {
+    padding: 59px 32px 41px 49px !important;
+}
 }
 
 @media (max-width: 767.98px) {
+  .approach_card_sm_img{
+    width: unset !important;
+  }
   .exploration_content_parent {
     max-width: unset !important;
     margin-top: -3% !important;
@@ -566,9 +569,9 @@ video {
   .what_we_do_sectionBg {
     border-radius: 0px 0px 72px 0px !important;
   }
-  .hero_section_height {
+  /* .hero_section_height {
     min-height: calc(100vh - 160px);
-}
+} */
 .nav_icons_custom_hw{
   height: 50px !important;
   width: 50px !important;
@@ -576,6 +579,10 @@ video {
  .exploration_heading {
   margin-top: -4%;
   letter-spacing: 17.634px !important;
+}
+.approach_cricle {
+  height: 50px !important;
+  width: 50px !important;
 }
 }
 
@@ -605,9 +612,9 @@ video {
   .global_client_img_box {
     height: 35px;
   }
-  .hero_section_height {
+  /* .hero_section_height {
     min-height: calc(100vh - 300px);
-}
+} */
 .overlay {
   
   max-height: 310px;
@@ -646,7 +653,8 @@ video {
 }
 /* ==================================DEFINE OUR STORY CODE================================== */
 .hero_section_height {
-  min-height: calc(100vh - 220px);
+  background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 50%, #FFF9F0 99.48%);
+  min-height: 100vh;
 }
 .mix_blend_mode{
   mix-blend-mode: difference !important;
