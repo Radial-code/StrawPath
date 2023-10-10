@@ -539,3 +539,7 @@ video {
     max-width: 1220px !important;
   }
 }
+/* ==================================DEFINE OUR STORY CODE================================== */
+.mix_blend_mode{
+  mix-blend-mode: difference !important;
+}
