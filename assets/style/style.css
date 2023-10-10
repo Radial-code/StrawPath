@@ -230,6 +230,36 @@
 }
 
 /* ====================DEFINE COMMON CSS CODE==================== */
+
+.text_underline {
+  position: relative;
+  white-space: nowrap;
+}
+
+.text_underline::after {
+  bottom: -5px;
+  position: absolute;
+  content: "";
+  display: block;
+  height: 0px;
+  width: 0px;
+  background: var(--color-whiteCream);
+  -webkit-transition: width 0.3s;
+  -o-transition: width 0.3s;
+  transition: width 0.3s;
+  left: 50%;
+}
+
+.text_underline:hover:after {
+  position: absolute;
+  content: "";
+  height: 2px !important;
+  width: 100% !important;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
 .common_btn {
   border-radius: 9px;
   border: 3px solid var(--Cream, #FFF9F0);
@@ -633,6 +663,9 @@ video {
  .exploration_heading {
   margin-top: -4%;
   letter-spacing: 9px !important;
+}
+.lh_108 {
+  line-height: unset !important;
 }
 }
 
