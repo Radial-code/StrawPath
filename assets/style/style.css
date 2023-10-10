@@ -185,6 +185,7 @@
     --font-2xl: 32px;
     --font-3xl-bold: 48px;
     --font-5xl: 56px;
+    --font-6xl: 76px;
   }
 }
 
@@ -193,6 +194,7 @@
     --font-lg: 19px;
     --font-xl: 24px;
     --font-3xl-bold: 40px;
+    --font-6xl: 46px;
   }
 }
 
@@ -221,6 +223,7 @@
     --font-3xl-bold: 22px;
     --font-4xl: 24px;
     --font-5xl: 28px;
+    --font-6xl: 46px;
   }
 }
 
@@ -469,7 +472,18 @@ video {
     width: 50px !important;
   }
   .hero_section_height {
-    min-height: calc(100vh - 204px);
+    min-height: calc(100vh - 204px) !important;
+}
+.video_parent{
+  max-width: 600px !important;
+  height: unset !important;
+}
+.exploration_content_parent {
+  max-width: 950px !important;
+  margin-top: -20% !important;
+}
+.video_side_img {
+  max-width: 150px;
 }
 }
 
@@ -485,10 +499,28 @@ video {
   .global_client_img_box {
     height: 60px;
   }
- 
+  .video_parent{
+    max-width: 600px !important;
+    height: unset !important;
+  }
+  .exploration_content_parent {
+    max-width: 735px !important;
+    margin-top: -20% !important;
+  }
+  .video_side_img {
+    max-width: 100px;
+  }
+
 }
 
 @media (max-width: 767.98px) {
+  .exploration_content_parent {
+    max-width: unset !important;
+    margin-top: -3% !important;
+  }
+  .exploration_heading {
+    letter-spacing: 24.634px !important;
+}
   .common_btn {
     font-size: 14px !important;
     padding: 12px 21px;
@@ -541,6 +573,10 @@ video {
   height: 50px !important;
   width: 50px !important;
  }
+ .exploration_heading {
+  margin-top: -4%;
+  letter-spacing: 17.634px !important;
+}
 }
 
 @media (max-width: 575.98px) {
@@ -581,12 +617,19 @@ video {
   height: 28px !important;
   width: 28px !important;
  }
-
+ 
+ .exploration_heading {
+  margin-top: -4%;
+  letter-spacing: 9px !important;
+}
 }
 
 @media (max-width:449.98px) {
   .global_client_img_box {
     max-width: 86px !important;
+  }
+  .exploration_heading {
+    letter-spacing: 1.634px !important;
   }
 }
 
@@ -602,12 +645,9 @@ video {
   }
 }
 /* ==================================DEFINE OUR STORY CODE================================== */
-/* .header_bg{
-  mix-blend-mode: difference !important;
-  background-image: url("../images/png/ourstory-bg-img.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-} */
+.hero_section_height {
+  min-height: calc(100vh - 220px);
+}
 .mix_blend_mode{
   mix-blend-mode: difference !important;
 }
@@ -619,10 +659,7 @@ box-shadow:inset   0px 0px 0px rgba(0, 0, 0, 0.25);
 z-index: 5;
 margin-bottom: -5px !important;
 }
-.video_parent{
-  max-width: 1047px !important;
-  height: 548px !important;
-}
+
 .exploration_heading{
   line-height: 116.5%; 
   letter-spacing: 39.634px;
@@ -630,6 +667,10 @@ margin-bottom: -5px !important;
 .exploration_content_parent {
   max-width: 1565px;
   margin-top: -20%;
+}
+.video_parent{
+  max-width: 1047px ;
+  height: 548px ;
 }
 
 @media (min-width:1366px) {
