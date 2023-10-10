@@ -50,8 +50,13 @@
 
     <body>
         <!-- DEFINE HEADER SECTION -->
-        <header class=" about_hero_bg position-relative  ">
-            <div class="header_bottom_shade position-absolute bottom-0 w-100"></div>
+        <header class=" common_bg_property position-relative  ">
+            <!-- <div class="header_bottom_shade position-absolute bottom-0 w-100"></div> -->
+            <video id="headerVideo" class="position-absolute top-0 left-0 w-100 header_bg_height mix_blend_mode"
+                playsinline autoplay muted loop>
+                <source class="w-100" src="./assets/video/header-bg-video.mp4" type="video/mp4">
+                <source class="w-100" src="./assets/video/header-bg-video.mp4" type="video/webm">
+            </video>
             <section id="home" class="position-relative pt-4">
                 <div class="container">
                     <!-- =================DEFINE NAVBAR CODE================= -->
@@ -154,7 +159,8 @@
                                 <p
                                     class="font_lg lh_117 mx-4 px-3 text-capitalize fw_medium ff_montserrat color_whiteCream mb-0">
                                     Harnessing years of experience in startups, <br class="d-none d-xl-block"> corporate
-                                    and entrepreneurship.</p>
+                                    and
+                                    entrepreneurship.</p>
                             </div>
                         </div>
                     </div>
@@ -177,14 +183,19 @@
                         our key
                         insights
                         into every step of the idea to product journey</h3>
-                    <div class="video_parent mx-auto position-relative z-index-5">
-                        <video class="w-100" controls preload="auto" loop muted>
-                            <source src="./assets/video/study-video.mp4" type="video/mp4">
-                        </video>
+                    <div class="container custom_container">
+                        <div class="video_parent mx-auto position-relative z-index-5">
+                            <video class="w-100" controls preload="auto" loop muted>
+                                <source src="./assets/video/study-video.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <h2
+                            class="fw-normal ff_montserrat font_6xl color_CoralReef text-center opacity_08 exploration_heading d-md-none">
+                            EXPLORATION</h2>
                     </div>
 
-                    <div class="exploration_content_parent mx-auto">
-                        <div class="text-end d-none d-xl-block">
+                    <div class="exploration_content_parent mx-auto d-none d-md-block">
+                        <div class="text-end d-none d-md-block">
                             <img class="video_side_img" src="./assets/images/svg/video-side-icon.svg" alt="">
                         </div>
                         <h2
@@ -423,26 +434,6 @@
                     );
                     return false;
                 });
-            });
-        </script>
-        <script>
-            //------------- WE CAN HELP SLIDER ON SM SCREEN -------------
-            $('.workslider').slick({
-                dots: true,
-                arrows: false,
-                infinite: true,
-                speed: 1000,
-                slidesToShow: 2,
-                slidesToScroll: 1,
-                responsive: [
-                    {
-                        breakpoint: 768,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1
-                        }
-                    }
-                ]
             });
         </script>
         <!----------------- JS FLE LINK  --------------- -->
