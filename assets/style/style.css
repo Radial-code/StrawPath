@@ -171,6 +171,7 @@
     --font-lg: 22px;
     --font-3xl: 45px;
     --font-3xl-bold: 48px;
+    --font-5xl: 60px;
     --font-6xl: 100px;
   }
 }
@@ -184,7 +185,7 @@
     --font-xl: 28px;
     --font-2xl: 32px;
     --font-3xl-bold: 48px;
-    --font-5xl: 56px;
+    --font-5xl: 44px;
     --font-6xl: 76px;
   }
 }
@@ -194,6 +195,7 @@
     --font-lg: 19px;
     --font-xl: 24px;
     --font-3xl-bold: 40px;
+    --font-5xl: 39px;
     --font-6xl: 46px;
   }
 }
@@ -483,6 +485,9 @@ video {
 .video_side_img {
   max-width: 150px;
 }
+.nav_logo {
+  max-width: 250px;
+}
 }
 
 @media (max-width:991.98px) {
@@ -653,8 +658,11 @@ video {
 }
 /* ==================================DEFINE OUR STORY CODE================================== */
 .hero_section_height {
-  background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 50%, #FFF9F0 99.48%);
+
   min-height: 100vh;
+}
+.hero_shade{
+  background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 50%, #FFF9F0 99.48%);
 }
 .mix_blend_mode{
   mix-blend-mode: difference !important;

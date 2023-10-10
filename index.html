@@ -51,98 +51,101 @@
   <body>
     <!-- DEFINE HEADER SECTION -->
     <header class=" common_bg_property position-relative">
-      <video id="headerVideo" class="position-absolute top-0 left-0 w-100 header_bg_height" playsinline autoplay muted
+      <video id="headerVideo" class="position-absolute top-0 left-0 w-100" playsinline autoplay muted
         loop>
         <source class="w-100" src="./assets/video/header-bg-video.mp4" type="video/mp4">
         <source class="w-100" src="./assets/video/header-bg-video.mp4" type="video/webm">
       </video>
-      <section id="home" class="position-relative  pb-5 pt-4">
-        <div class="container pb-xxl-5">
-          <!-- =================DEFINE NAVBAR CODE================= -->
-          <nav class="text-center pt-xl-3 mb-xl-5 pb-xl-5">
-            <div class="d-flex align-items-center">
-              <div class="nav_logo mx-auto">
-                <a href="/">
+        <!-- =================DEFINE NAVBAR CODE================= -->
+        <nav class="text-center pt-4 position-absolute w-100 z-index-5">
+          <div class="container pt-xl-3">
+          <div class="d-flex align-items-center">
+            <div class="nav_logo mx-auto">
+              <a href="/">
+                <img class="w-100" src="./assets/images/svg/nav-logo.svg" alt="navbar-logo">
+              </a>
+
+            </div>
+            <div onclick="Togleside()" class="d-md-none menu border-0 bg-transparent position-relative"
+              id="toggle_btn">
+              <span class="line1 position-absolute start-0 top-0 bg-white rounded-pill"></span>
+              <span class="line2 position-absolute start-0 top-50 translate-middle-y bg-white rounded-pill"></span>
+              <span class="line3 position-absolute start-0 bottom-0 bg-white  rounded-pill"></span>
+            </div>
+          </div>
+          <ul class="d-none d-md-flex align-items-center justify-content-center list-unstyled px-0 gap-4">
+
+            <li>
+              <a class="color_whiteCream font_sm ff_montserrat text-uppercase fw_extrablod text-decoration-none"
+                href="#home">Home</a>
+            </li>
+            <li class="mx-1">
+              <a class="color_whiteCream font_sm ff_montserrat text-uppercase fw-semibold text-decoration-none"
+                href="/Our-story.html">Our
+                story</a>
+            </li>
+            <li>
+              <a class="color_whiteCream font_sm ff_montserrat text-uppercase fw-semibold text-decoration-none"
+                href="/Our-story.html#contact">Contact</a>
+            </li>
+          </ul>
+
+          <div class="overlay  position-fixed navbar_bg d-flex d-md-none flex-column justify-content-start w-100 "
+            id="overlay">
+            <ul class="list-unstyled mb-0 ">
+              <li class="d-flex align-items-center px-2 px-sm-4  pt-4 justify-content-between ">
+                <a class="nav_logo mx-auto" href="/">
                   <img class="w-100" src="./assets/images/svg/nav-logo.svg" alt="navbar-logo">
                 </a>
-
-              </div>
-              <div onclick="Togleside()" class="d-md-none menu border-0 bg-transparent position-relative"
-                id="toggle_btn">
-                <span class="line1 position-absolute start-0 top-0 bg-white rounded-pill"></span>
-                <span class="line2 position-absolute start-0 top-50 translate-middle-y bg-white rounded-pill"></span>
-                <span class="line3 position-absolute start-0 bottom-0 bg-white  rounded-pill"></span>
-              </div>
-            </div>
-            <ul class="d-none d-md-flex align-items-center justify-content-center list-unstyled px-0 gap-4">
-
-              <li>
-                <a class="color_whiteCream font_sm ff_montserrat text-uppercase fw_extrablod text-decoration-none"
+                <button class="cross_btn border-0 bg-transparent position-absolute end-0" onclick="hideNav()">
+                  <img width="40" height="40" onclick="hideNav()" class=" d-xl-none d-block w_45"
+                    src="./assets/images/svg/nav-cross-icon.svg" alt="cross-icon">
+                </button>
+              </li>
+              <li class="mt-3 my-sm-4 pb-1 pb-sm-4  px-2 px-sm-4" onclick="hideNav()">
+                <a class="color_whiteCream fw-normal ff_tenor font_md nav_link text-uppercase text-decoration-none"
                   href="#home">Home</a>
               </li>
-              <li class="mx-1">
-                <a class="color_whiteCream font_sm ff_montserrat text-uppercase fw-semibold text-decoration-none"
-                  href="/Our-story.html">Our
-                  story</a>
+              <li class="mt-4 mb-sm-4 pb-2 pb-4  px-2 px-sm-4 border_bottom_2 d-inline-block" onclick="hideNav()">
+                <a class="color_whiteCream fw-normal pb-2 ff_tenor font_md nav_link text-uppercase text-decoration-none"
+                  href="/Our-story.html">our story</a>
               </li>
-              <li>
-                <a class="color_whiteCream font_sm ff_montserrat text-uppercase fw-semibold text-decoration-none"
-                  href="#contact">Contact</a>
+              <li class="mt-3 pb-2 pb-sm-4 mb-2 mb-sm-4  px-2 px-sm-4" onclick="hideNav()">
+                <a class="text-white text-decoration-none " href="https://youtube.com/"><svg class="nav_hover"
+                    width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M13.2132 10.3173L10.7567 9.17109C10.5423 9.07156 10.3662 9.18312 10.3662 9.42047V11.5795C10.3662 11.8169 10.5423 11.9284 10.7567 11.8289L13.2121 10.6827C13.4276 10.582 13.4276 10.418 13.2132 10.3173ZM11.46 0C5.6609 0 0.959961 4.70094 0.959961 10.5C0.959961 16.2991 5.6609 21 11.46 21C17.259 21 21.96 16.2991 21.96 10.5C21.96 4.70094 17.259 0 11.46 0ZM11.46 14.7656C6.08527 14.7656 5.99121 14.2811 5.99121 10.5C5.99121 6.71891 6.08527 6.23438 11.46 6.23438C16.8346 6.23438 16.9287 6.71891 16.9287 10.5C16.9287 14.2811 16.8346 14.7656 11.46 14.7656Z"
+                      fill="#FFF9F0" />
+                  </svg>
+                </a>
+                <a class="text-white text-decoration-none  mt-3" href="https://youtube.com/">
+                  <svg class="nav_hover" width="26" height="25" viewBox="0 0 26 25" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_67_669)">
+                      <path
+                        d="M10.5407 0.420654C4.97359 0.420654 0.460693 4.93355 0.460693 10.5007C0.460693 16.0678 4.97359 20.5807 10.5407 20.5807C16.1078 20.5807 20.6207 16.0678 20.6207 10.5007C20.6207 4.93355 16.1078 0.420654 10.5407 0.420654ZM8.07319 14.6786H6.03199V8.1098H8.07319V14.6786ZM7.03999 7.3034C6.39529 7.3034 5.97844 6.84665 5.97844 6.28175C5.97844 5.7053 6.40789 5.2622 7.06624 5.2622C7.72459 5.2622 8.12779 5.7053 8.14039 6.28175C8.14039 6.84665 7.72459 7.3034 7.03999 7.3034ZM15.5282 14.6786H13.487V11.0383C13.487 10.1909 13.1909 9.6155 12.4527 9.6155C11.8889 9.6155 11.5539 10.0051 11.4059 10.3799C11.3513 10.5133 11.3376 10.7023 11.3376 10.8902V14.6776H9.29539V10.2046C9.29539 9.3845 9.26914 8.69885 9.24184 8.10875H11.0153L11.1087 9.0212H11.1497C11.4185 8.5928 12.0768 7.9607 13.1783 7.9607C14.5212 7.9607 15.5282 8.86055 15.5282 10.7947V14.6786Z"
+                        fill="#FFF9F0" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_67_669">
+                        <rect width="21" height="21" fill="white" transform="translate(0.0400391)" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+
+                </a>
               </li>
             </ul>
 
-            <div class="overlay  position-fixed navbar_bg d-flex d-md-none flex-column justify-content-start w-100 "
-              id="overlay">
-              <ul class="list-unstyled mb-0 ">
-                <li class="d-flex align-items-center px-2 px-sm-4  pt-4 justify-content-between ">
-                  <a class="nav_logo mx-auto" href="/">
-                    <img class="w-100" src="./assets/images/svg/nav-logo.svg" alt="navbar-logo">
-                  </a>
-                  <button class="cross_btn border-0 bg-transparent position-absolute end-0" onclick="hideNav()">
-                    <img width="40" height="40" onclick="hideNav()" class=" d-xl-none d-block w_45"
-                      src="./assets/images/svg/nav-cross-icon.svg" alt="cross-icon">
-                  </button>
-                </li>
-                <li class="mt-3 my-sm-4 pb-1 pb-sm-4  px-2 px-sm-4" onclick="hideNav()">
-                  <a class="color_whiteCream fw-normal ff_tenor font_md nav_link text-uppercase text-decoration-none"
-                    href="#home">Home</a>
-                </li>
-                <li class="mt-4 mb-sm-4 pb-2 pb-4  px-2 px-sm-4 border_bottom_2 d-inline-block" onclick="hideNav()">
-                  <a class="color_whiteCream fw-normal pb-2 ff_tenor font_md nav_link text-uppercase text-decoration-none"
-                    href="/Our-story.html">our story</a>
-                </li>
-                <li class="mt-3 pb-2 pb-sm-4 mb-2 mb-sm-4  px-2 px-sm-4" onclick="hideNav()">
-                  <a class="text-white text-decoration-none " href="https://youtube.com/"><svg class="nav_hover"
-                      width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M13.2132 10.3173L10.7567 9.17109C10.5423 9.07156 10.3662 9.18312 10.3662 9.42047V11.5795C10.3662 11.8169 10.5423 11.9284 10.7567 11.8289L13.2121 10.6827C13.4276 10.582 13.4276 10.418 13.2132 10.3173ZM11.46 0C5.6609 0 0.959961 4.70094 0.959961 10.5C0.959961 16.2991 5.6609 21 11.46 21C17.259 21 21.96 16.2991 21.96 10.5C21.96 4.70094 17.259 0 11.46 0ZM11.46 14.7656C6.08527 14.7656 5.99121 14.2811 5.99121 10.5C5.99121 6.71891 6.08527 6.23438 11.46 6.23438C16.8346 6.23438 16.9287 6.71891 16.9287 10.5C16.9287 14.2811 16.8346 14.7656 11.46 14.7656Z"
-                        fill="#FFF9F0" />
-                    </svg>
-                  </a>
-                  <a class="text-white text-decoration-none  mt-3" href="https://youtube.com/">
-                    <svg class="nav_hover" width="26" height="25" viewBox="0 0 26 25" fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_67_669)">
-                        <path
-                          d="M10.5407 0.420654C4.97359 0.420654 0.460693 4.93355 0.460693 10.5007C0.460693 16.0678 4.97359 20.5807 10.5407 20.5807C16.1078 20.5807 20.6207 16.0678 20.6207 10.5007C20.6207 4.93355 16.1078 0.420654 10.5407 0.420654ZM8.07319 14.6786H6.03199V8.1098H8.07319V14.6786ZM7.03999 7.3034C6.39529 7.3034 5.97844 6.84665 5.97844 6.28175C5.97844 5.7053 6.40789 5.2622 7.06624 5.2622C7.72459 5.2622 8.12779 5.7053 8.14039 6.28175C8.14039 6.84665 7.72459 7.3034 7.03999 7.3034ZM15.5282 14.6786H13.487V11.0383C13.487 10.1909 13.1909 9.6155 12.4527 9.6155C11.8889 9.6155 11.5539 10.0051 11.4059 10.3799C11.3513 10.5133 11.3376 10.7023 11.3376 10.8902V14.6776H9.29539V10.2046C9.29539 9.3845 9.26914 8.69885 9.24184 8.10875H11.0153L11.1087 9.0212H11.1497C11.4185 8.5928 12.0768 7.9607 13.1783 7.9607C14.5212 7.9607 15.5282 8.86055 15.5282 10.7947V14.6786Z"
-                          fill="#FFF9F0" />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_67_669">
-                          <rect width="21" height="21" fill="white" transform="translate(0.0400391)" />
-                        </clipPath>
-                      </defs>
-                    </svg>
 
-                  </a>
-                </li>
-              </ul>
-
-
-            </div>
-          </nav>
+          </div>
+          </div>
+        </nav>
+      <section id="home" class="position-relative hero_section_height d-flex flex-column justify-content-center">
+        <div class="container mt-5 pt-5 z_index4">
+        
           <!-- =================DEFINE HERO SECTION CODE================= -->
-          <div class="row justify-content-center align-items-center pb-md-5 pt-4">
+          <div class="row justify-content-center align-items-center pt-5">
             <div class="col-md-12 ">
               <div class="text-center position-relative z-index-5">
                 <h1 class="font_5xl fw-normal lh_116 ff_tenor color_whiteCream  text-uppercase mb-3 pb-1">
@@ -151,7 +154,7 @@
                   innovation, solution design and product <br class="d-none d-xl-block"> development
                   lab and
                   consultancy</p>
-                <a href="#lettalk" class="mt-lg-5 mt-2 pt-4 d-inline-block">
+                <a href="#lettalk" class="mt-lg-5 mt-2 pt-xxl-4 d-inline-block">
                   <button class="common_btn font_lg ff_montserrat fw-semibold color_whiteCream text-uppercase ">let’s
                     talk</button>
                 </a>
