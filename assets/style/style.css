@@ -306,6 +306,10 @@
   line-height: 93.5%;
 }
 
+.lh_57 {
+  line-height: 143.5%;
+}
+
 .z_index1 {
   z-index: 1;
 }
@@ -416,6 +420,22 @@ video {
   border-radius: 100%;
   opacity: 0.8;
   margin-top: -48px;
+  transition: all 0.3s ease-in-out !important;
+  cursor: pointer !important;
+}
+
+.approach_card:hover {
+  transform: scale(1.05);
+  opacity: 1;
+}
+
+.approach_card_hover {
+  transition: all 0.3s ease-in-out !important;
+}
+
+.approach_card_hover:hover {
+  opacity: 1;
+  z-index: 6 !important;
 }
 
 .mt_minus_12 {
@@ -435,14 +455,7 @@ video {
   width: 54px;
 }
 
-.approach_card_hover {
-  cursor: pointer !important;
-  transition: all 0.3s ease-in-out;
-}
 
-.approach_card_hover:hover {
-  z-index: 6 !important;
-}
 
 /*------------------------ DEFINE-ALL = @media-queries ----------------------  */
 @media (max-width:1599.98px) {
@@ -707,12 +720,14 @@ video {
     max-width: 120px;
   }
 
-  .fs_xsm_16{ 
+  .fs_xsm_16 {
     font-size: 16px !important;
   }
+
   .fs_xsm_14 {
     font-size: 14px !important;
   }
+
   .fs_xsm_12 {
     font-size: 12px !important;
   }
@@ -752,6 +767,10 @@ video {
 /* ==================================DEFINE OUR STORY CODE================================== */
 .hero_section_height {
   min-height: 100vh;
+}
+
+.ourStory_header_bg {
+  background: linear-gradient(0deg, #FFF9F0 -3.62%, rgba(255, 249, 240, 0.63) 25.35%, rgba(255, 249, 240, 0.00) 42.55%), linear-gradient(180deg, #BEC9C0 50%, #FFF9F0 100%);
 }
 
 .hero_shade {
