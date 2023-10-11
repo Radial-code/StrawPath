@@ -298,6 +298,16 @@ html {
     }
 }
 
+.about_rounded_stamp {
+    left: 31%;
+    bottom: 2%;
+}
+
+.about_rounded_stamp_logo {
+    left: 33.5%;
+    bottom: 5.8%;
+}
+
 @media (min-width: 1500px) {
     .strapath_rounded_stamp {
         right: 4.5%;
@@ -379,10 +389,21 @@ html {
 }
 
 @media (max-width: 1399.98px) {
+
     .straignt_img {
         position: absolute;
         top: -7%;
         max-width: 503px;
+    }
+
+    .about_rounded_stamp {
+        left: 28%;
+        bottom: 11%;
+    }
+
+    .about_rounded_stamp_logo {
+        left: 30.5%;
+        bottom: 14.8%;
     }
 }
 
