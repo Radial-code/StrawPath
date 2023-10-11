@@ -287,6 +287,12 @@ html {
     bottom: 0.5%;
 }
 
+.andrew_img_set {
+    top: -41%;
+    position: absolute;
+    left: 0;
+}
+
 @media (min-width: 1400px) and (max-width: 1500px) {
     .custom_container {
         max-width: 1320px !important;
@@ -360,11 +366,6 @@ html {
         padding: 0 0 0 36px;
     }
 
-    .andrew_img_set {
-        top: -41%;
-        position: absolute;
-        left: 0;
-    }
 
     .strapath_rounded_stamp_2 {
         bottom: -5%;
@@ -408,6 +409,11 @@ html {
 }
 
 @media (max-width: 1199.98px) {
+    .andrew_img_set {
+        top: -300px;
+        position: absolute;
+        left: -36px;
+    }
 
     .about_rounded_stamp {
         left: 28%;
@@ -424,26 +430,38 @@ html {
     }
 
     .main_heading_bg {
-        padding: 13px 18px;
+        padding: 16px 18px;
         border-radius: 17px;
-        width: 233px;
     }
 
     .strapath_rounded_stamp {
         width: 150px !important;
         height: 150px !important;
-        bottom: -6%;
+        bottom: -11%;
         z-index: 1;
     }
 
     .strapath_rounded_stamp_2 {
-        bottom: 1%;
+        bottom: -2%;
         right: 8.5%;
         width: 57px;
+    }
+
+    .footer_logo_w {
+        max-width: 200px !important;
     }
 }
 
 @media (max-width: 991.98px) {
+    .strapath_rounded_stamp {
+        bottom: -6.5%;
+    }
+
+    .andrew_img_set {
+        margin-top: -130px;
+        position: unset;
+    }
+
     .about_rounded_stamp {
         left: 48%;
         bottom: 82%;
@@ -523,8 +541,14 @@ html {
         border-radius: 0px 100px 0px 0px;
     }
 
+    .andrew_img_set {
+        margin-top: 9px;
+        position: unset;
+        margin-bottom: -100px;
+    }
+
     .strapath_rounded_stamp_2 {
-        bottom: -6.5%;
+        bottom: -5.5%;
         right: 14.7%;
         width: 51px;
         z-index: 1;
@@ -545,10 +569,6 @@ html {
         padding: unset;
     }
 
-    .andrew_img_set {
-        margin-bottom: -100px;
-    }
-
     .andrew_bg {
         margin-bottom: 84px;
     }
@@ -557,5 +577,11 @@ html {
         width: 130px !important;
         bottom: -12%;
         z-index: 1;
+    }
+
+    .main_heading_bg {
+        padding: 13px 18px;
+        border-radius: 17px;
+        width: 233px;
     }
 }

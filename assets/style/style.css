@@ -491,6 +491,10 @@ video {
   .video_side_img {
     max-width: 180px;
   }
+
+  .hero_section_height {
+    min-height: calc(100vh - 20vh) !important;
+  }
 }
 
 @media (max-width:1199.98px) {
@@ -547,7 +551,7 @@ video {
   }
 
   .hero_section_height {
-    min-height: calc(100vh - 20vh) !important;
+    min-height: calc(100vh - 0vh) !important;
   }
 }
 
@@ -831,13 +835,16 @@ video {
     min-height: calc(100vh - 17vh);
   }
 }
+
 .text-zoomIn {
-  animation: zoomIn; 
+  animation: zoomIn;
   animation-duration: 3s;
 }
-.animation-duration4{
+
+.animation-duration4 {
   animation-duration: 3s;
 }
-.animation-duration5{
+
+.animation-duration5 {
   animation-duration: 3.s;
 }
