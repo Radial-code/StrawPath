@@ -61,7 +61,7 @@
         <source class="w-100" src="./assets/video/header-bg-video.mp4" type="video/webm">
       </video>
       <!-- =================DEFINE NAVBAR CODE================= -->
-      <nav class="text-center pt-4 position-absolute w-100 z-index-5 my-element animation-duration3">
+      <nav  class="text-center pt-4 position-absolute w-100 z-index-5 ">
         <div class="container pt-xl-3">
           <div class="d-flex align-items-center">
             <div class="nav_logo mx-auto">
@@ -153,9 +153,9 @@
           <div class="row justify-content-center align-items-center ">
             <div class="col-md-12 ">
               <div class="text-center position-relative z-index-5">
-                <h1 class="font_3xl_bold fw-bold lh_116 ff_jost color_whiteCream  text-uppercase mb-3 pb-1 my-element animation-duration3">
+                <h1 class="font_3xl_bold fw-bold lh_116 ff_jost color_whiteCream  text-uppercase mb-3 pb-1 text-zoomIn animation-duration3">
                   IMAGINATION. <br class="d-sm-none"> EXPLORATION. INNOVATION.</h1>
-                <p class="font_lg lh_117 mx-4 px-3 text-capitalize fw_medium ff_montserrat color_whiteCream mb-0 my-element animation-duration4">
+                <p class="font_lg lh_117 mx-4 px-3 text-capitalize fw_medium ff_montserrat color_whiteCream mb-0 text-zoomIn animation-duration4">
                   Harnessing years of experience in startups, <br class="d-none d-xl-block"> corporate and
                   entrepreneurship.</p>
               </div>
@@ -403,31 +403,8 @@
       </script>
     <!---------------------- Aos Animation link -------------------- -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init({
-        once: 'true'
-      });
-    </script>
     <!--------------------- BACK TO TOP------------------- -->
-    <script>
-      $(document).ready(function () {
-        $(window).scroll(function () {
-          if ($(this).scrollTop() > 100) {
-            $("#scroll").fadeIn();
-          } else {
-            $("#scroll").fadeOut();
-          }
-        });
-        $("#scroll").click(function () {
-          $("html, body").animate({
-            scrollTop: 0,
-          },
-            40
-          );
-          return false;
-        });
-      });
-    </script>
+   
     <!----------------- JS FLE LINK  --------------- -->
     <script src="/assets/js/navbar.js"></script>
   </body>

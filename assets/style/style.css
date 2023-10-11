@@ -831,15 +831,13 @@ video {
     min-height: calc(100vh - 17vh);
   }
 }
-.my-element {
-  display: inline-block;
-  animation: zoomInDown; 
-  animation-duration: 3s;
-}
-.animation-duration{
+.text-zoomIn {
+  animation: zoomIn; 
   animation-duration: 3s;
 }
 .animation-duration4{
-  
-  animation-duration: 4s;
+  animation-duration: 3s;
+}
+.animation-duration5{
+  animation-duration: 3.s;
 }
