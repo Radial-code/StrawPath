@@ -413,20 +413,22 @@ html {
         font-size: 29px;
     }
 
+    .about_rounded_stamp {
+        left: 31%;
+        width: 108px;
+        bottom: 2%;
+    }
+
     .andrew_img_set {
         top: -300px;
         position: absolute;
         left: -36px;
     }
 
-    .about_rounded_stamp {
-        left: 28%;
-        bottom: 17%;
-    }
-
     .about_rounded_stamp_logo {
-        left: 31%;
-        bottom: 21.5%;
+        width: 63px;
+        left: 33%;
+        bottom: 5.5%;
     }
 
     .straignt_img {
@@ -457,6 +459,12 @@ html {
 }
 
 @media (max-width: 991.98px) {
+
+    .about_rounded_stamp_logo {
+        left: 50.5%;
+        bottom: 85.1%;
+    }
+
     .fs_40 {
         font-size: 25px;
     }
@@ -475,10 +483,6 @@ html {
         bottom: 82%;
     }
 
-    .about_rounded_stamp_logo {
-        left: 52%;
-        bottom: 87.5%;
-    }
 
     .strapath_rounded_stamp_2 {
         bottom: -1.9%;
