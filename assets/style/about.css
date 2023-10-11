@@ -403,8 +403,9 @@ html {
     }
 
     .main_heading_bg {
-        padding: 16px 18px;
+        padding: 13px 18px;
         border-radius: 17px;
+        width: 233px;
     }
 
     .strapath_rounded_stamp {
@@ -456,6 +457,10 @@ html {
 
     .fs_40 {
         font-size: 31px;
+    }
+
+    .andrew_bg {
+        border-radius: 0px 168px 0px 0px !important;
     }
 }
 

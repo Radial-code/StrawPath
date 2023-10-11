@@ -231,7 +231,7 @@
     --font-3xl: 24px;
     --font-3xl-bold: 22px;
     --font-4xl: 24px;
-    --font-5xl: 28px;
+    --font-5xl: 24px;
     --font-6xl: 46px;
   }
 }
@@ -492,7 +492,7 @@ video {
 
   .approach_card {
     margin-top: 0px !important;
-    padding: 64px 37px 53px 71px !important;
+    padding: 64px 37px 53px 50px !important;
     width: 320px;
     height: 300px;
   }
@@ -532,6 +532,10 @@ video {
   .nav_logo {
     max-width: 250px;
   }
+
+  .hero_section_height {
+    min-height: calc(100vh - 20vh) !important;
+  }
 }
 
 @media (max-width:991.98px) {
@@ -564,6 +568,8 @@ video {
   .approach_card {
     padding: 59px 32px 41px 49px !important;
   }
+
+
 }
 
 @media (max-width: 767.98px) {
@@ -639,12 +645,18 @@ video {
     height: 50px !important;
     width: 50px !important;
   }
+
+  .nav_logo {
+    max-width: 150px;
+  }
+
+  .hero_section_height {
+    min-height: calc(100vh - 20vh) !important;
+  }
 }
 
 @media (max-width: 575.98px) {
-  .nav_logo {
-    max-width: 200px;
-  }
+
 
   .navbar_bg {
     min-height: 66.5px;
@@ -659,9 +671,9 @@ video {
   }
 
   .approach_card {
-    width: 244px;
-    height: 240px;
-    padding: 55px 16px 53px 30px !important;
+    width: 200px;
+    height: 200px;
+    padding: 35px 16px 53px 30px !important;
   }
 
   .global_client_img_box {
@@ -686,11 +698,38 @@ video {
   .lh_108 {
     line-height: unset !important;
   }
+
+  .hero_section_height {
+    min-height: calc(100vh - 37vh) !important;
+  }
+
+  .nav_logo {
+    max-width: 120px;
+  }
+
+  .fs_xsm_16{ 
+    font-size: 16px !important;
+  }
+  .fs_xsm_14 {
+    font-size: 14px !important;
+  }
+  .fs_xsm_12 {
+    font-size: 12px !important;
+  }
+
+  .approach_cricle {
+    height: 38px !important;
+    width: 38px !important;
+  }
+
+  .mt_minus_60 {
+    margin-left: -40px;
+  }
 }
 
 @media (max-width:449.98px) {
   .global_client_img_box {
-    max-width: 86px !important;
+    max-width: 80px !important;
   }
 
   .exploration_heading {
@@ -712,7 +751,6 @@ video {
 
 /* ==================================DEFINE OUR STORY CODE================================== */
 .hero_section_height {
-
   min-height: 100vh;
 }
 
@@ -760,11 +798,17 @@ video {
     max-width: 1480px;
     margin-top: -21%;
   }
+
+
 }
 
 @media (min-width:1920px) {
   .exploration_content_parent {
     max-width: 1707px;
     margin-top: -18%;
+  }
+
+  .hero_section_height {
+    min-height: calc(100vh - 17vh);
   }
 }
