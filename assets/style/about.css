@@ -460,6 +460,14 @@ html {
 }
 
 @media (max-width: 576px) {
+    .work_slider {
+        padding-bottom: 0px !important;
+    }
+
+    .slider_icon_w {
+        width: 45px;
+    }
+
     .about_rounded_stamp {
         left: 66%;
         bottom: -10%;
