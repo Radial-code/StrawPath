@@ -192,6 +192,7 @@
     --font-xl: 28px;
     --font-2xl: 32px;
     --font-3xl-bold: 48px;
+    --font-4xl: 40px;
     --font-5xl: 44px;
     --font-6xl: 76px;
   }
@@ -202,6 +203,7 @@
     --font-lg: 19px;
     --font-xl: 24px;
     --font-3xl-bold: 40px;
+    --font-4xl: 35px;
     --font-5xl: 39px;
     --font-6xl: 46px;
   }
