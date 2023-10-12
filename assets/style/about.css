@@ -58,16 +58,16 @@ html {
     max-width: 814px;
 }
 
-.strapath_rounded_stamp {
+/* .strapath_rounded_stamp {
     bottom: -16%;
     right: 4%;
     width: 260px;
-}
+} */
 
 .strapath_rounded_stamp_2 {
     width: 104px;
-    bottom: -5%;
-    right: 9.9%;
+    left: 88px;
+    top: 74px;
 }
 
 .rotate {
@@ -115,10 +115,6 @@ html {
     border-radius: 26px;
 }
 
-.work_cards:hover {
-    transform: translatey(-10px);
-}
-
 .work_cards {
     border-left: 6px solid var(--color-Bandicoot);
     padding: 0px 0 0 16px;
@@ -127,6 +123,11 @@ html {
 .work_cards_para {
     max-width: 415px;
     line-height: 136%;
+}
+
+.andrew_rotate_logo {
+    right: 24%;
+    bottom: 165px;
 }
 
 /* ================ SLICK SLIDER CODE================ */
@@ -315,9 +316,9 @@ html {
 }
 
 @media (min-width: 1500px) {
-    .strapath_rounded_stamp {
+    /* .strapath_rounded_stamp {
         right: 4.5%;
-    }
+    } */
 }
 
 @media (min-width: 1600px) {
@@ -357,18 +358,18 @@ html {
     }
 
 
-    .strapath_rounded_stamp_2 {
+    /* .strapath_rounded_stamp_2 {
         bottom: -5%;
         right: 8.9%;
         width: 100px;
-    }
+    } */
 }
 
 @media (min-width: 1930px) {
-    .strapath_rounded_stamp_2 {
+    /* .strapath_rounded_stamp_2 {
         bottom: -5%;
         right: 7.9%;
-    }
+    } */
 
     .exploration_content_parent {
         max-width: 1707px;
@@ -414,7 +415,7 @@ html {
         border-radius: 17px;
     }
 
-    .strapath_rounded_stamp {
+    /* .strapath_rounded_stamp {
         width: 150px !important;
         height: 150px !important;
         bottom: -11%;
@@ -425,7 +426,7 @@ html {
         bottom: -2%;
         right: 8.5%;
         width: 57px;
-    }
+    } */
 
     .footer_logo_w {
         max-width: 200px !important;
@@ -446,20 +447,20 @@ html {
         font-size: 25px;
     }
 
-    .strapath_rounded_stamp {
+    /* .strapath_rounded_stamp {
         bottom: -6.5%;
-    }
+    } */
 
     .andrew_img_set {
         margin-top: -130px;
         position: unset;
     }
 
-    .strapath_rounded_stamp_2 {
+    /* .strapath_rounded_stamp_2 {
         bottom: -1.9%;
         right: 10%;
         width: 57px;
-    }
+    } */
 
     .max_w_375 {
         max-width: 375px;
@@ -545,12 +546,12 @@ html {
         margin-bottom: -100px;
     }
 
-    .strapath_rounded_stamp_2 {
-        bottom: -5.5%;
-        right: 14.7%;
+    /* .strapath_rounded_stamp_2 {
+        bottom: -6%;
+        right: 15.5%;
         width: 51px;
         z-index: 1;
-    }
+    } */
 
     #scroll {
         bottom: 15px !important;
@@ -571,11 +572,11 @@ html {
         margin-bottom: 84px;
     }
 
-    .strapath_rounded_stamp {
+    /* .strapath_rounded_stamp {
         width: 130px !important;
         bottom: -12%;
         z-index: 1;
-    }
+    } */
 
     .main_heading_bg {
         padding: 13px 18px;
