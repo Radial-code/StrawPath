@@ -58,12 +58,6 @@ html {
     max-width: 814px;
 }
 
-/* .strapath_rounded_stamp {
-    bottom: -16%;
-    right: 4%;
-    width: 260px;
-} */
-
 .strapath_rounded_stamp_2 {
     width: 104px;
     left: 88px;
@@ -353,7 +347,6 @@ html {
 }
 
 @media (max-width: 1399.98px) {
-
     .straignt_img {
         position: absolute;
         top: -7%;
@@ -454,6 +447,10 @@ html {
         top: -80%;
     }
 
+    .andrew_rotate_logo {
+        right: 24%;
+    }
+
 }
 
 @media (max-width: 767.98px) {
@@ -464,12 +461,30 @@ html {
     .straignt_bg {
         margin-top: 586px;
     }
+
+    .andrew_img_w {
+        max-width: 300px !important;
+    }
+
+    .andrew_img_set {
+        margin-bottom: 50px;
+    }
 }
 
 @media (max-width: 576px) {
+    .strapath_rounded_stamp_2 {
+        width: 50px;
+        left: 37px;
+        top: 33px;
+    }
+
+    .strapath_rounded_stamp {
+        width: 129px !important;
+    }
+
     .andrew_rotate_logo {
-        right: 41%;
-        bottom: 47px;
+        right: 40%;
+        bottom: 41px;
     }
 
     .work_slider {
@@ -519,13 +534,6 @@ html {
         margin-bottom: -100px;
     }
 
-    /* .strapath_rounded_stamp_2 {
-        bottom: -6%;
-        right: 15.5%;
-        width: 51px;
-        z-index: 1;
-    } */
-
     #scroll {
         bottom: 15px !important;
         right: 8px !important;
@@ -544,12 +552,6 @@ html {
     .andrew_bg {
         margin-bottom: 84px;
     }
-
-    /* .strapath_rounded_stamp {
-        width: 130px !important;
-        bottom: -12%;
-        z-index: 1;
-    } */
 
     .main_heading_bg {
         padding: 13px 18px;
