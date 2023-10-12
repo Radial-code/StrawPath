@@ -451,6 +451,10 @@ video {
   letter-spacing: 12.5% !important;
 }
 
+.margint_left_10 {
+  margin-left: -12%;
+}
+
 /* ==================================DEFINE OUR STORY CODE================================== */
 .hero_section_height {
   min-height: 100vh;
@@ -722,6 +726,9 @@ video {
     font-size: 12px !important;
   }
 
+  .approach_card2 {
+    margin-top: -24px;
+  }
 }
 
 @media (max-width:449.98px) {
