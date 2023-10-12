@@ -502,6 +502,10 @@ html {
         padding-bottom: 0px !important;
     }
 
+    .work_cards:hover {
+        transform: translatey(-0px);
+    }
+
     .slider_icon_w {
         width: 45px;
     }
