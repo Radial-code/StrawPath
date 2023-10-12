@@ -423,7 +423,6 @@ video {
   opacity: 0.8;
   margin-top: -48px;
   transition: all 0.3s ease-in-out !important;
-  cursor: pointer !important;
 }
 
 .approach_card:hover {
