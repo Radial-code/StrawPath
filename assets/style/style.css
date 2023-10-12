@@ -413,19 +413,14 @@ video {
   background-color: var(--color-darkGreen) !important;
 }
 
-.approach_card_parent {
-  max-width: 308px;
-}
-
 .approach_card {
-  width: 307.947px;
-  height: 307.947px;
   flex-shrink: 0;
+  width: 200px;
+  height: 200px;
+  padding: 35px 16px 53px 30px !important;
   max-width: 308px;
-  padding: 65px 33px 74px 45px;
   border-radius: 100%;
   opacity: 0.8;
-  margin-top: -48px;
   transition: all 0.3s ease-in-out !important;
 }
 
@@ -443,6 +438,11 @@ video {
   z-index: 6 !important;
 }
 
+.approach_cricle {
+  height: 38px !important;
+  width: 38px !important;
+}
+
 .mt_minus_12 {
   margin-top: -12px !important;
 }
@@ -450,16 +450,6 @@ video {
 .letter_spacing_12 {
   letter-spacing: 12.5% !important;
 }
-
-.approach_card2 {
-  margin-left: -24px;
-}
-
-.approach_cricle {
-  height: 54px;
-  width: 54px;
-}
-
 
 /* ==================================DEFINE OUR STORY CODE================================== */
 .hero_section_height {
@@ -523,31 +513,9 @@ video {
     border-radius: 0px 0px 0px 150px !important;
   }
 
-  .approach_card {
-    width: 282.947px;
-    height: 290.947px;
-    max-width: 308px;
-    padding: 55px 33px 53px 45px !important;
-    opacity: 0.8;
-    margin-top: -42px;
-  }
-
-  .approach_card2 {
-    margin-left: -36px !important;
-  }
-
-  .approach_cricle {
-    height: 46px !important;
-    width: 46px !important;
-  }
 }
 
 @media (max-width:1366.98px) {
-  .approach_card {
-    width: 270px;
-    height: 270px;
-  }
-
   .video_side_img {
     max-width: 180px;
   }
@@ -566,35 +534,6 @@ video {
 
   .what_we_do_sectionBg {
     border-radius: 0px 0px 0px 100px !important;
-  }
-
-  .approach_card_parent {
-    max-width: unset !important;
-  }
-
-  .approach_card {
-    margin-top: 0px !important;
-    padding: 64px 37px 53px 50px !important;
-    width: 320px;
-    height: 300px;
-  }
-
-  .mt_minus_60 {
-    margin-left: -60px;
-  }
-
-  .approach_card2 {
-    margin-left: unset !important;
-    margin-top: -24px !important;
-  }
-
-  .approach_cricle {
-    height: 70px !important;
-    width: 70px !important;
-  }
-
-  .approach_card_sm_img {
-    width: 135px !important;
   }
 
   .video_parent {
@@ -647,20 +586,11 @@ video {
     max-width: 100px;
   }
 
-  .approach_card {
-    padding: 59px 32px 41px 49px !important;
-  }
-
-
 }
 
 @media (max-width:767.98px) {
   .lh_custom {
     line-height: 120.5%;
-  }
-
-  .approach_card_sm_img {
-    width: unset !important;
   }
 
   .exploration_content_parent {
@@ -727,11 +657,6 @@ video {
     letter-spacing: 17.634px !important;
   }
 
-  .approach_cricle {
-    height: 50px !important;
-    width: 50px !important;
-  }
-
   .nav_logo {
     max-width: 150px;
   }
@@ -742,7 +667,6 @@ video {
 }
 
 @media (max-width:575.98px) {
-
 
   .navbar_bg {
     min-height: 66.5px;
@@ -756,18 +680,11 @@ video {
     max-width: 100px !important;
   }
 
-  .approach_card {
-    width: 200px;
-    height: 200px;
-    padding: 35px 16px 53px 30px !important;
-  }
-
   .global_client_img_box {
     height: 35px;
   }
 
   .overlay {
-
     max-height: 310px;
   }
 
@@ -805,14 +722,6 @@ video {
     font-size: 12px !important;
   }
 
-  .approach_cricle {
-    height: 38px !important;
-    width: 38px !important;
-  }
-
-  .mt_minus_60 {
-    margin-left: -40px;
-  }
 }
 
 @media (max-width:449.98px) {
