@@ -626,9 +626,9 @@ video {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    -webkit-transition: 0.3s all linear !important;
-    -o-transition: 0.3s all linear !important;
-    transition: 0.3s all linear !important;
+    -webkit-transition: 0.6s all linear !important;
+    -o-transition: 0.6s all linear !important;
+    transition: 0.6s all linear !important;
     z-index: 9999 !important;
   }
 

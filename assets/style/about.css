@@ -66,12 +66,12 @@ html {
 
 .strapath_rounded_stamp_2 {
     width: 104px;
-    bottom: -6%;
+    bottom: -5%;
     right: 9.9%;
 }
 
 .rotate {
-    animation: rotation infinite 15s linear;
+    animation: rotation infinite 40s linear;
 }
 
 @keyframes rotation {
@@ -305,28 +305,18 @@ html {
 }
 
 .about_rounded_stamp {
-    left: 31%;
-    bottom: 2%;
+    left: 75%;
+    bottom: -11%;
 }
 
 .about_rounded_stamp_logo {
-    left: 33.5%;
-    bottom: 5.8%;
+    left: 80.5%;
+    bottom: -6.2%;
 }
 
 @media (min-width: 1500px) {
     .strapath_rounded_stamp {
         right: 4.5%;
-    }
-
-    .about_rounded_stamp {
-        left: 29%;
-        bottom: 8%;
-    }
-
-    .about_rounded_stamp_logo {
-        left: 31%;
-        bottom: 12%;
     }
 }
 
@@ -336,15 +326,15 @@ html {
     }
 
     .about_rounded_stamp {
-        left: 24%;
-        bottom: -7%;
-        max-width: 242px;
+        left: 75%;
+        bottom: -17%;
+        max-width: 267px;
     }
 
     .about_rounded_stamp_logo {
-        left: 27%;
-        bottom: 1%;
-        max-width: 112px;
+        left: 85%;
+        bottom: -9%;
+        max-width: 134px;
     }
 
     .custom_container {
@@ -380,12 +370,9 @@ html {
         right: 7.9%;
     }
 
-    .about_rounded_stamp {
-        left: 17%;
-    }
-
-    .about_rounded_stamp_logo {
-        left: 19.5%;
+    .exploration_content_parent {
+        max-width: 1707px;
+        margin-top: -14%;
     }
 }
 
@@ -396,16 +383,6 @@ html {
         top: -7%;
         max-width: 503px;
     }
-
-    .about_rounded_stamp {
-        left: 28%;
-        bottom: 11%;
-    }
-
-    .about_rounded_stamp_logo {
-        left: 30.5%;
-        bottom: 14.8%;
-    }
 }
 
 @media (max-width: 1199.98px) {
@@ -414,9 +391,7 @@ html {
     }
 
     .about_rounded_stamp {
-        left: 31%;
-        width: 108px;
-        bottom: 2%;
+        width: 118px;
     }
 
     .andrew_img_set {
@@ -427,8 +402,7 @@ html {
 
     .about_rounded_stamp_logo {
         width: 63px;
-        left: 33%;
-        bottom: 5.5%;
+
     }
 
     .straignt_img {
@@ -461,8 +435,11 @@ html {
 @media (max-width: 991.98px) {
 
     .about_rounded_stamp_logo {
-        left: 50.5%;
-        bottom: 85.1%;
+        bottom: -3.2%;
+    }
+
+    .about_rounded_stamp {
+        bottom: -8%;
     }
 
     .fs_40 {
@@ -478,12 +455,6 @@ html {
         position: unset;
     }
 
-    .about_rounded_stamp {
-        left: 48%;
-        bottom: 82%;
-    }
-
-
     .strapath_rounded_stamp_2 {
         bottom: -1.9%;
         right: 10%;
@@ -498,12 +469,8 @@ html {
         border-radius: 0px 70px 0px 0px !important;
     }
 
-    .straignt_img {
-        top: -80%;
-    }
-
     .straignt_bg {
-        margin-top: 630px;
+        margin-top: 586px;
     }
 
     .fs_40 {
@@ -512,6 +479,21 @@ html {
 
     .andrew_bg {
         border-radius: 0px 168px 0px 0px !important;
+    }
+
+    .straignt_img {
+        top: -80%;
+    }
+
+}
+
+@media (max-width: 767.98px) {
+    .straignt_img {
+        top: -65%;
+    }
+
+    .straignt_bg {
+        margin-top: 586px;
     }
 }
 
@@ -525,14 +507,14 @@ html {
     }
 
     .about_rounded_stamp {
-        left: 66%;
-        bottom: -10%;
-        width: 123px;
+        left: 82%;
+        top: 21%;
+        width: 108px;
     }
 
     .about_rounded_stamp_logo {
-        left: 74%;
-        bottom: -5.5%;
+        left: 90%;
+        top: 25%;
         width: 58px;
     }
 
@@ -541,7 +523,7 @@ html {
     }
 
     .straignt_img {
-        top: 643px;
+        top: 84%;
         width: 296px;
     }
 
