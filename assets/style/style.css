@@ -312,6 +312,10 @@
   line-height: 143.5%;
 }
 
+.lh_custom {
+  line-height: 93.5%;
+}
+
 .z_index1 {
   z-index: 1;
 }
@@ -482,6 +486,7 @@ video {
   z-index: 5;
   margin-bottom: -5px !important;
 }
+
 /* ==========================DEIFINE EXPLORATION CODE========================== */
 .exploration_heading {
   line-height: 116.5%;
@@ -497,6 +502,7 @@ video {
   max-width: 1047px;
   height: 548px;
 }
+
 /* =======================DEFINE HERO TEXT ANIMATE CODE======================= */
 .text-zoomIn {
   animation: zoomIn;
@@ -549,6 +555,7 @@ video {
   .hero_section_height {
     min-height: calc(100vh - 20vh) !important;
   }
+
   .exploration_content_parent {
     max-width: 1320px;
     margin-top: -265px;
@@ -648,6 +655,10 @@ video {
 }
 
 @media (max-width:767.98px) {
+  .lh_custom {
+    line-height: 120.5%;
+  }
+
   .approach_card_sm_img {
     width: unset !important;
   }
