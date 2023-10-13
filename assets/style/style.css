@@ -179,7 +179,7 @@
 
 @media (max-width: 1499.98px) {
   :root {
-    --font-lg: 22px;
+    --font-lg: 20px;
     --font-3xl: 45px;
   }
 }
@@ -202,8 +202,8 @@
     --font-sm: 14px;
     --font-base: 14px;
     --font-md: 18px;
-    --font-lg: 16px;
-    --font-xl: 22px;
+    --font-lg: 14px;
+    --font-xl: 18px;
     --font-2xl: 28px;
     --font-3xl-bold: 36px;
     --font-4xl: 40px;
@@ -214,8 +214,8 @@
 
 @media (max-width:991.98px) {
   :root {
-    --font-lg: 19px;
-    --font-xl: 24px;
+    --font-lg: 16px;
+    --font-xl: 18px;
     --font-3xl-bold: 40px;
     --font-4xl: 35px;
     --font-5xl: 39px;
@@ -786,7 +786,7 @@ video {
   }
 }
 
-@media (min-width:992px) and (max-width:1280px) {
+@media (min-width:992px) and (max-width:1200px) {
   .custom_container {
     max-width: 860px !important;
   }

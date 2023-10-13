@@ -312,12 +312,6 @@ html {
 
 }
 
-/* @media (min-width: 992px) and (max-width: 1365px) {
-    .custom_container {
-        max-width: 840px !important;
-        margin: 0, auto !important;
-    }
-} */
 
 .about_rounded_stamp_logo {
     left: 80.5%;
@@ -365,6 +359,13 @@ html {
         height: 331px;
     }
 
+    .mt_xxl_4 {
+        margin-top: 24px !important;
+    }
+
+    .pb_xxl_48 {
+        padding-bottom: 48px !important;
+    }
 }
 
 @media (max-width: 1399.98px) {
@@ -373,11 +374,20 @@ html {
         top: -7%;
         max-width: 503px;
     }
+
+    .work_cards {
+        height: 280px;
+    }
+
+    .andrew_img_set {
+        top: -35%;
+    }
 }
 
 @media (max-width: 1199.98px) {
     .work_cards {
-        height: 240px;
+        height: 200px;
+        border-left: 3px solid var(--color-Bandicoot);
     }
 
     .fs_40 {
@@ -389,7 +399,7 @@ html {
     }
 
     .andrew_img_set {
-        top: -300px;
+        top: -281px;
         position: absolute;
         left: -36px;
     }
@@ -431,7 +441,7 @@ html {
 
 @media (max-width: 991.98px) {
     .work_cards {
-        height: 270px;
+        height: 200px;
     }
 
     .about_rounded_stamp_logo {
@@ -484,7 +494,7 @@ html {
     }
 
     .hero_section_height {
-        min-height: calc(65vh - 0vh) !important;
+        min-height: 650px !important;
     }
 
     .andrew_img_set {
