@@ -64,11 +64,11 @@ html {
 }
 
 .andrew_para {
-    letter-spacing: 2.5px;
+    letter-spacing: 136% !important;
 }
 
 .andrew_para_two {
-    max-width: 814px;
+    max-width: 700px;
 }
 
 .strapath_rounded_stamp_2 {
@@ -265,7 +265,7 @@ html {
 .straignt_bg {
     background-color: var(--color-lightPink);
     border-radius: 0px 168px 0px 0px;
-    margin-top: 174px;
+    margin-top: 100px;
 }
 
 .straignt_img {
@@ -319,6 +319,14 @@ html {
 }
 
 @media (min-width: 1600px) {
+    .pb_xxl4 {
+        padding-bottom: 24px;
+    }
+
+    .andrew_para_two {
+        max-width: 814px;
+    }
+
     .straignt_img {
         max-width: 627px;
     }
@@ -437,6 +445,13 @@ html {
     .footer_logo_w {
         max-width: 200px !important;
     }
+
+    .about_rounded_stamp {
+        z-index: 1;
+        max-width: 175px;
+        left: 75%;
+        bottom: -11%;
+    }
 }
 
 @media (max-width: 991.98px) {
@@ -470,7 +485,7 @@ html {
     }
 
     .straignt_bg {
-        margin-top: 586px;
+        margin-top: 530px;
     }
 
     .fs_40 {
@@ -501,11 +516,14 @@ html {
         transform: translateX(0) !important;
     }
 
+    .andrew_bg {
+        border-radius: 0px 124px 0px 0px !important;
+    }
 }
 
 @media (max-width: 767.98px) {
     .work_cards {
-        height: 230px !important;
+        height: 200px !important;
     }
 
     .straignt_img {
@@ -534,6 +552,7 @@ html {
 }
 
 @media (max-width: 575.98px) {
+
 
     .w_328 {
         width: 328px !important;
