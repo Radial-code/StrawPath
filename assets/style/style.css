@@ -298,10 +298,6 @@
   background: transparent !important;
 }
 
-.translate_y_hover:hover {
-  transform: translatey(-10px);
-}
-
 .lh_108 {
   line-height: 108.5%;
 }
