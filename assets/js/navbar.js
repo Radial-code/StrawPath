@@ -3,15 +3,11 @@ const sidebar = document.querySelector(".overlay");
 
 function Togleside() {
     sidebar.classList.add("show_nav");
-    // document.body.classList.add("overflow_hidden");
-    // document.body.classList.remove("overflow-auto");
     document.body.classList.add("vh-100");
 }
 
 function hideNav() {
     sidebar.classList.remove("show_nav");
-    // document.body.classList.add("overflow-auto");
-    // document.body.classList.remove("overflow_hidden");
     document.body.classList.remove("vh-100");
 }
 //   DEIFINE AOS ANIMATION ==========/
@@ -36,4 +32,27 @@ $(document).ready(function () {
       );
       return false;
     });
-  });
+});
+  
+
+
+
+
+// Js Class --------------------------------------------
+function maxProductAndValues(n) {
+  var maxProduct = null;
+  var maxProductValues = [];
+
+  for (var i = 0; i < n.length - 1; i++) { 
+    var sum = n[i] * n[i + 1];
+    if (maxProduct === null || sum > maxProduct) {
+      maxProduct = sum;
+      maxProductValues = [n[i], n[i + 1]];
+    }
+  }
+  return { maxProduct, maxProductValues };
+}
+var n = [3, 4, 5, 6, -7, -10,5];
+var result = maxProductAndValues(n);
+console.log("Maximum sum:", result.maxProduct);
+console.log("Last two values:", result.maxProductValues);
