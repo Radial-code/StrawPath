@@ -309,9 +309,17 @@ html {
         width: 220px !important;
     }
 
-
+    .straignt_img_w {
+        max-width: 530px !important;
+    }
 }
 
+.about_rounded_stamp {
+    z-index: 1;
+    max-width: 175px;
+    left: 74%;
+    bottom: -10%;
+}
 
 .about_rounded_stamp_logo {
     left: 80.5%;
@@ -393,6 +401,10 @@ html {
 }
 
 @media (max-width: 1199.98px) {
+    .straignt_img_w {
+        max-width: 400px !important;
+    }
+
     .work_cards {
         height: 200px;
         border-left: 3px solid var(--color-Bandicoot);
@@ -590,7 +602,7 @@ html {
     }
 
     .slider_icon_w {
-        width: 45px;
+        width: 45px !important;
     }
 
     .about_rounded_stamp {
