@@ -66,9 +66,12 @@
 
             </div>
             <div onclick="Togleside()" class="d-md-none menu border-0 bg-transparent position-relative" id="toggle_btn">
-              <span class="line1 position-absolute start-0 top-0 bg-white rounded-pill"></span>
-              <span class="line2 position-absolute start-0 top-50 translate-middle-y bg-white rounded-pill"></span>
-              <span class="line3 position-absolute start-0 bottom-0 bg-white  rounded-pill"></span>
+              <svg class="toggle_icon" xmlns="http://www.w3.org/2000/svg" width="21" height="17" viewBox="0 0 21 17"
+                fill="none">
+                <path
+                  d="M0.166748 2.04167C0.166748 1.6991 0.302834 1.37056 0.545069 1.12832C0.787303 0.886086 1.11584 0.75 1.45841 0.75H19.5417C19.8843 0.75 20.2129 0.886086 20.4551 1.12832C20.6973 1.37056 20.8334 1.6991 20.8334 2.04167C20.8334 2.38424 20.6973 2.71278 20.4551 2.95501C20.2129 3.19725 19.8843 3.33333 19.5417 3.33333H1.45841C1.11584 3.33333 0.787303 3.19725 0.545069 2.95501C0.302834 2.71278 0.166748 2.38424 0.166748 2.04167ZM0.166748 8.5C0.166748 8.15743 0.302834 7.82889 0.545069 7.58665C0.787303 7.34442 1.11584 7.20833 1.45841 7.20833H19.5417C19.8843 7.20833 20.2129 7.34442 20.4551 7.58665C20.6973 7.82889 20.8334 8.15743 20.8334 8.5C20.8334 8.84257 20.6973 9.17111 20.4551 9.41335C20.2129 9.65558 19.8843 9.79167 19.5417 9.79167H1.45841C1.11584 9.79167 0.787303 9.65558 0.545069 9.41335C0.302834 9.17111 0.166748 8.84257 0.166748 8.5ZM0.166748 14.9583C0.166748 14.6158 0.302834 14.2872 0.545069 14.045C0.787303 13.8028 1.11584 13.6667 1.45841 13.6667H19.5417C19.8843 13.6667 20.2129 13.8028 20.4551 14.045C20.6973 14.2872 20.8334 14.6158 20.8334 14.9583C20.8334 15.3009 20.6973 15.6294 20.4551 15.8717C20.2129 16.1139 19.8843 16.25 19.5417 16.25H1.45841C1.11584 16.25 0.787303 16.1139 0.545069 15.8717C0.302834 15.6294 0.166748 15.3009 0.166748 14.9583Z"
+                  fill="#FFF9F0" />
+              </svg>
             </div>
           </div>
           <ul class="d-none d-md-flex align-items-center justify-content-center list-unstyled px-0 gap-4">
@@ -97,16 +100,16 @@
                 <a class="nav_logo mx-auto" href="/">
                   <img class="w-100" src="./assets/images/svg/nav-logo.svg" alt="navbar-logo">
                 </a>
-                <button class="cross_btn border-0 bg-transparent position-absolute end-0" onclick="hideNav()">
+                <button class="cross_btn border-0 bg-transparent position-absolute " onclick="hideNav()">
                   <img width="40" height="40" onclick="hideNav()" class=" d-xl-none d-block w_45"
                     src="./assets/images/svg/nav-cross-icon.svg" alt="cross-icon">
                 </button>
               </li>
-              <li class="mt-3 my-sm-4 pb-1 pb-sm-4  px-2 px-sm-4" onclick="hideNav()">
+              <li class="mt-3 mt-sm-4 pb-1 pb-sm-3  px-2 px-sm-4" onclick="hideNav()">
                 <a class="color_whiteCream fw-normal ff_tenor font_md nav_link text-uppercase text-decoration-none"
                   href="#home">Home</a>
               </li>
-              <li class="mt-4 mb-sm-4 pb-2 pb-4  px-2 px-sm-4 border_bottom_2 d-inline-block" onclick="hideNav()">
+              <li class="mt-4 mb-sm-3 pb-2 pb-4  px-2 px-sm-4 border_bottom_2 d-inline-block" onclick="hideNav()">
                 <a class="color_whiteCream fw-normal pb-2 ff_tenor font_md nav_link text-uppercase text-decoration-none"
                   href="/Our-story.html">our story</a>
               </li>
