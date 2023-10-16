@@ -261,8 +261,8 @@ html {
     bottom: -11%;
 }
 
-.fs_40 {
-    font-size: 40px;
+.fs_32 {
+    font-size: 32px;
 }
 
 .straignt_bg {
@@ -406,6 +406,9 @@ html {
 }
 
 @media (max-width: 1280px) {
+    .video_parent{
+        height: unset;
+    }
     .about_rounded_stamp_logo {
         left: 81.5%;
         bottom: -4.2%;
@@ -466,8 +469,8 @@ html {
         max-width: 400px !important;
     }
 
-    .fs_40 {
-        font-size: 29px;
+    .fs_32 {
+        font-size: 20px;
     }
 
     .about_rounded_stamp {
@@ -521,9 +524,7 @@ html {
         bottom: -3.2%;
     }
 
-    .fs_40 {
-        font-size: 25px;
-    }
+
 
     .andrew_img_set {
         position: unset;
@@ -537,9 +538,6 @@ html {
         margin-bottom: 530px;
     }
 
-    .fs_40 {
-        font-size: 31px;
-    }
 
     .andrew_bg {
         border-radius: 0px 100px 0px 0px !important;
@@ -570,6 +568,10 @@ html {
     .about_rounded_stamp_logo {
         left: 90%;
         top: 25%;
+    }
+
+    .fs_32 {
+        font-size: 18px;
     }
 
     .about_rounded_stamp {
@@ -621,7 +623,7 @@ html {
     }
 
     .andrew_para {
-        letter-spacing: 2px !important;
+        letter-spacing: 1px !important;
     }
 
     .main_heading_bg {
@@ -694,10 +696,6 @@ html {
 
     .slider_icon_w {
         width: 45px !important;
-    }
-
-    .fs_40 {
-        font-size: 18px;
     }
 
     .straignt_bg {

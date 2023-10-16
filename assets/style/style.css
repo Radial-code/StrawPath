@@ -13,13 +13,13 @@
   --font-xs: 14px;
   --font-sm: 16px;
   --font-base: 18px;
-  --font-md: 20px;
+  --font-md: 16px;
   --font-lg: 20px;
   --font-xl: 25px;
   --font-2xl: 36px;
   --font-3xl: 45px;
   --font-3xl-bold: 48px;
-  --font-4xl: 50px;
+  --font-4xl: 42px;
   --font-5xl: 60px;
   --font-6xl: 180px;
 }
@@ -165,7 +165,7 @@
     --font-xs: 14px;
     --font-sm: 16px;
     --font-base: 16px;
-    --font-md: 20px;
+    --font-md: 16px;
     --font-2xl: 34px;
     --font-3xl: 45px;
     --font-3xl-bold: 46px;
@@ -183,7 +183,7 @@
 
 @media (max-width: 1366.98px) {
   :root {
-    --font-md: 18px;
+    --font-md: 16px;
     --font-2xl: 32px;
     --font-3xl: 40px;
     --font-3xl-bold: 44px;
@@ -197,11 +197,11 @@
     --font-xs: 12px;
     --font-sm: 14px;
     --font-base: 12px;
-    --font-md: 18px;
+    --font-md: 16px;
     --font-lg: 12px;
     --font-xl: 18px;
     --font-3xl-bold: 40px;
-    --font-4xl: 35px;
+    --font-4xl: 28px;
     --font-5xl: 39px;
     --font-6xl: 80px;
   }
@@ -584,7 +584,7 @@ video {
 
   .exploration_content_parent {
     max-width: 950px !important;
-    margin-top: -220px !important;
+    margin-top: -225px !important;
   }
 
   .video_side_img {
@@ -620,7 +620,7 @@ video {
 
   .exploration_content_parent {
     max-width: 735px !important;
-    margin-top: -150px !important;
+    margin-top: -153px !important;
   }
 
   .video_side_img {
@@ -748,8 +748,8 @@ video {
   }
 
   .exploration_heading {
-    margin-top: -16px;
-    letter-spacing: 9px !important;
+    margin-top: -13px;
+    letter-spacing: 14px !important;
   }
 
   .lh_108 {
