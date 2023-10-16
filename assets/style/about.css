@@ -318,6 +318,12 @@ html {
     left: 80.5%;
     bottom: -6.2%;
 }
+.andrew_img_set {
+    top: -180px;
+    position: absolute;
+    left: 0;
+    transform: translateX(-48px);
+}
 
 @media (min-width: 1281px) {
     .andrew_img_set {
@@ -446,6 +452,8 @@ html {
 
 @media (max-width: 1199.98px) {
     .andrew_img_set {
+        position: absolute;
+        top: -100px !important;
         transform: translate(0px);
     }
 
@@ -503,7 +511,6 @@ html {
     .andrew_img_set {
         position: absolute;
         top: -100px !important;
-        transform: translate(-15px);
     }
     .andrew_rotate_logo {
         right: 35% !important;
