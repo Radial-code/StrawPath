@@ -514,6 +514,10 @@ video {
   animation-duration: 3.s;
 }
 
+.what_we_do_card_box {
+  max-width: 440px;
+}
+
 /*------------------------ DEFINE-ALL = @media-queries ----------------------  */
 @media (max-width:1599.98px) {
   .what_we_do_sectionBg {

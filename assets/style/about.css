@@ -327,17 +327,31 @@ html {
 
 @media (min-width: 1281px) {
     .andrew_img_set {
-        top: -175px;
+        top: -200px;
         position: absolute;
         left: 0;
-        transform: translateX(-30px) !important;
+        transform: translateX(-30px);
     }
-    .flex_xl_row{
+
+    .flex_box {
         display: flex !important;
         flex-direction: row !important;
         align-items: start !important;
     }
+
+    .ps_xl_4 {
+        padding-left: 24px;
+    }
+
+    .col_xxl_4 {
+        width: 33.33333333% !important;
+    }
+
+    .col_xxl_6 {
+        width: 66.66666667% !important;
+    }
 }
+
 @media (min-width: 1600px) {
     .pb_xxl4 {
         padding-bottom: 24px;
@@ -395,6 +409,7 @@ html {
         padding-bottom: 48px !important;
     }
 }
+
 @media (max-width: 1399.98px) {
     .straignt_img {
         position: absolute;
@@ -412,9 +427,10 @@ html {
 }
 
 @media (max-width: 1280px) {
-    .andrew_img_set{
+    .andrew_img_set {
         position: static !important;
-      }
+    }
+
     .work_cards {
         max-width: 209px;
         height: 190px;
@@ -428,7 +444,7 @@ html {
 
     .andrew_img_set {
         margin-top: 0px;
-        margin-bottom: -120px;
+        margin-bottom: -150px;
         position: unset;
     }
 
