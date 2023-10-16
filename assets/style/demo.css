@@ -1,0 +1,8 @@
+.fw_semibold{
+    font-weight: 600 !important;
+}
+@media (max-width:1198px) {
+    .slider_icon_w {
+        width: 30px !important;
+    }
+}
