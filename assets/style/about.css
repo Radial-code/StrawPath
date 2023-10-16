@@ -274,11 +274,11 @@ html {
 .straignt_img {
     position: absolute;
     top: -7%;
-    max-width: 565px;
+    max-width: 538px;
 }
 
 .straignt_cuntent {
-    max-width: 690px;
+    max-width: 565px;
 }
 
 .about_rounded_stamp {
@@ -366,10 +366,6 @@ html {
     .pb_xxl4 {
         padding-bottom: 24px;
     }
-/* 
-    .straignt_img {
-        max-width: 627px;
-    } */
 
     .about_rounded_stamp {
         left: 75%;
@@ -403,9 +399,22 @@ html {
     .work_cards {
         height: 280px;
     }
+
+    .straignt_img_w {
+        max-width: 624px;
+    }
 }
 
 @media (max-width: 1280px) {
+    .about_rounded_stamp_logo {
+        left: 81.5%;
+        bottom: -4.2%;
+    }
+
+    .straignt_img_w {
+        max-width: 432px !important;
+    }
+
     .andrew_img_set {
         position: static !important;
     }
@@ -467,11 +476,11 @@ html {
 
     .about_rounded_stamp_logo {
         width: 63px;
-
+        bottom: -6.2%;
     }
 
     .straignt_img {
-        max-width: 432px;
+        max-width: 378px;
     }
 
     .main_heading_bg {
@@ -512,10 +521,6 @@ html {
         bottom: -3.2%;
     }
 
-    .about_rounded_stamp {
-        bottom: -8%;
-    }
-
     .fs_40 {
         font-size: 25px;
     }
@@ -529,7 +534,7 @@ html {
     }
 
     .straignt_bg {
-        margin-top: 530px;
+        margin-bottom: 530px;
     }
 
     .fs_40 {
@@ -541,15 +546,37 @@ html {
     }
 
     .straignt_img {
-        top: -75%;
+        top: 520px;
     }
 
     .work_cards {
         border-left: 3px solid var(--color-Bandicoot) !important;
     }
+
+    .about_rounded_stamp_logo {
+        left: 88%;
+        top: 5%;
+        width: 58px;
+    }
+
+    .about_rounded_stamp {
+        left: 82%;
+        top: 2%;
+        width: 108px;
+    }
 }
 
 @media (max-width: 767.98px) {
+    .about_rounded_stamp_logo {
+        left: 90%;
+        top: 25%;
+    }
+
+    .about_rounded_stamp {
+        left: 82%;
+        top: 21%;
+    }
+
     .andrew_rotate_logo {
         right: 45% !important;
     }
@@ -601,6 +628,14 @@ html {
         padding: 16px 55.5px;
     }
 
+    .our_line_after {
+        padding: 12px 10px !important;
+    }
+
+    .custom_container_after {
+        max-width: 546px !important;
+    }
+
     .andrew_img_set {
         margin-top: 1px;
         position: unset;
@@ -621,6 +656,15 @@ html {
         right: 40%;
         bottom: 41px;
     }
+
+    .straignt_bg {
+        margin: 48px 0 350px 0;
+    }
+
+    .straignt_img {
+        top: 84%;
+        width: 296px;
+    }
 }
 
 @media (max-width: 575.98px) {
@@ -640,7 +684,6 @@ html {
         font-size: 12px !important;
     }
 
-
     .work_slider {
         padding-bottom: 0px !important;
     }
@@ -653,29 +696,8 @@ html {
         width: 45px !important;
     }
 
-    .about_rounded_stamp {
-        left: 82%;
-        top: 21%;
-        width: 108px;
-    }
-
-    .about_rounded_stamp_logo {
-        left: 90%;
-        top: 25%;
-        width: 58px;
-    }
-
     .fs_40 {
         font-size: 18px;
-    }
-
-    .straignt_img {
-        top: 84%;
-        width: 296px;
-    }
-
-    .straignt_bg {
-        margin: 48px 0 350px 0;
     }
 
     .straignt_bg {

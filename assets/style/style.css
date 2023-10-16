@@ -225,7 +225,7 @@
     --font-3xl-bold: 22px;
     --font-4xl: 24px;
     --font-5xl: 24px;
-    --font-6xl: 46px;
+    --font-6xl: 23px;
   }
 }
 
@@ -703,8 +703,8 @@ video {
   }
 
   .exploration_heading {
-    margin-top: -4%;
-    letter-spacing: 17.634px !important;
+    margin-top: -12px;
+    letter-spacing: 13px !important;
   }
 
   .nav_logo {
@@ -722,6 +722,9 @@ video {
 }
 
 @media (max-width:575.98px) {
+  .exploration_heading {
+    letter-spacing: 13px !important;
+  }
 
   .cross_btn {
     right: 0 !important;
@@ -745,7 +748,7 @@ video {
   }
 
   .exploration_heading {
-    margin-top: -20px;
+    margin-top: -16px;
     letter-spacing: 9px !important;
   }
 
@@ -773,10 +776,6 @@ video {
 @media (max-width:449.98px) {
   .global_client_img_box {
     max-width: 80px !important;
-  }
-
-  .exploration_heading {
-    letter-spacing: 1.634px !important;
   }
 }
 
