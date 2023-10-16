@@ -134,6 +134,10 @@
   font-weight: 500;
 }
 
+.fw_semiblod {
+  font-weight: 500;
+}
+
 .fw_extrablod {
   font-weight: 800;
 }
@@ -185,7 +189,7 @@
   :root {
     --font-md: 16px;
     --font-2xl: 32px;
-    --font-3xl: 40px;
+    --font-3xl: 36px;
     --font-3xl-bold: 44px;
     --font-5xl: 56px;
     --font-6xl: 100px;
@@ -200,6 +204,7 @@
     --font-md: 16px;
     --font-lg: 12px;
     --font-xl: 18px;
+    --font-3xl: 32px;
     --font-3xl-bold: 40px;
     --font-4xl: 28px;
     --font-5xl: 39px;
@@ -209,6 +214,7 @@
 
 @media (max-width:991.98px) {
   :root {
+    --font-3xl: 28px;
     --font-6xl: 46px;
   }
 }
@@ -703,10 +709,11 @@ video {
     text-transform: uppercase;
   }
 
+ 
   .global_client_img_box {
-    max-width: 70px !important;
+    max-width: 102px !important;
     height: 35px;
-  }
+}
 
   .what_we_do_sectionBg {
     border-radius: 0px 0px 72px 0px !important;
@@ -730,10 +737,7 @@ video {
     min-height: 590px !important;
   }
 
-  .fs_xsm_14 {
-    font-size: 14px !important;
-    line-height: 15.2px !important;
-  }
+  
   .work_cards img {
     width: 40px !important;
 }
@@ -743,9 +747,24 @@ video {
 .what_we_do_card_box {
   max-width: 140px;
 }
+.fs_xsm_14 {
+    font-size: 12px !important;
+    line-height: 15.2px !important;
+  }
 }
 
 @media (max-width:575.98px) {
+  .fs_xsm_14 {
+    font-size: 14px !important;
+    line-height: 15.2px !important;
+  }
+  .global_client_img_box {
+    max-width: 70px !important;
+    height: 35px;
+  }
+  .global_client_parent {
+    max-width: 460px;
+}
   .exploration_heading {
     letter-spacing: 13px !important;
   }

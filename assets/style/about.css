@@ -340,14 +340,6 @@ html {
         padding-left: 24px;
     }
 
-    .col_xxl_4 {
-        width: 42% !important;
-    }
-
-    .w_57 {
-        width: 57% !important;
-    }
-
     .work_cards {
         padding: 0 0 0 26px;
         height: 270px;
@@ -418,10 +410,7 @@ html {
         max-width: 432px !important;
     }
 
-    .andrew_img_set {
-        position: static !important;
-    }
-
+  
     .work_cards {
         max-width: 216px;
         height: 190px;
@@ -433,12 +422,7 @@ html {
         max-width: 120px !important;
     }
 
-    .andrew_img_set {
-        margin-top: 0px;
-        margin-bottom: -150px;
-        position: unset;
-    }
-
+ 
     .andrew_bg {
         margin-bottom: 84px;
     }
@@ -516,6 +500,11 @@ html {
 }
 
 @media (max-width: 991.98px) {
+    .andrew_img_set {
+        position: absolute;
+        top: -100px !important;
+        transform: translate(-15px);
+    }
     .andrew_rotate_logo {
         right: 35% !important;
     }
@@ -525,10 +514,6 @@ html {
     }
 
 
-
-    .andrew_img_set {
-        position: unset;
-    }
 
     .max_w_375 {
         max-width: 375px;
@@ -662,6 +647,11 @@ html {
     .innovative_idea_text {
         max-width: 331px !important;
         margin: 0 auto;
+    }
+    
+
+    .andrew_img_set {
+        position: unset;
     }
     .work_cards {
         border-left: none !important;
