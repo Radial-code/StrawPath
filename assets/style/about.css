@@ -295,12 +295,7 @@ html {
     bottom: 0.5%;
 }
 
-.andrew_img_set {
-    top: -41%;
-    position: absolute;
-    left: 0;
-    transform: translateX(-30px) !important;
-}
+
 
 @media (min-width: 1400px) and (max-width: 1500px) {
     .custom_container {
@@ -329,6 +324,20 @@ html {
     bottom: -6.2%;
 }
 
+
+@media (min-width: 1281px) {
+    .andrew_img_set {
+        top: -175px;
+        position: absolute;
+        left: 0;
+        transform: translateX(-30px) !important;
+    }
+    .flex_xl_row{
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: start !important;
+    }
+}
 @media (min-width: 1600px) {
     .pb_xxl4 {
         padding-bottom: 24px;
@@ -386,7 +395,6 @@ html {
         padding-bottom: 48px !important;
     }
 }
-
 @media (max-width: 1399.98px) {
     .straignt_img {
         position: absolute;
@@ -404,6 +412,9 @@ html {
 }
 
 @media (max-width: 1280px) {
+    .andrew_img_set{
+        position: static !important;
+      }
     .work_cards {
         max-width: 209px;
         height: 190px;
