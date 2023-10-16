@@ -203,6 +203,12 @@
     --font-3xl-bold: 40px;
     --font-4xl: 35px;
     --font-5xl: 39px;
+    --font-6xl: 80px;
+  }
+}
+
+@media (max-width:991.98px) {
+  :root {
     --font-6xl: 46px;
   }
 }
@@ -555,6 +561,11 @@ video {
     line-height: 16px !important;
   }
 
+  .exploration_heading {
+    letter-spacing: 36px !important;
+  }
+
+
 }
 
 @media (max-width:1199.98px) {
@@ -592,6 +603,10 @@ video {
 @media (max-width:991.98px) {
   .hero_section_height {
     min-height: 650px !important;
+  }
+
+  .exploration_heading {
+    letter-spacing: 39.634px !important;
   }
 
   .what_we_do_sectionBg {
