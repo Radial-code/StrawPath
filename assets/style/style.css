@@ -229,6 +229,22 @@
   }
 }
 
+@media (max-width: 374.98px) {
+  :root {
+    --font-sm: 14px;
+    --font-base: 16px;
+    --font-md: 14px;
+    --font-lg: 16px;
+    --font-xl: 20px;
+    --font-2xl: 26px;
+    --font-3xl: 24px;
+    --font-3xl-bold: 22px;
+    --font-4xl: 24px;
+    --font-5xl: 24px;
+    --font-6xl: 23px;
+  }
+}
+
 
 /* ====================DEFINE COMMON CSS CODE==================== */
 .sub_para {
@@ -828,5 +844,11 @@ video {
 
   .hero_section_height {
     min-height: calc(100vh - 17vh);
+  }
+}
+
+@media (max-width:374px) {
+  .exploration_heading {
+    letter-spacing: 9.2px !important;
   }
 }

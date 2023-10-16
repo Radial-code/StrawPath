@@ -406,9 +406,10 @@ html {
 }
 
 @media (max-width: 1280px) {
-    .video_parent{
+    .video_parent {
         height: unset;
     }
+
     .about_rounded_stamp_logo {
         left: 81.5%;
         bottom: -4.2%;
@@ -727,4 +728,19 @@ html {
     .w_xsm_100 {
         width: 100% !important;
     }
+
+    .fs_14 {
+        font-size: 11px !important;
+    }
+
+    .w_328 {
+        width: 270px !important;
+    }
+
+    .main_heading_bg {
+        border-radius: 12px !important;
+    }
+        .global_client_img_box {
+            max-width: 72px !important;
+        }
 }
