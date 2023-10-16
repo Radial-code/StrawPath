@@ -550,6 +550,10 @@ html {
 }
 
 @media (max-width: 767.98px) {
+    .andrew_rotate_logo {
+        right: 45% !important;
+    }
+
     .custom_container {
         max-width: 330px !important;
     }
@@ -620,6 +624,10 @@ html {
 }
 
 @media (max-width: 575.98px) {
+    .andrew_rotate_logo {
+        right: 40% !important;
+    }
+
     .w_328 {
         width: 328px !important;
     }
