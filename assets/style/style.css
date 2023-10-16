@@ -20,7 +20,7 @@
   --font-3xl: 45px;
   --font-3xl-bold: 48px;
   --font-4xl: 50px;
-  --font-5xl: 70px;
+  --font-5xl: 60px;
   --font-6xl: 180px;
 }
 
@@ -165,9 +165,9 @@
     --font-xs: 14px;
     --font-sm: 16px;
     --font-base: 16px;
-    --font-md: 18px;
+    --font-md: 20px;
     --font-2xl: 34px;
-    --font-3xl: 42px;
+    --font-3xl: 45px;
     --font-3xl-bold: 46px;
     --font-4xl: 48px;
     --font-5xl: 60px;
@@ -238,7 +238,7 @@
 /* ====================DEFINE COMMON CSS CODE==================== */
 .sub_para {
   font-size: var(--font-lg);
-  line-height: 34px;
+  line-height: 28px;
 }
 
 .text_underline {
@@ -402,7 +402,6 @@ video {
 
 .what_we_do_cards_para {
   max-width: 440px;
-  line-height: 136%;
 }
 
 /* ======================DEFINE OUR APPROACH CSS CODE====================== */
@@ -785,7 +784,7 @@ video {
   }
 }
 
-@media (min-width:1281px) .................................{
+@media (min-width:1281px) {
   .container_modify {
     max-width: 1220px !important;
   }
