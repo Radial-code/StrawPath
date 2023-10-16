@@ -676,3 +676,13 @@ html {
         width: 233px;
     }
 }
+
+@media (max-width: 374px) {
+    .custom_container {
+        max-width: 90% !important;
+    }
+
+    .w_xsm_100 {
+        width: 100% !important;
+    }
+}
