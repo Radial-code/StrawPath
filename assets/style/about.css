@@ -298,11 +298,6 @@ html {
 
 
 @media (min-width: 1400px) and (max-width: 1500px) {
-    .custom_container {
-        max-width: 1320px !important;
-        margin: 0, auto !important;
-    }
-
     .footer_logo_w {
         width: 220px !important;
     }
@@ -334,7 +329,7 @@ html {
     }
 
     .flex_box {
-        display: flex !important;
+        /* display: flex !important; */
         flex-direction: row !important;
         align-items: start !important;
     }
@@ -348,7 +343,12 @@ html {
     }
 
     .col_xxl_6 {
-        width: 66.66666667% !important;
+        width: 50% !important;
+    }
+
+    .work_cards {
+        padding: 0 0 0 26px;
+        height: 270px;
     }
 }
 
@@ -381,10 +381,10 @@ html {
         max-width: 134px;
     }
 
-    .custom_container {
+    /* .custom_container {
         max-width: 1430px !important;
         margin: 0, auto !important;
-    }
+    } */
 
     .custom_container_xxl {
         max-width: 1726px !important;
@@ -396,10 +396,7 @@ html {
         margin: 0 auto !important;
     }
 
-    .work_cards {
-        padding: 0 0 0 36px;
-        height: 331px;
-    }
+
 
     .mt_xxl_4 {
         margin-top: 24px !important;
@@ -419,10 +416,6 @@ html {
 
     .work_cards {
         height: 280px;
-    }
-
-    .andrew_img_set {
-        top: -35%;
     }
 }
 
@@ -452,21 +445,6 @@ html {
         margin-bottom: 84px;
     }
 
-    /* .andrew_img_set {
-        transform: translateX(0px) !important;
-    }
-
-    .andrew_bg {
-        padding-bottom: 400px;
-    }
-
-    .andrew_img_w {
-        max-width: 330px !important;
-    }
-
-    .andrew_img_set {
-        top: 349px !important;
-    } */
 }
 
 @media (max-width: 1199.98px) {
