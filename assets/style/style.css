@@ -207,17 +207,6 @@
   }
 }
 
-/* @media (max-width:991.98px) {
-  :root {
-    --font-lg: 16px;
-    --font-xl: 18px;
-    --font-3xl-bold: 40px;
-    --font-4xl: 35px;
-    --font-5xl: 39px;
-    --font-6xl: 46px;
-  }
-} */
-
 @media (max-width: 767.98px) {
   :root {
     --font-sm: 14px;
@@ -388,11 +377,11 @@ video {
 /* ======================DEFINE GLOBAL CLIENT CSS CODE====================== */
 .global_client_img_box {
   height: 70px;
-  max-width: 190px !important;
+  max-width: 162px !important;
 }
 
 .global_client_parent {
-  max-width: 950px;
+  max-width: 730px;
 }
 
 /* ======================DEFINE WHAT WE DO CSS CODE====================== */
@@ -512,6 +501,10 @@ video {
   max-width: 350px;
 }
 
+.work_cards img {
+  width: 73px !important;
+}
+
 /*------------------------ DEFINE-ALL = @media-queries ----------------------  */
 @media (max-width:1599.98px) {
   .what_we_do_sectionBg {
@@ -551,7 +544,11 @@ video {
 
   .global_client_img_box {
     height: 60px;
-    max-width: 135px !important;
+    max-width: 120px !important;
+  }
+
+  .global_client_parent {
+    max-width: 560px;
   }
 
   .sub_para {
@@ -561,12 +558,9 @@ video {
 }
 
 @media (max-width:1199.98px) {
-
   .slider_icon_w {
     width: 50px;
   }
-
-
 
   .what_we_do_sectionBg {
     border-radius: 0px 0px 0px 100px !important;
@@ -703,7 +697,7 @@ video {
   }
 
   .hero_section_height {
-    min-height: calc(100vh - 20vh) !important;
+    min-height: 590px !important;
   }
 
   .fs_xsm_14 {
@@ -729,7 +723,6 @@ video {
     right: 0px !important;
   }
 
-
   .overlay {
     max-height: 310px;
   }
@@ -748,7 +741,6 @@ video {
     line-height: unset !important;
   }
 
-
   .nav_logo {
     max-width: 120px;
   }
@@ -756,8 +748,6 @@ video {
   .fs_xsm_16 {
     font-size: 16px !important;
   }
-
-
 
   .fs_xsm_12 {
     font-size: 12px !important;
@@ -817,22 +807,6 @@ video {
   .pb_xxl_3 {
     padding-bottom: 48px !important;
   }
-}
-
-@media (min-width:1281px) {
-  /* .col_xxl_4 {
-    flex: 0 0 auto !important;
-    width: 33.33333333% !important;
-  }
-  .col_xxl_4 {
-    flex: 0 0 auto !important;
-    width: 33.33333333% !important;
-  }
-
-  .flex_xl_row {
-    display: flex !important;
-    flex: row !important;
-  } */
 }
 
 @media (min-width:1900px) {

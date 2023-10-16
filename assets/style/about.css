@@ -319,7 +319,6 @@ html {
     bottom: -6.2%;
 }
 
-
 @media (min-width: 1281px) {
     .andrew_img_set {
         top: -180px;
@@ -333,7 +332,6 @@ html {
     }
 
     .flex_box {
-        /* display: flex !important; */
         flex-direction: row !important;
         align-items: start !important;
     }
@@ -369,10 +367,6 @@ html {
         padding-bottom: 24px;
     }
 
-    /* .andrew_para_two {
-            max-width: 814px;
-        } */
-
     .straignt_img {
         max-width: 627px;
     }
@@ -389,24 +383,10 @@ html {
         max-width: 134px;
     }
 
-    /* .custom_container {
-        max-width: 1430px !important;
-        margin: 0, auto !important;
-    } */
-
-    /* .custom_container_xxl {
-        max-width: 1726px !important;
-        margin: 0, auto !important;
-    } */
-
     .after_line {
-        max-width: 1726px !important;
+        max-width: 1252px !important;
         margin: 0 auto !important;
     }
-
-
-
-
 
     .pb_xxl_48 {
         padding-bottom: 48px !important;
@@ -454,7 +434,6 @@ html {
 }
 
 @media (max-width: 1199.98px) {
-
     .andrew_img_set {
         transform: translate(0px);
     }
@@ -463,8 +442,6 @@ html {
         max-width: 400px !important;
     }
 
-
-
     .fs_40 {
         font-size: 29px;
     }
@@ -472,12 +449,6 @@ html {
     .about_rounded_stamp {
         width: 118px;
     }
-
-    /* .andrew_img_set {
-        top: -281px;
-        position: absolute;
-        left: -36px;
-    } */
 
     .about_rounded_stamp_logo {
         width: 63px;
@@ -510,8 +481,6 @@ html {
         bottom: 87px;
     }
 
-
-
     .about_rounded_stamp {
         z-index: 1;
         max-width: 175px;
@@ -521,8 +490,6 @@ html {
 }
 
 @media (max-width: 991.98px) {
-
-
     .about_rounded_stamp_logo {
         bottom: -3.2%;
     }
@@ -552,7 +519,7 @@ html {
     }
 
     .andrew_bg {
-        border-radius: 0px 160px 0px 0px !important;
+        border-radius: 0px 100px 0px 0px !important;
     }
 
     .straignt_img {
@@ -566,7 +533,6 @@ html {
     .work_cards {
         border-left: 3px solid var(--color-Bandicoot) !important;
     }
-
 }
 
 @media (max-width: 767.98px) {
@@ -617,8 +583,6 @@ html {
         padding: 16px 55.5px;
     }
 
-
-
     .andrew_img_set {
         margin-top: 1px;
         position: unset;
@@ -642,8 +606,6 @@ html {
 }
 
 @media (max-width: 575.98px) {
-
-
     .w_328 {
         width: 328px !important;
     }
@@ -698,8 +660,6 @@ html {
         border-radius: 0px 100px 0px 0px;
     }
 
-
-
     #scroll {
         bottom: 15px !important;
         right: 8px !important;
@@ -709,8 +669,6 @@ html {
     .footer_logo_w {
         width: 92px !important;
     }
-
-
 
     .main_heading_bg {
         padding: 13px 18px;
