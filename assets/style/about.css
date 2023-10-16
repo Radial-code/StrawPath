@@ -431,6 +431,21 @@ html {
         margin-bottom: 84px;
     }
 
+    .strapath_rounded_stamp {
+        width: 150px !important;
+        z-index: 1;
+    }
+
+    .andrew_rotate_logo {
+        right: 40% !important;
+        bottom: 45px;
+    }
+
+    .strapath_rounded_stamp_2 {
+        width: 57px;
+        left: 43px;
+        top: 38px;
+    }
 }
 
 @media (max-width: 1199.98px) {
@@ -477,7 +492,6 @@ html {
     }
 
     .andrew_rotate_logo {
-        right: 21%;
         bottom: 87px;
     }
 
@@ -490,6 +504,10 @@ html {
 }
 
 @media (max-width: 991.98px) {
+    .andrew_rotate_logo {
+        right: 35% !important;
+    }
+
     .about_rounded_stamp_logo {
         bottom: -3.2%;
     }
@@ -524,10 +542,6 @@ html {
 
     .straignt_img {
         top: -75%;
-    }
-
-    .andrew_rotate_logo {
-        right: 24%;
     }
 
     .work_cards {
