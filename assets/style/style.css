@@ -218,8 +218,8 @@
     --font-sm: 14px;
     --font-base: 16px;
     --font-md: 16px;
-    --font-lg: 16px;
-    --font-xl: 20px;
+    --font-lg: 8px;
+    --font-xl: 14px;
     --font-2xl: 26px;
     --font-3xl: 24px;
     --font-3xl-bold: 22px;
@@ -228,12 +228,11 @@
     --font-6xl: 23px;
   }
 }
-
-@media (max-width: 374.98px) {
+@media (max-width: 575.98px) {
   :root {
     --font-sm: 14px;
     --font-base: 16px;
-    --font-md: 14px;
+    --font-md: 16px;
     --font-lg: 16px;
     --font-xl: 20px;
     --font-2xl: 26px;
@@ -642,17 +641,17 @@ video {
   .video_side_img {
     max-width: 100px;
   }
-
+  .slider_icon_w {
+    width: 44px;
+}
 }
 
 @media (max-width:767.98px) {
   .sub_para {
-    line-height: 18.76px !important;
+    line-height: 16px;
   }
 
-  .what_we_do_card_box {
-    max-width: 285px;
-  }
+
 
   .lh_custom {
     line-height: 120.5%;
@@ -735,13 +734,24 @@ video {
     font-size: 14px !important;
     line-height: 15.2px !important;
   }
+  .work_cards img {
+    width: 40px !important;
+}
+.slider_icon_w {
+  width: 36px;
+}
+.what_we_do_card_box {
+  max-width: 140px;
+}
 }
 
 @media (max-width:575.98px) {
   .exploration_heading {
     letter-spacing: 13px !important;
   }
-
+  .what_we_do_card_box {
+    max-width: 285px;
+  }
   .cross_btn {
     right: 0 !important;
   }
@@ -844,11 +854,5 @@ video {
 
   .hero_section_height {
     min-height: calc(100vh - 17vh);
-  }
-}
-
-@media (max-width:374px) {
-  .exploration_heading {
-    letter-spacing: 9.2px !important;
   }
 }

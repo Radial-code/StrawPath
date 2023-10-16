@@ -331,8 +331,21 @@ html {
         margin-bottom: 48px !important;
     }
 
+    .flex_box {
+        flex-direction: row !important;
+        align-items: start !important;
+    }
+
     .ps_xl_4 {
         padding-left: 24px;
+    }
+
+    .col_xxl_4 {
+        width: 42% !important;
+    }
+
+    .w_57 {
+        width: 57% !important;
     }
 
     .work_cards {
@@ -393,10 +406,9 @@ html {
 }
 
 @media (max-width: 1280px) {
-    .video_parent {
+    .video_parent{
         height: unset;
     }
-
     .about_rounded_stamp_logo {
         left: 81.5%;
         bottom: -4.2%;
@@ -411,7 +423,7 @@ html {
     }
 
     .work_cards {
-        max-width: 209px;
+        max-width: 216px;
         height: 190px;
         padding: 0px 0px 0px 12px !important;
         border-left: 2px solid var(--color-Bandicoot);
@@ -537,6 +549,7 @@ html {
 
     .work_cards {
         border-left: 3px solid var(--color-Bandicoot) !important;
+        height: 180px;
     }
 
     .about_rounded_stamp_logo {
@@ -571,12 +584,6 @@ html {
         right: 45% !important;
     }
 
-    .work_cards {
-        max-width: unset;
-        height: 200px !important;
-        padding: 0px !important;
-    }
-
     .straignt_img {
         top: -60%;
     }
@@ -593,18 +600,8 @@ html {
         margin-bottom: 50px;
     }
 
-    .work_cards {
-        border-left: none !important;
-        padding: unset;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .innovative_idea_text {
-        max-width: 331px !important;
-        margin: 0 auto;
-    }
+   
 
     .andrew_para {
         letter-spacing: 1px !important;
@@ -651,13 +648,39 @@ html {
         top: 84%;
         width: 296px;
     }
+    .sub_para {
+        line-height: 12px !important;
+    }
+    .work_cards{
+        height: 140px !important;
+        max-width: 145px;
+    }
+ 
 }
 
 @media (max-width: 575.98px) {
+    .innovative_idea_text {
+        max-width: 331px !important;
+        margin: 0 auto;
+    }
+    .work_cards {
+        border-left: none !important;
+        padding: unset;
+        display: flex;
+        flex-direction: column;
+        max-width: unset;
+        height: 190px !important;
+        padding: 0px !important;
+        align-items: center;
+        width: unset !important;
+    }
+    .sub_para {
+        line-height: 18px !important;
+    }
+
     .custom_container {
         max-width: 330px !important;
     }
-
     .andrew_rotate_logo {
         right: 40% !important;
     }
@@ -714,21 +737,5 @@ html {
 
     .w_xsm_100 {
         width: 100% !important;
-    }
-
-    .fs_14 {
-        font-size: 11px !important;
-    }
-
-    .w_328 {
-        width: 270px !important;
-    }
-
-    .main_heading_bg {
-        border-radius: 12px !important;
-    }
-
-    .global_client_img_box {
-        max-width: 72px !important;
     }
 }
