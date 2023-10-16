@@ -428,10 +428,10 @@ html {
         max-width: 120px !important;
     }
 
- 
     .andrew_bg {
-        margin-bottom: 84px;
+        margin-bottom: 40px;
     }
+ 
 
     .strapath_rounded_stamp {
         width: 150px !important;
@@ -454,7 +454,6 @@ html {
     .andrew_img_set {
         position: absolute;
         top: -100px !important;
-        transform: translate(0px);
     }
 
     .straignt_img_w {
@@ -511,6 +510,7 @@ html {
     .andrew_img_set {
         position: absolute;
         top: -100px !important;
+        transform: translate(0px);
     }
     .andrew_rotate_logo {
         right: 35% !important;
@@ -611,11 +611,6 @@ html {
         max-width: 546px !important;
     }
 
-    .andrew_img_set {
-        margin-top: 1px;
-        position: unset;
-        margin-bottom: -100px;
-    }
 
     .strapath_rounded_stamp_2 {
         width: 50px;
@@ -647,10 +642,22 @@ html {
         height: 140px !important;
         max-width: 145px;
     }
- 
+    .andrew_img_set {
+        position: absolute;
+        top: -100px !important;
+        transform: translate(0px);
+    }
 }
 
 @media (max-width: 575.98px) {
+    .andrew_bg {
+        margin-bottom: 84px;
+    }
+    .andrew_img_set {
+        margin-top: 1px;
+        position: unset;
+        margin-bottom: -100px;
+    }
     .innovative_idea_text {
         max-width: 331px !important;
         margin: 0 auto;
