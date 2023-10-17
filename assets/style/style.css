@@ -201,13 +201,13 @@
     --font-xs: 12px;
     --font-sm: 14px;
     --font-base: 12px;
-    --font-md: 16px;
+    --font-md: 13px;
     --font-lg: 12px;
     --font-xl: 18px;
     --font-3xl: 32px;
     --font-3xl-bold: 40px;
     --font-4xl: 28px;
-    --font-5xl: 39px;
+    --font-5xl: 35px;
     --font-6xl: 80px;
   }
 }
@@ -221,9 +221,10 @@
 
 @media (max-width: 767.98px) {
   :root {
-    --font-sm: 14px;
-    --font-base: 16px;
-    --font-md: 16px;
+    --font-xs: 10px;
+    --font-sm: 10px;
+    --font-base: 10px;
+    --font-md: 9px;
     --font-lg: 8px;
     --font-xl: 14px;
     --font-2xl: 26px;
@@ -237,6 +238,7 @@
 
 @media (max-width: 575.98px) {
   :root {
+    --font-xs: 12px;
     --font-sm: 14px;
     --font-base: 16px;
     --font-md: 16px;
@@ -859,7 +861,7 @@ video {
   }
 
   .custom_container {
-    max-width: 1140px !important;
+    max-width: 1160px !important;
   }
 }
 
@@ -895,6 +897,6 @@ video {
   }
 
   .hero_section_height {
-    min-height: calc(100vh - 17vh);
+    min-height: 893px !important;
   }
 }

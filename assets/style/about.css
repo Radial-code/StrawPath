@@ -203,7 +203,7 @@ html {
 }
 
 .footer_logo_w {
-    max-width: 271px !important;
+    max-width: 271px;
 }
 
 .max_w_375 {
@@ -307,6 +307,18 @@ html {
     }
 }
 
+@media (min-width: 1280px) and (max-width: 1399px) {
+    .andrew_img_w {
+        max-width: 440px !important;
+    }
+
+    .andrew_img_set {
+        top: -140px !important;
+        left: 0;
+        transform: translateX(-15px) !important;
+    }
+}
+
 .about_rounded_stamp {
     z-index: 1;
     max-width: 175px;
@@ -318,6 +330,7 @@ html {
     left: 80.5%;
     bottom: -6.2%;
 }
+
 .andrew_img_set {
     top: -180px;
     position: absolute;
@@ -349,6 +362,7 @@ html {
     .work_cards {
         padding: 0 0 0 26px;
         height: 270px;
+        max-width: 355px;
     }
 
     .andrew_para_two {
@@ -404,9 +418,14 @@ html {
 }
 
 @media (max-width: 1280px) {
-    .video_parent{
+    .video_parent {
         height: unset;
     }
+
+    .andrew_img_set {
+        top: -111px;
+    }
+
     .about_rounded_stamp_logo {
         left: 81.5%;
         bottom: -4.2%;
@@ -416,7 +435,7 @@ html {
         max-width: 432px !important;
     }
 
-  
+
     .work_cards {
         max-width: 216px;
         height: 190px;
@@ -425,13 +444,13 @@ html {
     }
 
     .footer_logo_w {
-        max-width: 120px !important;
+        max-width: 120px;
     }
 
     .andrew_bg {
         margin-bottom: 40px;
     }
- 
+
 
     .strapath_rounded_stamp {
         width: 150px !important;
@@ -453,7 +472,7 @@ html {
 @media (max-width: 1199.98px) {
     .andrew_img_set {
         position: absolute;
-        top: -100px !important;
+        top: -115px !important;
     }
 
     .straignt_img_w {
@@ -512,6 +531,7 @@ html {
         top: -100px !important;
         transform: translate(0px);
     }
+
     .andrew_rotate_logo {
         right: 35% !important;
     }
@@ -593,7 +613,7 @@ html {
     }
 
 
-   
+
 
     .andrew_para {
         letter-spacing: 1px !important;
@@ -635,13 +655,16 @@ html {
         top: 84%;
         width: 296px;
     }
+
     .sub_para {
         line-height: 12px !important;
     }
-    .work_cards{
+
+    .work_cards {
         height: 140px !important;
         max-width: 145px;
     }
+
     .andrew_img_set {
         position: absolute;
         top: -100px !important;
@@ -653,20 +676,23 @@ html {
     .andrew_bg {
         margin-bottom: 84px;
     }
+
     .andrew_img_set {
         margin-top: 1px;
         position: unset;
         margin-bottom: -100px;
     }
+
     .innovative_idea_text {
         max-width: 331px !important;
         margin: 0 auto;
     }
-    
+
 
     .andrew_img_set {
         position: unset;
     }
+
     .work_cards {
         border-left: none !important;
         padding: unset;
@@ -678,6 +704,7 @@ html {
         align-items: center;
         width: unset !important;
     }
+
     .sub_para {
         line-height: 18px !important;
     }
@@ -685,6 +712,7 @@ html {
     .custom_container {
         max-width: 330px !important;
     }
+
     .andrew_rotate_logo {
         right: 40% !important;
     }
@@ -741,5 +769,11 @@ html {
 
     .w_xsm_100 {
         width: 100% !important;
+    }
+}
+
+@media (min-width:576px) and (max-width:767.98px) {
+    .footer_logo_w {
+        max-width: 90px !important;
     }
 }
