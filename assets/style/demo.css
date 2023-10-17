@@ -238,7 +238,6 @@
     line-height: 93.5%;
     letter-spacing: 3.125px;
     padding: 0.9em 2.2em;
-
     transition: all 0.3s ease-in;
     margin-top: 2.8em;
   }
@@ -252,7 +251,7 @@
 }
   /* ==========DEIFINE FOOTER SECITON========== */
   .footer_container{
-    max-width: min(80vw, 1440px);
+    max-width: min( 1440px,80vw);
   }
   .footer_logo_w{
     width: min(14vw, 290px);
@@ -352,4 +351,10 @@
     .fs_12 {
         font-size: 12px !important;
     }
+    .footer_panding{
+      padding: 0px !important;
+    }
+    .footer_logo_w {
+      width: 92px !important;
+  }
   }
