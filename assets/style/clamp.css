@@ -187,10 +187,6 @@
      max-width: 350px;
  }
 
- .work_cards img {
-     width: 73px !important;
- }
-
  .biege-background {
      background-color: #E3DDD6;
      padding: min(106px, 9.5vw) min(230px, 12vw);
@@ -309,6 +305,15 @@
  }
 
  /*---------------------------- we work with css Start  ---------------------------- */
+ .we_after_section {
+     padding: 0 min(230px, 12vw);
+ }
+
+ .we_work_main_haeding {
+     padding: min(120px, 6.5vw) 0 0 0;
+     font-size: clamp(12px, 1.5vw, 25px);
+ }
+
  .we_work_space {
      padding: min(40px, 8.6vw) 24px min(80px, 8.6vw) 24px;
  }
@@ -320,13 +325,26 @@
  }
 
  .work_container {
-     max-width: 1466px;
+     /* max-width: 1466px; */
+     max-width: min(1440px, 76.3vw);
      margin: 0 auto;
      display: flex;
      gap: min(70px, 5vw);
  }
 
+ .we_do_card img {
+     width: min(73px, 3.8vw);
+ }
+
+ /* .work_cards img {
+     width: 73px !important;
+ } */
+
  @media (max-width: 991.98px) {
+     .work_container {
+         gap: min(19px, 5vw);
+     }
+
      .we_work_card {
          border-left: 4px solid var(--color-Bandicoot);
      }
@@ -366,6 +384,10 @@
 
      .what_after_section {
          padding: 0 min(24px, 12vw);
+     }
+
+     .we_after_section {
+         padding: 0 min(65px, 12vw);
      }
  }
 
