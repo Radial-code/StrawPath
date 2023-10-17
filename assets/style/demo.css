@@ -305,7 +305,7 @@
       overflow: hidden !important;
     }
   }
-  @media (max-width:576px) {
+  @media (max-width:575.98px) {
     .overlay{
         max-height: 280px !important;
     }
