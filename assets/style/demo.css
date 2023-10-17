@@ -250,7 +250,7 @@
  
 }
   /* ==========DEIFINE FOOTER SECITON========== */
-  .footer_container{
+  .modify_container{
     max-width: min( 1440px,80vw);
   }
   .footer_logo_w{
@@ -283,6 +283,59 @@
   .footer_panding{
     padding: min(78px, 4.0625vw) 0;
   }
+  /* =====================DEFINE ANDREW SECTION===================== */
+  .andrew_bg {
+    background-color: var(--color-Bandicoot);
+    margin:48px 0px;
+}
+.andrew_img{
+  transform: translateY(-12%);
+  width:27.91vw !important;
+}
+.ardrew_heading{
+  font-size: clamp(18px, 2.34375vw, 45px);
+}
+.founder_heading{
+  font-size: clamp(8px, 1.5vw, 20px);
+  letter-spacing: 2.5px;
+}
+.ardrew_para{
+  font-size: clamp(8px,1.302vw, 25px);
+  line-height: 136%;
+}
+.bottom_right_rounded {
+  border-top-right-radius: min(240px, 8vw);
+}
+.andrew_rotate_logo {
+  right: 20%;
+  bottom:20%;
+  z-index: 5;
+}
+.strapath_rounded_stamp_2 {
+  width: 5.25vw;
+  transform: translate(70%, 52%);
+}
+.strapath_rounded_stamp{
+  width: 13.10416666666667vw !important;
+}
+.rotate {
+  animation: rotation infinite 40s linear;
+}
+
+@keyframes rotation {
+  from {
+      transform: rotate(0deg);
+  }
+
+  to {
+      transform: rotate(360deg);
+  }
+}
+@media (max-width:991.98px) {
+  .founder_heading{
+    letter-spacing: 1px;
+  }
+}
   @media (max-width:767.98px) {
     .overlay {
       position: absolute;
@@ -306,8 +359,28 @@
     }
   }
   @media (max-width:575.98px) {
+    .ardrew_heading{
+      font-size:24px;
+    }
+    .founder_heading{
+      font-size:16px;
+      letter-spacing: 2.5px;
+    }
+    .ardrew_para{
+      font-size: 16px;
+    }
+    .bottom_right_rounded{
+      border-top-right-radius: 100px !important;
+    }
+    .andrew_img{
+      transform: translateY(40px);
+      width: unset !important;
+    }
     .overlay{
         max-height: 280px !important;
+    }
+    .modify_container{
+        max-width: 300px;
     }
     .hero_container{
         max-width: 300px;
@@ -357,4 +430,13 @@
     .footer_logo_w {
       width: 92px !important;
   }
+  .andrew_rotate_logo {
+    right: 35%;
+    bottom:2%;
+  }
+  .strapath_rounded_stamp_2 {
+    width: 9.25vw !important;
+}.strapath_rounded_stamp {
+  width: 22.104167vw !important;
+}
   }
