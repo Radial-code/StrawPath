@@ -247,13 +247,17 @@
      border-bottom: 2px solid var(--color-Bandicoot);
  }
 
+ .our_line {
+     border-bottom: 2px solid #122B18;
+ }
+
  /*---------------------------- Approch  css Start  ---------------------------- */
  .approach_container {
      max-width: 68.75vw;
  }
 
  .approch_heading {
-     padding: min(120px, 6.5vw) 0 0 0;
+     padding: min(37px, 1.92vw) 0 0 0;
      font-size: clamp(12px, 1.56vw, 30px);
  }
 
@@ -305,6 +309,11 @@
  }
 
  /*---------------------------- we work with css Start  ---------------------------- */
+ .insights_heading {
+     font-size: clamp(12px, 1.5vw, 30px);
+     line-height: 16px;
+ }
+
  .we_after_section {
      padding: 0 min(230px, 12vw);
  }
@@ -325,7 +334,6 @@
  }
 
  .work_container {
-     /* max-width: 1466px; */
      max-width: min(1440px, 76.3vw);
      margin: 0 auto;
      display: flex;
@@ -335,10 +343,6 @@
  .we_do_card img {
      width: min(73px, 3.8vw);
  }
-
- /* .work_cards img {
-     width: 73px !important;
- } */
 
  @media (max-width: 991.98px) {
      .work_container {
@@ -465,5 +469,9 @@
      .we_do_card {
          align-items: center;
          text-align: center;
+     }
+
+     .work_slider {
+         padding: 0 20px 0 0 !important;
      }
  }
