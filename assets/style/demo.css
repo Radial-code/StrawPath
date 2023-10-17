@@ -264,7 +264,7 @@
     width: min(20.53vw, 395px);
   }
   .footer_main_para{
-    font-size: clamp(7px, 0.83vw, 16px);
+    font-size: clamp(5px, 0.83vw, 16px);
     margin-bottom: 1.5em;
   }
   .footer_para{
@@ -274,12 +274,15 @@
     width: min(30px, 2vw);
   }
    .footer_heading{
-    font-size:  clamp(8px, 0.95vw, 18px) ;
+    font-size:  clamp(6px, 0.95vw, 18px) ;
     margin-bottom: 1em;
    }
   .footer_link{
     font-size: clamp(6px, 0.75vw, 14px);
     padding-bottom: 0.7em;
+  }
+  .footer_panding{
+    padding: min(78px, 4.0625vw) 0;
   }
   @media (max-width:767.98px) {
     .overlay {
@@ -328,5 +331,13 @@
         font-size: 14px;
         padding:0.8em 2.2em ;
         margin-top: 2em;
+    }
+    .footer_box{
+        max-width: 300px;
+        width: unset;
+        margin: 0 auto;
+    }
+    .footer_para{
+        font-size: 14px !important;
     }
   }
