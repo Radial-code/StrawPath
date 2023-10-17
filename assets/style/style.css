@@ -234,6 +234,7 @@
     --font-6xl: 23px;
   }
 }
+
 @media (max-width: 575.98px) {
   :root {
     --font-sm: 14px;
@@ -570,8 +571,8 @@ video {
   }
 
   .global_client_img_box {
-    height: 60px;
-    max-width: 120px !important;
+    height: 45px;
+    max-width: 90px !important;
   }
 
   .global_client_parent {
@@ -586,6 +587,9 @@ video {
     letter-spacing: 36px !important;
   }
 
+  .global_client_parent {
+    max-width: 453px;
+  }
 
 }
 
@@ -622,6 +626,10 @@ video {
 }
 
 @media (max-width:991.98px) {
+  .global_client_img_box {
+    max-width: 106px !important;
+  }
+
   .hero_section_height {
     min-height: 650px !important;
   }
@@ -647,9 +655,14 @@ video {
   .video_side_img {
     max-width: 100px;
   }
+
   .slider_icon_w {
     width: 44px;
-}
+  }
+
+  .global_client_parent {
+    max-width: 452px;
+  }
 }
 
 @media (max-width:767.98px) {
@@ -657,7 +670,9 @@ video {
     line-height: 16px;
   }
 
-
+  .global_client_parent {
+    max-width: 447px;
+  }
 
   .lh_custom {
     line-height: 120.5%;
@@ -709,11 +724,11 @@ video {
     text-transform: uppercase;
   }
 
- 
+
   .global_client_img_box {
     max-width: 102px !important;
     height: 35px;
-}
+  }
 
   .what_we_do_sectionBg {
     border-radius: 0px 0px 72px 0px !important;
@@ -737,17 +752,20 @@ video {
     min-height: 590px !important;
   }
 
-  
+
   .work_cards img {
     width: 40px !important;
-}
-.slider_icon_w {
-  width: 36px;
-}
-.what_we_do_card_box {
-  max-width: 140px;
-}
-.fs_xsm_14 {
+  }
+
+  .slider_icon_w {
+    width: 36px;
+  }
+
+  .what_we_do_card_box {
+    max-width: 140px;
+  }
+
+  .fs_xsm_14 {
     font-size: 12px !important;
     line-height: 15.2px !important;
   }
@@ -758,19 +776,24 @@ video {
     font-size: 14px !important;
     line-height: 15.2px !important;
   }
+
   .global_client_img_box {
     max-width: 70px !important;
     height: 35px;
   }
+
   .global_client_parent {
     max-width: 460px;
-}
+  }
+
   .exploration_heading {
     letter-spacing: 13px !important;
   }
+
   .what_we_do_card_box {
     max-width: 285px;
   }
+
   .cross_btn {
     right: 0 !important;
   }
