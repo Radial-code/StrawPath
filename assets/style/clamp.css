@@ -1,0 +1,367 @@
+ @import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800&family=Tenor+Sans&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body,
+ html {
+     overflow-x: hidden;
+     scroll-behavior: smooth !important;
+     background-color: var(--color-whiteCream) !important;
+ }
+
+ /*--------------------------------- ROOT-DEFINE-VALUES --------------------------------- */
+ :root {
+     --color-whiteCream: #FFF9F0;
+     --color-Bandicoot: #89886D;
+     --color-lightPink: #E3DDD6;
+     --color-lightBrown: #B7AC84;
+     --color-CoralReef: #C8C0A1;
+     --color-Teal: #BEC9C0;
+     --color-darkGreen: #122B18;
+ }
+
+ /*--------------------- DEFINE-ALL = ROOT-VALUE ------------------------------ */
+ .color_whiteCream {
+     color: var(--color-whiteCream) !important;
+ }
+
+ .color_CoralReef {
+     color: var(--color-CoralReef) !important;
+ }
+
+ .color_lightPink {
+     color: var(--color-lightPink) !important;
+ }
+
+ .color_lightBrown {
+     color: var(--color-lightBrown) !important;
+ }
+
+ .color_Teal {
+     color: var(--color-Teal) !important;
+ }
+
+ .color_darkGreen {
+     color: var(--color-darkGreen) !important;
+ }
+
+ .color_Bandicoot {
+     color: var(--color-Bandicoot) !important;
+ }
+
+ .opacity_08 {
+     opacity: 0.8 !important;
+ }
+
+ /*---------------------------- DEFINE-ALL = BACKGROUND COLOR ---------------------------- */
+ .bg_lightPink {
+     background: var(--color-lightPink);
+ }
+
+ .bg_lightBrown {
+     background: var(--color-lightBrown);
+ }
+
+ .bg_Teal {
+     background: var(--color-Teal);
+ }
+
+ .bg_darkGreen {
+     background: var(--color-darkGreen) !important;
+ }
+
+ .bg_Bandicoot {
+     background: var(--color-Bandicoot);
+ }
+
+ /*---------------------------- DEFINE-ALL = FONT-FAMILY---------------------------- */
+ .ff_jost {
+     font-family: 'Jost', sans-serif;
+ }
+
+ .ff_tenor {
+     font-family: 'Tenor Sans', sans-serif;
+ }
+
+ .ff_montserrat {
+     font-family: 'Montserrat', sans-serif;
+ }
+
+ /*---------------------------- DEFINE-ALL = FONT-WEIGHT ---------------------------- */
+
+ .fw-normal {
+     font-weight: 400;
+ }
+
+ .fw_medium {
+     font-weight: 500;
+ }
+
+ .fw_semiblod {
+     font-weight: 600;
+ }
+
+ .fw_extrablod {
+     font-weight: 800;
+ }
+
+ .fw-bold {
+     font-weight: 700;
+ }
+
+ .lh_108 {
+     line-height: 108.5%;
+ }
+
+ .lh_110 {
+     line-height: 110%;
+ }
+
+ .lh_116 {
+     line-height: 116.5%;
+ }
+
+ .lh_117 {
+     line-height: 117%;
+ }
+
+ .lh_93 {
+     line-height: 93.5%;
+ }
+
+ .lh_57 {
+     line-height: 143.5%;
+ }
+
+ .lh_custom {
+     line-height: 93.5%;
+ }
+
+ .z_index1 {
+     z-index: 1;
+ }
+
+ .z_index2 {
+     z-index: 2;
+ }
+
+ .z_index3 {
+     z-index: 3;
+ }
+
+ .z_index4 {
+     z-index: 4;
+ }
+
+ .text-uppercase {
+     text-transform: uppercase;
+ }
+
+
+ /*---------------------------- Global css Start  ---------------------------- */
+ .global_container {
+     max-width: 47.44vw !important;
+     margin: 0 auto !important;
+ }
+
+ .global_haeding {
+     padding: min(120px, 6.5vw) 0 0 0;
+     font-size: clamp(12px, 1.5vw, 25px);
+ }
+
+ .global_logo_grand_parent {
+     gap: 2.5vw;
+     padding: min(90px, 4.6vw) 0;
+ }
+
+ .global_logo_parent {
+     width: 9.6vw;
+ }
+
+ /*---------------------------- What We Do css Start  ---------------------------- */
+ .what_we_do_card_box {
+     max-width: 350px;
+ }
+
+ .work_cards img {
+     width: 73px !important;
+ }
+
+ .biege-background {
+     background-color: #E3DDD6;
+     padding: min(106px, 9.5vw) min(230px, 12vw);
+ }
+
+ .mb_m_1 {
+     margin-bottom: -1px;
+ }
+
+ .what_after_section {
+     padding: 0 min(230px, 12vw);
+ }
+
+ .bottom-left-rounded {
+     border-bottom-left-radius: min(240px, 8vw);
+ }
+
+ .common_container {
+     max-width: 1440px;
+     margin: 0 auto;
+     display: flex;
+     gap: min(70px, 5vw);
+ }
+
+ .we_do_card {
+     flex-direction: column;
+     align-items: start;
+ }
+
+ .we_do_card img {
+     width: min(64px, 2.7vw);
+     min-width: 20px;
+ }
+
+ .we_do_heading {
+     font-size: clamp(12px, 1.5vw, 30px);
+     margin: min(31px, 1.61vw) 0 min(20px, 10.4vw) 0;
+     line-height: 0.8;
+ }
+
+ .we_do_para {
+     font-size: clamp(7px, 1.35vw, 25px);
+     line-height: 1.36;
+ }
+
+ .what_we_main_heading {
+     background-color: var(--color-Bandicoot);
+     padding: min(22px, 1.14vw) min(65px, 3.38vw);
+     font-size: clamp(14px, 1.56vw, 30px);
+     border-radius: min(26px, 1.35vw);
+     line-height: 93.5%;
+     letter-spacing: 3.75px;
+ }
+
+ .what_line {
+     width: 95%;
+     left: 2%;
+     border-bottom: 2px solid var(--color-Bandicoot);
+ }
+
+ /*---------------------------- Approch  css Start  ---------------------------- */
+ .approach_container {
+     max-width: 68.75vw;
+ }
+
+ .approch_heading {
+     padding: min(120px, 6.5vw) 0 0 0;
+     font-size: clamp(12px, 1.56vw, 30px);
+ }
+
+ .aproch_image_lg {
+     padding: min(163px, 9.5vw) 0 min(236px, 12vw) 0;
+ }
+
+ @media (max-width: 576px) {
+     .what_line {
+         width: 97%;
+         left: 1.5%;
+         border-bottom: 1px solid var(--color-Bandicoot);
+     }
+
+     .global_container {
+         max-width: 88.18vw !important;
+     }
+
+     .global_haeding {
+         font-size: clamp(12px, 1.5vw, 25px);
+     }
+
+     .global_logo_grand_parent {
+         gap: 2.5vw;
+         padding: min(90px, 8.6vw) 0 40px 0;
+     }
+
+     .global_logo_parent {
+         width: 18.6vw;
+     }
+
+     .biege-background {
+         padding: min(40px, 8.6vw) 24px min(80px, 8.6vw) 24px;
+     }
+
+     .what_after_section {
+         padding: 0 min(24px, 12vw);
+     }
+ }
+
+ @media (max-width: 575px) {
+     .what_we_main_heading {
+         background-color: var(--color-Bandicoot);
+         padding: 13px 34px;
+         font-size: clamp(14px, 1.56vw, 30px);
+         border-radius: 16px;
+         line-height: 93.5%;
+         letter-spacing: 2.5px;
+     }
+
+     .what_line {
+         width: 100%;
+         left: 0%;
+         border-bottom: 1px solid var(--color-Bandicoot);
+     }
+
+     .what_after_section {
+         text-align: center;
+     }
+
+     .approch_heading {
+         font-size: 16px;
+         max-width: 318px;
+         line-height: 16px;
+     }
+
+     .global_haeding {
+         max-width: 303px;
+     }
+
+     .bottom-left-rounded {
+         border-bottom-right-radius: 145px;
+         border-bottom-left-radius: 0px;
+     }
+
+     .we_do_card {
+         max-width: 280px;
+     }
+
+     .we_do_card img {
+         width: min(45px, 12.7vw);
+     }
+
+     .we_do_heading {
+         margin: 18px 0 12px 0;
+     }
+
+     .we_do_para {
+         font-size: 16px;
+     }
+
+     .we_do_heading {
+         font-size: 18px;
+     }
+
+     .common_container {
+         display: flex;
+         flex-direction: column;
+         max-width: 300px;
+         gap: 60px
+     }
+
+     .we_do_card {
+         align-items: center;
+         text-align: center;
+     }
+ }
