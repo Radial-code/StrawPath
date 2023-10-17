@@ -58,15 +58,12 @@
       </video>
       <!-- =================DEFINE NAVBAR CODE================= -->
       <section id="home" class="position-relative hero_bg hero_section_height ">
-        <nav class="text-center pt-4 pt-xxl-5">
-          <div class="hero_container mx-auto mb-4">
+        <nav class="text-center">
+          <div class="hero_container mx-auto">
             <div class="d-flex align-items-center">
-              <div class="nav_logo mx-auto">
-                <a href="/">
-                  <img class="w-100" src="./assets/images/svg/nav-logo.svg" alt="navbar-logo">
+                <a href="/" class="mx-auto">
+                  <img class="nav_logo" src="./assets/images/svg/nav-logo.svg" alt="navbar-logo">
                 </a>
-  
-              </div>
               <div onclick="Togleside()" class="d-md-none menu border-0 bg-transparent position-relative" id="toggle_btn">
                 <svg class="toggle_icon" xmlns="http://www.w3.org/2000/svg" width="21" height="17" viewBox="0 0 21 17"
                   fill="none">
@@ -76,7 +73,7 @@
                 </svg>
               </div>
             </div>
-            <ul class="d-none d-md-flex align-items-center justify-content-center list-unstyled px-0 gap-4">
+            <ul class="d-none d-md-flex align-items-center justify-content-center list-unstyled px-0 gap-4 mb-0">
   
               <li>
                 <a class="color_whiteCream text_underline font_sm ff_montserrat text-uppercase fw_extrablod text-decoration-none"
@@ -107,11 +104,11 @@
                   </button>
                 </li>
                 <li class="mt-3 mt-sm-4 pb-1 pb-sm-3  px-2 px-sm-4" onclick="hideNav()">
-                  <a class="color_whiteCream fw-normal ff_tenor font_md nav_link text-uppercase text-decoration-none"
+                  <a class="color_whiteCream fw-normal ff_tenor font_base nav_link text-uppercase text-decoration-none"
                     href="#home">Home</a>
                 </li>
                 <li class="mt-4 mb-sm-3 pb-2 pb-4  px-2 px-sm-4 border_bottom_2 d-inline-block" onclick="hideNav()">
-                  <a class="color_whiteCream fw-normal pb-2 ff_tenor font_md nav_link text-uppercase text-decoration-none"
+                  <a class="color_whiteCream fw-normal pb-2 ff_tenor font_base nav_link text-uppercase text-decoration-none"
                     href="/Our-story.html">our story</a>
                 </li>
                 <li class="mt-3 pb-2 pb-sm-4 mb-2 mb-sm-4  px-2 px-sm-4" onclick="hideNav()">
@@ -144,19 +141,19 @@
         </nav>
         <div class="hero_container z_index4 mx-auto">
           <!-- =================DEFINE HERO SECTION CODE================= -->
-          <div class="row justify-content-center align-items-center pt-4 pt-lg-5">
+          <div class="row justify-content-center align-items-center">
             <div class="col-md-12 ">
               <div class="text-center position-relative z-index-5">
                 <h1
-                  class="hero_heading fw-normal ff_tenor text-uppercase mb-3 pb-1  text-zoomIn animation-duration3">
+                  class="hero_heading fw-normal ff_tenor text-uppercase text-zoomIn animation-duration3">
                   Turning innovative ideas into <br class="d-none d-sm-block"> market ready products</h1>
                 <p
-                  class="hero_para fw-normal ff_montserrat color_whiteCream mb-0 text-zoomIn animation-duration4 mb-4">
+                  class="hero_para fw-normal ff_montserrat color_whiteCream text-zoomIn animation-duration4">
                   Strawpath is an
                   innovation, solution design and product <br class="d-none d-sm-block"> development
                   lab and
                   consultancy</p>
-                  <a href="#lettalk" class="mt-lg-5 text-decoration-none d-inline-block mt-4  common_btn sub_para ff_montserrat fw-semibold color_whiteCream text-uppercase text-zoomIn animation-duration4">
+                  <a href="#lettalk" class="text-decoration-none d-inline-block hero_btn sub_para ff_montserrat fw-semibold color_whiteCream text-uppercase text-zoomIn animation-duration4">
                     let’s talk
                     </a>
                 </a>
@@ -166,7 +163,101 @@
         </div>
       </section>
     </header>
-    
+    <!-- ============DEIFINE FOOTER SECTION============ -->
+    <footer class="bg_Teal">
+      <div class="footer_container mx-auto ">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-sm-auto">
+           <div class="footer_box">
+            <p class="footer_main_para">Strawpath is an innovation, solution design and product development lab and consultancy.</p>
+            <span class="footer_para fw-bold color_darkGreen d-block d-inline-sm-block">Questions?</span>
+              <i class="d-block footer_para ">
+                Email:
+                <a href="https://mail.google.com" target="_blank"
+                  class="text-decoration-none footer_para fw-normal  color_darkGreen all_transition email_hover">
+                  explore@strawpath.com</a>
+              </i>
+              <div class="">
+                <a href="https://www.youtube.com/" class="text-decoration-none footer_icon" target="_blank">
+                  <img src="/assets/images/svg/youtube-icon.svg" class="footer_icon_hover footer_icon all_transition" alt="youtube">
+                </a>
+                <a href="https://www.linkedin.com/" class="text-decoration-none footer_icon ms-1" target="_blank">
+                  <img src="/assets/images/svg/linkdin-icon.svg" class="footer_icon_hover footer_icon all_transition"
+                    alt="linkedIn">
+                </a>
+              </div>
+           </div>
+          </div>
+          <div class="col-sm-auto">
+              <a href="/">
+                <img src="/assets/images/svg/footer_icon.svg" alt="footer_icon" class="footer_logo_w">
+              </a>
+          </div>
+          <div class="col-sm-auto">
+              <div class="footer_content_box">
+                <div class="d-flex justify-content-between  ">
+                  <div class="col-sm-auto">
+                    <h5 class="ff_montserrat color_darkGreen footer_heading fw-bold footer_heading">WHAT WE DO</h5>
+                    <ul class="list-unstyled ff_jost mb-0">
+                      <li class="footer_link">
+                        <a class="text-decoration-none text-capitalize  all_transition color_darkGreen fw-normal"
+                          href="#what-we-do">Innovation
+                        </a>
+                      </li>
+                      <li class="footer_link">
+                        <a class="text-decoration-none text-capitalize  all_transition color_darkGreen fw-normal"
+                          href="#what-we-do">Consultancy
+                        </a>
+                      </li>
+                      <li class="footer_link">
+                        <a class="text-decoration-none text-capitalize  all_transition color_darkGreen fw-normal"
+                          href="#what-we-do">insights
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-auto">
+                    <h5 class="ff_montserrat color_darkGreen text-uppercase footer_heading fw-bold footer_heading">Company</h5>
+                    <ul class="list-unstyled ff_jost mb-0">
+                      <li class="footer_link">
+                        <a class="text-decoration-none text-capitalize  all_transition color_darkGreen fw-normal"
+                          href="/Our-story.html">Our
+                          story
+                        </a>
+                      </li>
+                      <li class="footer_link">
+                        <a class="text-decoration-none text-capitalize  all_transition color_darkGreen fw-normal"
+                          href="#https://www.linkedin.com/">LinkedIn
+                        </a>
+                      </li>
+                      <li class="footer_link">
+                        <a class="text-decoration-none text-capitalize  all_transition color_darkGreen fw-normal"
+                          href="#https://www.youtube.com/">youTube
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-auto">
+                    <h5 class="ff_montserrat color_darkGreen footer_heading fw-bold fw-bold footer_heading">LEGAL</h5>
+                    <ul class="list-unstyled ff_jost mb-0">
+                      <li class="footer_link">
+                        <a class="text-decoration-none text-capitalize  all_transition color_darkGreen fw-normal"
+                          href="#">privacy policy
+                        </a>
+                      </li>
+                      <li class="footer_link">
+                        <a class="text-decoration-none text-capitalize  all_transition color_darkGreen fw-normal"
+                          href="#">cookie policy
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!------------------- BACK-TO-TOP ----------------- -->
     <a href="#" id="scroll" style="display: none">
       <span class="d-flex h-100 justify-content-center align-items-center">

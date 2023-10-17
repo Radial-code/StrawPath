@@ -156,102 +156,6 @@
 
 }
 
-/*------------------------ DEFINE-ALL = @media----FONT SIZE-SET--------------------  */
-@media (max-width: 1899.98px) {
-  :root {
-    --font-6xl: 148px;
-  }
-}
-
-@media (max-width: 1599.98px) {
-  :root {
-    --font-2xs: 12px;
-    --font-xs: 14px;
-    --font-sm: 16px;
-    --font-base: 16px;
-    --font-md: 16px;
-    --font-2xl: 34px;
-    --font-3xl: 45px;
-    --font-3xl-bold: 46px;
-    --font-4xl: 48px;
-    --font-5xl: 60px;
-    --font-6xl: 126px;
-  }
-}
-
-@media (max-width: 1499.98px) {
-  :root {
-    --font-3xl: 45px;
-  }
-}
-
-@media (max-width: 1366.98px) {
-  :root {
-    --font-md: 16px;
-    --font-2xl: 32px;
-    --font-3xl: 36px;
-    --font-3xl-bold: 44px;
-    --font-5xl: 56px;
-    --font-6xl: 100px;
-  }
-}
-
-@media (max-width: 1280px) {
-  :root {
-    --font-xs: 12px;
-    --font-sm: 14px;
-    --font-base: 12px;
-    --font-md: 13px;
-    --font-lg: 12px;
-    --font-xl: 18px;
-    --font-3xl: 32px;
-    --font-3xl-bold: 40px;
-    --font-4xl: 28px;
-    --font-5xl: 35px;
-    --font-6xl: 80px;
-  }
-}
-
-@media (max-width:991.98px) {
-  :root {
-    --font-3xl: 28px;
-    --font-6xl: 46px;
-  }
-}
-
-@media (max-width: 767.98px) {
-  :root {
-    --font-xs: 10px;
-    --font-sm: 10px;
-    --font-base: 10px;
-    --font-md: 9px;
-    --font-lg: 8px;
-    --font-xl: 14px;
-    --font-2xl: 26px;
-    --font-3xl: 18px;
-    --font-3xl-bold: 22px;
-    --font-4xl: 24px;
-    --font-5xl: 24px;
-    --font-6xl: 23px;
-  }
-}
-
-@media (max-width: 575.98px) {
-  :root {
-    --font-xs: 12px;
-    --font-sm: 14px;
-    --font-base: 16px;
-    --font-md: 16px;
-    --font-lg: 16px;
-    --font-xl: 20px;
-    --font-2xl: 26px;
-    --font-3xl: 24px;
-    --font-3xl-bold: 22px;
-    --font-4xl: 24px;
-    --font-5xl: 24px;
-    --font-6xl: 23px;
-  }
-}
 /* DEFINE NAVBAR CODE CSS============================================== */
 .navbar_bg {
     background: #121212bd !important;
@@ -297,19 +201,22 @@
   
   /* ====================DEFINE HERO SECTION CODE==================== */
   .nav_logo {
-    max-width: 19.01vw;
+    width: min(14vw, 290px);
+    padding-top: min(40px,2.98vw);
   }
   .hero_heading{
     color: #FFF9F0;
-    font-weight: 700;
-    font-size: clamp(24px, 3.7vw, 70px);
+    /* font-weight: 700; */
+    font-size: clamp(10px, 3.5vw, 70px);
     line-height:  116.5%;
+    padding-top: 1.3em;
   }
   .hero_para{
     color: #FFF9F0;
-    font-weight: 700;
-    font-size: clamp(14px, 2.19vw, 30px);
+    font-size: clamp(8px,1.3vw, 30px);
     line-height: 108.5%;
+    padding-top: 0.7em;
+    margin: 0;
   }
   .hero_container{
     max-width: 80vw;
@@ -322,31 +229,59 @@
     animation: fadeIn 2s;
   }
 
-.common_btn {
-    font-size: clamp(18px, 1.3vw, 25px) ;
-    border-radius: 9px;
+.hero_btn {
+    font-size: clamp(12px, 1.3vw, 25px) ;
+    border-radius: 0.56em;
     border: 3px solid var(--Cream, #FFF9F0);
     color: #FFF9F0;
     background: rgba(255, 249, 240, 0.25);
     line-height: 93.5%;
     letter-spacing: 3.125px;
-    /* padding: 17.5px 62px; */
-    padding:  min(17.5px, 1.28vw) min(62px,4.53vw);;
+    padding: 0.9em 2.2em;
+
     transition: all 0.3s ease-in;
+    margin-top: 2.8em;
   }
   
-.common_btn:hover {
+.hero_btn:hover {
     background: transparent !important;
   }
-  .hero_section_height {
+.hero_section_height {
     height:min(46vw, 890px);
  
+}
+  /* ==========DEIFINE FOOTER SECITON========== */
+  .footer_container{
+    max-width: min(80vw, 1440px);
   }
-  
+  .footer_logo_w{
+    width: min(14vw, 290px);
+  }
+  .footer_content_box{
+    width: min(20.53vw, 375px);
+  }
+  .footer_box{
+    width: min(20.53vw, 395px);
+  }
+  .footer_main_para{
+    font-size: clamp(7px, 0.83vw, 16px);
+    margin-bottom: 1.5em;
+  }
+  .footer_para{
+    font-size: clamp(7px, 0.83vw, 16px);
+  }
+  .footer_icon{
+    width: min(30px, 2vw);
+  }
+   .footer_heading{
+    font-size:  clamp(8px, 0.95vw, 18px) ;
+    margin-bottom: 1em;
+   }
+  .footer_link{
+    font-size: clamp(6px, 0.75vw, 14px);
+    padding-bottom: 0.7em;
+  }
   @media (max-width:767.98px) {
-    .nav_logo {
-      max-width: 250px;
-    }
     .overlay {
       position: absolute;
       background: #89886D !important;
@@ -367,19 +302,31 @@
     .overflow_hidden {
       overflow: hidden !important;
     }
-    .nav_link {
-      line-height: 93.5%;
-      letter-spacing: 2.25px;
-      text-transform: uppercase;
+  }
+  @media (max-width:576px) {
+    .overlay{
+        max-height: 280px !important;
     }
-  
-    .exploration_heading {
-      margin-top: -12px;
-      letter-spacing: 13px !important;
+    .hero_container{
+        max-width: 300px;
     }
-  
-    .nav_logo {
-      max-width: 150px;
+    .hero_section_height{
+        height:360px;
     }
-  
+    .nav_logo{
+        width: 110px;
+    }
+    .hero_heading{
+        font-size: clamp(24px,1.3vw, 30px);
+        line-height: 116.5%;
+    }
+    .hero_para{
+        font-size: clamp(16px,1.3vw, 30px);
+        line-height: 120%;
+    }
+    .hero_btn{
+        font-size: 14px;
+        padding:0.8em 2.2em ;
+        margin-top: 2em;
+    }
   }
