@@ -827,7 +827,7 @@ video {
   }
 
   .nav_logo {
-    max-width: 120px;
+    max-width: 120px !important;
   }
 
   .fs_xsm_16 {

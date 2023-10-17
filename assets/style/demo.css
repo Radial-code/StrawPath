@@ -1,68 +1,385 @@
-/* .fw_semibold{
-    font-weight: 600 !important;
-}
-.biege-background {
-    background-color: #E3DDD6;
-    padding: min(100px, 6vw) min(230px, 12vw);
-    margin: 200px 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800&family=Tenor+Sans&display=swap');
 
-.bottom-left-rounded {
-    border-bottom-left-radius: min(230px, 12vw);
-} */
-
-/* .container {
-    max-width: 1400px;
-    margin: auto;
-    display: flex;
-    gap: min(70px, 5vw);
-} */
-/* 
-.what_we_do_card_box {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: start;
-}
-
-.what_we_do_card_box img {
-    width: min(64px, 2.7vw);
-    min-width: 32px;
+/*--------------------------------- ROOT-DEFINE-VALUES --------------------------------- */
+:root {
+  --color-whiteCream: #FFF9F0;
+  --color-Bandicoot: #89886D;
+  --color-lightPink: #E3DDD6;
+  --color-lightBrown: #B7AC84;
+  --color-CoralReef: #C8C0A1;
+  --color-Teal: #BEC9C0;
+  --color-darkGreen: #122B18;
+  --font-2xs: 12px;
+  --font-xs: 14px;
+  --font-sm: 16px;
+  --font-base: 18px;
+  --font-md: 16px;
+  --font-lg: 20px;
+  --font-xl: 25px;
+  --font-2xl: 36px;
+  --font-3xl: 45px;
+  --font-3xl-bold: 48px;
+  --font-4xl: 42px;
+  --font-5xl: 60px;
+  --font-6xl: 180px;
 }
 
-.what_we_do_card_box h3 {
-    color: #89886D;
-    font-weight: 700;
-    font-size: clamp(18px, 1.5vw, 30px);
-    margin: 32px 0 20px 0;
-    line-height: 0.8;
+/*--------------------- DEFINE-ALL = ROOT-VALUE ------------------------------ */
+.color_whiteCream {
+  color: var(--color-whiteCream) !important;
 }
 
-.what_we_do_card_box p {
-    color: #89886D;
-    font-weight: 400;
-    font-size: clamp(16px, 1.35vw, 20px);
-    font-size: clamp(16px, 1.35vw, 25px);
-    line-height: 1.36;
+.color_CoralReef {
+  color: var(--color-CoralReef) !important;
+}
+
+.color_lightPink {
+  color: var(--color-lightPink) !important;
+}
+
+.color_lightBrown {
+  color: var(--color-lightBrown) !important;
+}
+
+.color_Teal {
+  color: var(--color-Teal) !important;
+}
+
+.color_darkGreen {
+  color: var(--color-darkGreen) !important;
+}
+
+.color_Bandicoot {
+  color: var(--color-Bandicoot) !important;
+}
+
+.opacity_08 {
+  opacity: 0.8 !important;
+}
+
+/*---------------------------- DEFINE-ALL = BACKGROUND COLOR ---------------------------- */
+.bg_lightPink {
+  background: var(--color-lightPink);
+}
+
+.bg_lightBrown {
+  background: var(--color-lightBrown);
+}
+
+.bg_Teal {
+  background: var(--color-Teal);
+}
+
+.bg_darkGreen {
+  background: var(--color-darkGreen) !important;
+}
+
+.bg_Bandicoot {
+  background: var(--color-Bandicoot);
+}
+
+
+/*---------------------------- DEFINE-ALL = FONT-SIZES ---------------------------- */
+.font_xs {
+  font-size: var(--font-xs);
+}
+
+.font_sm {
+  font-size: var(--font-sm);
+}
+
+.font_base {
+  font-size: var(--font-base);
+}
+
+.font_md {
+  font-size: var(--font-md);
+}
+
+.font_lg {
+  font-size: var(--font-lg);
+}
+
+.font_xl {
+  font-size: var(--font-xl);
+}
+
+.font_2xl {
+  font-size: var(--font-2xl);
+}
+
+.font_3xl {
+  font-size: var(--font-3xl);
+}
+
+.font_3xl_bold {
+  font-size: var(--font-3xl-bold);
+}
+
+.font_4xl {
+  font-size: var(--font-4xl);
+}
+
+.font_5xl {
+  font-size: var(--font-5xl);
+}
+
+.font_6xl {
+  font-size: var(--font-6xl);
+}
+
+/*---------------------------- DEFINE-ALL = FONT-WEIGHT ---------------------------- */
+
+.fw_medium {
+  font-weight: 500;
+}
+
+.fw_semiblod {
+  font-weight: 500;
+}
+
+.fw_extrablod {
+  font-weight: 800;
+}
+
+/*---------------------------- DEFINE-ALL = FONT-FAMILY---------------------------- */
+.ff_jost {
+  font-family: 'Jost', sans-serif;
+}
+
+.ff_tenor {
+  font-family: 'Tenor Sans', sans-serif;
+}
+
+.ff_montserrat {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+/*------------------------ DEFINE-ALL = @media----FONT SIZE-SET--------------------  */
+@media (max-width: 1899.98px) {
+  :root {
+    --font-6xl: 148px;
+  }
+}
+
+@media (max-width: 1599.98px) {
+  :root {
+    --font-2xs: 12px;
+    --font-xs: 14px;
+    --font-sm: 16px;
+    --font-base: 16px;
+    --font-md: 16px;
+    --font-2xl: 34px;
+    --font-3xl: 45px;
+    --font-3xl-bold: 46px;
+    --font-4xl: 48px;
+    --font-5xl: 60px;
+    --font-6xl: 126px;
+  }
+}
+
+@media (max-width: 1499.98px) {
+  :root {
+    --font-3xl: 45px;
+  }
+}
+
+@media (max-width: 1366.98px) {
+  :root {
+    --font-md: 16px;
+    --font-2xl: 32px;
+    --font-3xl: 36px;
+    --font-3xl-bold: 44px;
+    --font-5xl: 56px;
+    --font-6xl: 100px;
+  }
+}
+
+@media (max-width: 1280px) {
+  :root {
+    --font-xs: 12px;
+    --font-sm: 14px;
+    --font-base: 12px;
+    --font-md: 13px;
+    --font-lg: 12px;
+    --font-xl: 18px;
+    --font-3xl: 32px;
+    --font-3xl-bold: 40px;
+    --font-4xl: 28px;
+    --font-5xl: 35px;
+    --font-6xl: 80px;
+  }
+}
+
+@media (max-width:991.98px) {
+  :root {
+    --font-3xl: 28px;
+    --font-6xl: 46px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  :root {
+    --font-xs: 10px;
+    --font-sm: 10px;
+    --font-base: 10px;
+    --font-md: 9px;
+    --font-lg: 8px;
+    --font-xl: 14px;
+    --font-2xl: 26px;
+    --font-3xl: 18px;
+    --font-3xl-bold: 22px;
+    --font-4xl: 24px;
+    --font-5xl: 24px;
+    --font-6xl: 23px;
+  }
 }
 
 @media (max-width: 575.98px) {
-    .container {
-        display: flex;
-        flex-direction: column;
-        max-width: 300px;
-    }
-
-    .container .what_we_do_card_box img {
-        width: 32px;
-    }
-
-    .container .what_we_do_card_box {
-        align-items: center;
-    }
-
-    .biege-background {
-    padding: 80px 24px;
+  :root {
+    --font-xs: 12px;
+    --font-sm: 14px;
+    --font-base: 16px;
+    --font-md: 16px;
+    --font-lg: 16px;
+    --font-xl: 20px;
+    --font-2xl: 26px;
+    --font-3xl: 24px;
+    --font-3xl-bold: 22px;
+    --font-4xl: 24px;
+    --font-5xl: 24px;
+    --font-6xl: 23px;
+  }
 }
+/* DEFINE NAVBAR CODE CSS============================================== */
+.navbar_bg {
+    background: #121212bd !important;
+    z-index: 100;
+    min-height: 86px;
+  }
+  
+  .border_bottom_2 {
+    border-bottom: 1px solid #ffffff26 !important;
+  }
+  
+  .nav_hover {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav_hover:hover {
+    transform: scale(1.2) !important;
+  }
+  
+  .toggle_icon {
+    height: 30px;
+    width: 30px;
+  }
+  
+  .menu {
+    width: 30px;
+    height: 30px;
+    right: 10px;
+    z-index: 1;
+  }
+  
+  .cross_btn {
+    right: 11% !important;
+  }
+  
+  .show_nav {
+    top: 0% !important;
+    right: 0% !important;
+    left: 0% !important;
+    opacity: 1 !important;
+    z-index: 77 !important;
+  }
+  
+  /* ====================DEFINE HERO SECTION CODE==================== */
+  .nav_logo {
+    max-width: 19.01vw;
+  }
+  .hero_heading{
+    color: #FFF9F0;
+    font-weight: 700;
+    font-size: clamp(24px, 3.7vw, 70px);
+    line-height:  116.5%;
+  }
+  .hero_para{
+    color: #FFF9F0;
+    font-weight: 700;
+    font-size: clamp(14px, 2.19vw, 30px);
+    line-height: 108.5%;
+  }
+  .hero_container{
+    max-width: 80vw;
+  }
+  video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100%;
+    z-index: 0;
+    animation: fadeIn 2s;
+  }
 
-} */
+.common_btn {
+    font-size: clamp(18px, 1.3vw, 25px) ;
+    border-radius: 9px;
+    border: 3px solid var(--Cream, #FFF9F0);
+    color: #FFF9F0;
+    background: rgba(255, 249, 240, 0.25);
+    line-height: 93.5%;
+    letter-spacing: 3.125px;
+    /* padding: 17.5px 62px; */
+    padding:  min(17.5px, 1.28vw) min(62px,4.53vw);;
+    transition: all 0.3s ease-in;
+  }
+  
+.common_btn:hover {
+    background: transparent !important;
+  }
+  .hero_section_height {
+    height:min(46vw, 890px);
+ 
+  }
+  
+  @media (max-width:767.98px) {
+    .nav_logo {
+      max-width: 250px;
+    }
+    .overlay {
+      position: absolute;
+      background: #89886D !important;
+      width: 100%;
+      height: 100%;
+      max-height: 350px;
+      top: -100%;
+      right: 0% !important;
+      left: 0% !important;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-transition: 0.6s all linear !important;
+      -o-transition: 0.6s all linear !important;
+      transition: 0.6s all linear !important;
+      z-index: 9999 !important;
+    }
+    .overflow_hidden {
+      overflow: hidden !important;
+    }
+    .nav_link {
+      line-height: 93.5%;
+      letter-spacing: 2.25px;
+      text-transform: uppercase;
+    }
+  
+    .exploration_heading {
+      margin-top: -12px;
+      letter-spacing: 13px !important;
+    }
+  
+    .nav_logo {
+      max-width: 150px;
+    }
+  
+  }
