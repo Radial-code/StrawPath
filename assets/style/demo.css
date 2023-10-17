@@ -333,11 +333,23 @@
         margin-top: 2em;
     }
     .footer_box{
-        max-width: 300px;
+        max-width: 330px;
         width: unset;
         margin: 0 auto;
     }
+    .footer_main_para{
+        font-size: 12px !important;
+    }
     .footer_para{
         font-size: 14px !important;
+    }
+    .footer_icon{
+        width: 25px;
+    }
+    .footer_devide_line {
+        border-left: 0.5px solid var(--color-darkGreen) !important;
+    }
+    .fs_12 {
+        font-size: 12px !important;
     }
   }
