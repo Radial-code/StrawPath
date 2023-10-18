@@ -398,6 +398,10 @@ video {
 }
 
 .hero_shade {
+  position: absolute;
+  left: 0px !important;
+  right: 0px !important;
+  bottom: -2px !important;
   background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 50%, #FFF9F0 99.48%);
 }
 
@@ -412,6 +416,44 @@ video {
   box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0.25);
   z-index: 5;
   /* margin-bottom: -5px !important; */
+}
+/* ===================DEFINE VIDEO SECTION=================== */
+.the_legend_line{
+border: min(2px,0.1041vw) solid var(--color-Bandicoot);
+}
+.lh_93{
+  line-height: 93.5% !important;
+}
+.video_container{
+  padding: 0px min(107px,5.572vw);
+}
+.video_parent{
+  width: min(1040px, 54.53vw);
+}
+.video_heading{
+  font-size: min(179.692px, 9.358vw);
+  letter-spacing: 2.012vw;
+}
+.video_side_icon{
+  width: 11.25vw;
+}
+.video_content_box{
+  margin-top: min(-85px, -18vw);
+}
+.strawpath_main_heading{
+  color: #B7AC84 !important;
+  font-size: min(30
+  px, 1.8vw) !important;
+  line-height:  93.5%;
+  padding: 1.6em 0px 2.3em 0px;
+}
+.the_legend_heading {
+  background-color: var(--color-Bandicoot);
+  padding: min(38px, 1.2vw) min(65px, 3.38vw);
+  font-size: clamp(12px, 1.56vw, 30px);
+  border-radius: min(26px, 1.35vw);
+  line-height: 93.5%;
+  letter-spacing:0.195vw;
 }
 @media (max-width:991.98px) {
   .founder_heading {
@@ -444,6 +486,20 @@ video {
 }
 
 @media (max-width:575.98px) {
+  .video_parent{
+    width: 100%;
+  }
+  .video_content_box {
+    margin-top: min(0px, -3vw);
+}
+.the_legend_heading{
+  font-size: 14px;
+  padding: 10px min(65px, 3.38vw);
+}
+.strawpath_main_heading{
+  font-size: 16px !important ;
+  padding: 18px 0px 24px 0px;
+}
   .ardrew_heading {
     font-size: 24px;
   }

@@ -29,10 +29,10 @@
     <!-- ==================== Fav -Icon  ======================== -->
     <link rel="shortcut icon" href="/assets/images/svg/fav-icon.svg" type="image/x-icon">
     <!-- ==================== CSS  ======================== -->
-    <!-- <link rel="stylesheet" href="/assets/style/about.css"> -->
-    <!-- <link rel="stylesheet" href="/assets/style/about.css"> -->
-    <link rel="stylesheet" href="/assets/style/demo.css">
+    <!-- <link rel="stylesheet" href="/assets/style/style.css">
+    <link rel="stylesheet" href="/assets/style/about.css"> -->
     <link rel="stylesheet" href="/assets/style/clamp.css">
+    <link rel="stylesheet" href="/assets/style/demo.css">
     <!-- ==================== Title  ======================== -->
     <title>Straw-Path</title>
     <!-- =============================== SLIDER LINK  =============================== -->
@@ -47,13 +47,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!---------------------- Aos Animation link -------------------- -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- ANIMATE LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
   </head>
 
   <body>
-     <!-- DEFINE HEADER SECTION -->
-     <header class="hero_section_height  common_bg_property position-relative ourStory_header_bg">
-      <video id="headerVideo" class="position-absolute top-0 left-0 w-100 hero_shade mix_blend_mode" playsinline autoplay muted loop>
+    <!-- DEFINE HEADER SECTION -->
+    <header class="hero_section_height  common_bg_property position-relative ourStory_header_bg">
+      <video id="headerVideo" class="position-absolute top-0 left-0 w-100 hero_shade mix_blend_mode" playsinline
+        autoplay muted loop>
         <source class="w-100" src="./assets/video/header-bg-video.mp4" type="video/mp4">
         <source class="w-100" src="./assets/video/header-bg-video.mp4" type="video/webm">
       </video>
@@ -61,10 +64,11 @@
         <nav class="text-center">
           <div class="hero_container mx-auto">
             <div class="d-flex align-items-center">
-                <a href="/" class="mx-auto">
-                  <img class="nav_logo" src="./assets/images/svg/nav-logo.svg" alt="navbar-logo">
-                </a>
-              <div onclick="Togleside()" class="d-md-none menu border-0 bg-transparent position-relative" id="toggle_btn">
+              <a href="/" class="mx-auto">
+                <img class="nav_logo" src="./assets/images/svg/nav-logo.svg" alt="navbar-logo">
+              </a>
+              <div onclick="Togleside()" class="d-md-none menu border-0 bg-transparent position-relative"
+                id="toggle_btn">
                 <svg class="toggle_icon" xmlns="http://www.w3.org/2000/svg" width="21" height="17" viewBox="0 0 21 17"
                   fill="none">
                   <path
@@ -74,7 +78,7 @@
               </div>
             </div>
             <ul class="d-none d-md-flex align-items-center justify-content-center list-unstyled px-0 gap-4 mb-0">
-  
+
               <li>
                 <a class="color_whiteCream text_underline font_sm ff_montserrat text-uppercase fw-semibold text-decoration-none"
                   href="/">Home</a>
@@ -132,7 +136,7 @@
                         </clipPath>
                       </defs>
                     </svg>
-  
+
                   </a>
                 </li>
               </ul>
@@ -143,13 +147,12 @@
           <div class="row justify-content-center align-items-center">
             <div class="col-md-12 ">
               <div class="text-center position-relative z-index-5">
-                <h1
-                  class="ourstory_hero_heading fw-bold ff_jost text-uppercase text-zoomIn animation-duration3">
+                <h1 class="ourstory_hero_heading fw-bold ff_jost text-uppercase text-zoomIn animation-duration3">
                   IMAGINATION. <br class="d-sm-none"> EXPLORATION. INNOVATION.</h1>
                 <p
                   class="hero_para ourstory_hero_para fw-normal ff_montserrat color_whiteCream text-zoomIn animation-duration4">
                   Harnessing years of experience in startups, <br class="d-none d-xl-block"> corporate and
-                      entrepreneurship.</p>
+                  entrepreneurship.</p>
                 </a>
               </div>
             </div>
@@ -157,10 +160,108 @@
         </div>
       </section>
     </header>
-    <!-- ==============DEFINE VIDEO SECTION============== -->
-     <section>
-      <div class="container"></div>
-     </section>
+    <!-- ============DEFINE VIDEO SECTION============ -->
+    <section>
+      <div class="text-center video_container">
+        <div class="mb_m_1">
+          <div class="position-relative what_after_section we_after_section">
+            <div class="ff_tenor z_index1 bg_Bandicoot position-relative d-inline-block fw-normal text-uppercase lh_93 color_whiteCream the_legend_heading ">
+              The Legend of the Strawpaths
+            </div>
+            <span class="what_line the_legend_line position-absolute top-50 d-inline"></span>
+          </div>
+        </div>
+      </div>
+      <div class="video_container">
+        <p class="strawpath_main_heading ff_montserrat fw_medium text-center text-capitalize mb-0">The origin of our name, 'Strawpath'.</p>
+        <div class="video_parent mx-auto position-relative z-index-5">
+          <video class="w-100" controls preload="auto" loop muted>
+            <source src="./assets/video/study-video.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="video_content_box">
+          <div class="text-end d-none d-sm-block">
+            <img class="video_side_icon" src="./assets/images/svg/video-side-icon.svg" alt="video-side-icon">
+          </div>
+          <h2
+          class="fw-normal ff_montserrat video_heading color_CoralReef text-center opacity_08 exploration_heading mb-0">
+          EXPLORATION
+        </h2>
+        </div>
+      </div>
+    </section>
+    <!-------------------- NO STRAIGHT LINES SECTION -------------------->
+    <section class="bg_lightPink straight_spacing position-relative">
+      <div class="container custom_container custom_container_xxl">
+        <div class="row justify-content-end">
+          <div class="col-lg-7 mt-md-5  my-lg-auto mb-5 mb-md-0 pb-1 pb-md-0 ">
+            <div class="straignt_cuntent pe-lg-3">
+              <h2
+                class="ff_montserrat fw-bold text-capitalize straight_heading color_darkGreen mt-md-4 mt-lg-0 lh_42 mb-0 pt-2 pt-sm-5 pt-md-0">
+                No
+                straight
+                lines
+              </h2>
+              <h4 class="ff_jost fw-normal color_darkGreen lh_25 text-uppercase straight_heading_two mb-0">
+                Innovation, like exploration, has many spirals and zig-zags. Twists and turns.
+              </h4>
+              <p class="ff_jost fw-normal sub_para color_Bandicoot andrew_para_two mb-0">
+                My journey has no straight lines. It is one of spirals and zig-zags. Successes and
+                failures.</p>
+              <p class="ff_jost fw-normal sub_para color_Bandicoot andrew_para_two mt-3 mt-xl-4 mb-0"> I
+                have gone from developing cutting
+                edge
+                technology for the biggest investment banks on the planet. To co-founding a
+                successful
+                creative agency in London.</p>
+              <p class="ff_jost fw-normal sub_para color_Bandicoot andrew_para_two mt-3 mt-xl-4 mb-0"> Then
+                spectacularly failing at
+                running
+                a
+                software
+                development house in Kenya. Heavily in debt, broke and close to rock bottom.</p>
+              <p class="ff_jost fw-normal sub_para color_Bandicoot andrew_para_two mt-3 mt-xl-4 mb-0">And
+                rising again to Head of Technical
+                Solutions
+                to help a London fintech company grow globally across 5 continents.</p>
+              <p class="ff_jost fw-normal sub_para color_Bandicoot andrew_para_two mt-3 mt-xl-4 mb-0
+                      pb-xxl-2">
+                It is in the spirals and zig-zags
+                that
+                the
+                magic
+                happens. This is where true innovation lies. my experiences, insights, lessons and
+                philosophies.</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------------------------  PARA ------------------------->
+    <div id="contact">
+      <div class="my_journey_container text-center mx-auto">
+        <i class="ff_Libre text-center color_Bandicoot my_journey_para d-block"><span class="my_journey_m">“M</span>y
+          journey
+          has led
+          to the realisation
+          that
+          innovation and
+          developing
+          solutions is
+          less
+          about technology. It is mostly
+          about relating to other human beings, at a human level.
+        </i>
+        <i class="ff_Libre text-center d-block color_Bandicoot my_journey_para mt-3 mt-md-4 pt-xl-3">Then figuring out
+          how
+          technology can be
+          applied to
+          make the human
+          experience more
+          fulfilling.”</i>
+      </div>
+    </div>
     <!-- ============DEIFINE FOOTER SECTION============ -->
     <footer class="bg_Teal footer_panding">
       <div class="modify_container  justify-content-center mx-auto ">
@@ -214,17 +315,17 @@
                   <ul class="list-unstyled ff_jost mb-0">
                     <li class="footer_link">
                       <a class="text-decoration-none text-capitalize  all_transition footer_link_hover color_darkGreen fw-normal"
-                        href="#what-we-do">Innovation
+                        href="/#what-we-do">Innovation
                       </a>
                     </li>
                     <li class="footer_link">
                       <a class="text-decoration-none text-capitalize  all_transition footer_link_hover color_darkGreen fw-normal"
-                        href="#what-we-do">Consultancy
+                        href="/#what-we-do">Consultancy
                       </a>
                     </li>
                     <li class="footer_link">
                       <a class="text-decoration-none text-capitalize  all_transition footer_link_hover color_darkGreen fw-normal"
-                        href="#what-we-do">insights
+                        href="/#what-we-do">insights
                       </a>
                     </li>
                   </ul>
@@ -235,7 +336,7 @@
                   <ul class="list-unstyled ff_jost mb-0">
                     <li class="footer_link">
                       <a class="text-decoration-none text-capitalize  all_transition footer_link_hover color_darkGreen fw-normal"
-                        href="/Our-story.html">Our
+                        href="#Our-story.html">Our
                         story
                       </a>
                     </li>
@@ -272,6 +373,16 @@
         </div>
       </div>
     </footer>
+    <!------------------- BACK-TO-TOP ----------------- -->
+    <a href="#" id="scroll" style="display: none">
+      <span class="d-flex h-100 justify-content-center align-items-center">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6 11L12 5L18 11M6 19L12 13L18 19" stroke="white" stroke-width="1.5" stroke-linecap="round"
+            stroke-linejoin="round" />
+        </svg>
+      </span>
+    </a>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
       </script>
@@ -285,30 +396,10 @@
       integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
       crossorigin="anonymous" referrerpolicy="no-referrer">
       </script>
-
     <!---------------------- Aos Animation link -------------------- -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--------------------- BACK TO TOP------------------- -->
 
-    <script>
-      //------------- WE CAN HELP SLIDER ON SM SCREEN -------------
-      $('.workslider').slick({
-        dots: true,
-        arrows: false,
-        infinite: true,
-        speed: 1000,
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        responsive: [
-          {
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1
-            }
-          }
-        ]
-      });
-    </script>
     <!----------------- JS FLE LINK  --------------- -->
     <script src="/assets/js/navbar.js"></script>
   </body>
