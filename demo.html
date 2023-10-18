@@ -51,14 +51,13 @@
   </head>
 
   <body>
-    <!-- DEFINE HEADER SECTION -->
-    <header class="hero_section_height  common_bg_property position-relative">
-      <video id="headerVideo" class="position-absolute top-0 left-0 w-100" playsinline autoplay muted loop>
+     <!-- DEFINE HEADER SECTION -->
+     <header class="hero_section_height  common_bg_property position-relative ourStory_header_bg">
+      <video id="headerVideo" class="position-absolute top-0 left-0 w-100 hero_shade mix_blend_mode" playsinline autoplay muted loop>
         <source class="w-100" src="./assets/video/header-bg-video.mp4" type="video/mp4">
         <source class="w-100" src="./assets/video/header-bg-video.mp4" type="video/webm">
       </video>
-      <!-- =================DEFINE NAVBAR CODE================= -->
-      <section id="home" class="position-relative hero_bg hero_section_height ">
+      <section id="home" class="position-relative hero_bg hero_shade hero_section_height ">
         <nav class="text-center">
           <div class="hero_container mx-auto">
             <div class="d-flex align-items-center">
@@ -77,19 +76,17 @@
             <ul class="d-none d-md-flex align-items-center justify-content-center list-unstyled px-0 gap-4 mb-0">
   
               <li>
-                <a class="color_whiteCream text_underline font_sm ff_montserrat text-uppercase fw_extrablod text-decoration-none"
-                  href="#home">Home</a>
+                <a class="color_whiteCream text_underline font_sm ff_montserrat text-uppercase fw-semibold text-decoration-none"
+                  href="/">Home</a>
               </li>
               <li class="mx-1">
-                <a class="color_whiteCream text_underline font_sm ff_montserrat text-uppercase fw-semibold text-decoration-none"
-                  href="/Our-story.html">Our
+                <a class="color_whiteCream text_underline font_sm ff_montserrat text-uppercase fw_extrablod text-decoration-none"
+                  href="#our-story">Our
                   story</a>
               </li>
               <li>
-  
                 <a class="color_whiteCream text_underline font_sm ff_montserrat text-uppercase fw-semibold text-decoration-none"
-                  href="/Our-story.html#contact">Contact
-                </a>
+                  href="#contact">Contact</a>
               </li>
             </ul>
             <div class="overlay  position-fixed navbar_bg d-flex d-md-none flex-column justify-content-start w-100 "
@@ -99,29 +96,30 @@
                   <a class="nav_logo mx-auto" href="/">
                     <img class="w-100" src="./assets/images/svg/nav-logo.svg" alt="navbar-logo">
                   </a>
-                  <button class="cross_btn border-0 bg-transparent position-absolute " onclick="hideNav()">
+                  <button class="cross_btn border-0 bg-transparent position-absolute end-0" onclick="hideNav()">
                     <img width="40" height="40" onclick="hideNav()" class=" d-xl-none d-block w_45"
                       src="./assets/images/svg/nav-cross-icon.svg" alt="cross-icon">
                   </button>
                 </li>
                 <li class="mt-3 mt-sm-4 pb-1 pb-sm-3  px-2 px-sm-4" onclick="hideNav()">
-                  <a class="color_whiteCream fw-normal ff_tenor font_base nav_link text-uppercase text-decoration-none"
-                    href="#home">Home</a>
+                  <a class="color_whiteCream fw-normal ff_tenor font_md nav_link text-uppercase text-decoration-none"
+                    href="/">Home</a>
                 </li>
                 <li class="mt-4 mb-sm-3 pb-2 pb-4  px-2 px-sm-4 border_bottom_2 d-inline-block" onclick="hideNav()">
-                  <a class="color_whiteCream fw-normal pb-2 ff_tenor font_base nav_link text-uppercase text-decoration-none"
-                    href="/Our-story.html">our story</a>
+                  <a class="color_whiteCream fw-normal pb-2 ff_tenor font_md nav_link text-uppercase text-decoration-none"
+                    href="#our-story">our story</a>
                 </li>
                 <li class="mt-3 pb-2 pb-sm-4 mb-2 mb-sm-4  px-2 px-sm-4" onclick="hideNav()">
-                  <a class="text-white text-decoration-none " href="https://youtube.com/"><svg class="nav_hover"
-                      width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <a class="text-white text-decoration-none " href="https://youtube.com/"><svg
+                      class="nav_hover nav_icons_custom_hw" width="26" height="25" viewBox="0 0 26 25" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M13.2132 10.3173L10.7567 9.17109C10.5423 9.07156 10.3662 9.18312 10.3662 9.42047V11.5795C10.3662 11.8169 10.5423 11.9284 10.7567 11.8289L13.2121 10.6827C13.4276 10.582 13.4276 10.418 13.2132 10.3173ZM11.46 0C5.6609 0 0.959961 4.70094 0.959961 10.5C0.959961 16.2991 5.6609 21 11.46 21C17.259 21 21.96 16.2991 21.96 10.5C21.96 4.70094 17.259 0 11.46 0ZM11.46 14.7656C6.08527 14.7656 5.99121 14.2811 5.99121 10.5C5.99121 6.71891 6.08527 6.23438 11.46 6.23438C16.8346 6.23438 16.9287 6.71891 16.9287 10.5C16.9287 14.2811 16.8346 14.7656 11.46 14.7656Z"
                         fill="#FFF9F0" />
                     </svg>
                   </a>
                   <a class="text-white text-decoration-none  mt-3" href="https://youtube.com/">
-                    <svg class="nav_hover" width="26" height="25" viewBox="0 0 26 25" fill="none"
+                    <svg class="nav_hover nav_icons_custom_hw" width="26" height="25" viewBox="0 0 26 25" fill="none"
                       xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#clip0_67_669)">
                         <path
@@ -134,6 +132,7 @@
                         </clipPath>
                       </defs>
                     </svg>
+  
                   </a>
                 </li>
               </ul>
@@ -141,22 +140,16 @@
           </div>
         </nav>
         <div class="hero_container z_index4 mx-auto">
-          <!-- =================DEFINE HERO SECTION CODE================= -->
           <div class="row justify-content-center align-items-center">
             <div class="col-md-12 ">
               <div class="text-center position-relative z-index-5">
                 <h1
-                  class="hero_heading fw-normal ff_tenor text-uppercase text-zoomIn animation-duration3">
-                  Turning innovative ideas into <br class="d-none d-sm-block"> market ready products</h1>
+                  class="ourstory_hero_heading fw-bold ff_jost text-uppercase text-zoomIn animation-duration3">
+                  IMAGINATION. <br class="d-sm-none"> EXPLORATION. INNOVATION.</h1>
                 <p
-                  class="hero_para fw-normal ff_montserrat color_whiteCream text-zoomIn animation-duration4">
-                  Strawpath is an
-                  innovation, solution design and product <br class="d-none d-sm-block"> development
-                  lab and
-                  consultancy</p>
-                  <a href="#lettalk" class="text-decoration-none d-inline-block hero_btn sub_para ff_montserrat fw-semibold color_whiteCream text-uppercase text-zoomIn animation-duration4">
-                    let’s talk
-                    </a>
+                  class="hero_para ourstory_hero_para fw-normal ff_montserrat color_whiteCream text-zoomIn animation-duration4">
+                  Harnessing years of experience in startups, <br class="d-none d-xl-block"> corporate and
+                      entrepreneurship.</p>
                 </a>
               </div>
             </div>
@@ -164,78 +157,34 @@
         </div>
       </section>
     </header>
-    <!-- -------------DEFINE ANDREW SECTION------------- -->
-    <section class="andrew_bg bottom_right_rounded position-relative pt-4 pt-sm-0">
-      <div class="position-absolute andrew_rotate_logo">
-        <div class="position-relative w-100">
-          <img src="/assets/images/svg/dont_round.svg" class="position-absolute strapath_rounded_stamp_2 z_index1 "
-            alt="strapath_rounded_stamp">
-          <img src="/assets/images/svg/static_circle_logo.svg" class="position-absolute strapath_rounded_stamp rotate"
-            alt="strapath_rounded_stamp">
-        </div>
-      </div>
-      <div class="modify_container mx-auto pt-5 pt-sm-0">
-        <div class="flex-column-reverse flex-column-reverse d-flex flex-sm-row align-items-center">
-          <div class="col-sm-5 position-relative ">
-            <div class="andrew_img_set text-center text-md-start d-flex justify-content-center d-sm-block">
-              <img src="/assets/images/png/Andrew-mugoya-img.png" style=""
-                class="w-100 d-none d-sm-block andrew_img" alt="Andrew">
-              <img src="/assets/images/png/Andrew_mugoya_mob.png" style="max-width: 258px;" class="w-100 andrew_img d-sm-none"
-                alt="Andrew">
-            </div>
-          </div>
-          <div class="col-sm-7">
-            <h2 class="ff_montserrat fw-bold ardrew_heading color_whiteCream lh_45 mb-2 mb-sm-1">Hi, I'm Andrew Mugoya
-            </h2>
-            <p class="ff_jost fw-normal founder_heading color_whiteCream lh_25 text-uppercase  pt-2 pb-1 pb-sm-0
-              mb-3 mb-sm-2 mb-md-3 mb-lg-4 mb_xxl_3">
-              Founder
-              and Principal
-              at Strawpath.
-            </p>
-            <p class="ff_jost fw-normal ardrew_para color_whiteCream  andrew_para_two mb-0">
-              My journey consists of 25+ years of innovation, solution design and product development
-              experience
-            </p>
-            <p
-              class="ff_jost ardrew_para andrew_para_two  fw-normal color_whiteCream mt-3 mt-sm-2 mt-md-3 mt-xl-3 mt_xxl_4 pt-xl-2 mb-0">
-              Prior to Strawpath, I was Head of Technical Solutions at Smart Pension, a <br class="d-none d-sm-block"> global
-              Fintech.
-              Previously, I founded a
-              creative agency in London and a software development house in Kenya. I started my career
-              working in <br class="d-md-none"> technology at JP
-              Morgan, Goldman Sachs and Barclays in London.</p>
-            <p
-              class="ff_jost ardrew_para andrew_para_two fw-normal color_whiteCream mt-3 mt-sm-2 mt-md-3 mt-xl-3 mt_xxl_4 pt-xl-2 mb-0">
-              I studied Computer Science at Oxford University (MSc) and Warwick University (BEng,
-              First
-              Class Honours). I have also
-              taught as a part-time lecturer at Strathmore University in Kenya.</p>
-          </div>
-      </div>
-    </section>
+    <!-- ==============DEFINE VIDEO SECTION============== -->
+     <section>
+      <div class="container"></div>
+     </section>
     <!-- ============DEIFINE FOOTER SECTION============ -->
     <footer class="bg_Teal footer_panding">
       <div class="modify_container  justify-content-center mx-auto ">
         <div class="row justify-content-between align-items-center">
           <div class="col-12 col-sm-auto">
-           <div class="footer_box text-center text-sm-start">
-            <div class="d-sm-none">
-              <a href="/">
-                <img src="/assets/images/svg/footer_icon.svg" alt="footer_icon" class="footer_logo_w  my-4 my-sm-0">
-              </a>
-            </div>
-            <p class="footer_main_para">Strawpath is an innovation, solution design and product development lab and consultancy.</p>
-            <span class="footer_para fw-bold color_darkGreen d-block d-inline-sm-block">Questions?</span>
-              <i class="d-block footer_para mb-4 mb-sm-0">
+            <div class="footer_box text-center text-sm-start">
+              <div class="d-sm-none">
+                <a href="/">
+                  <img src="/assets/images/svg/footer_icon.svg" alt="footer_icon" class="footer_logo_w  my-4 my-sm-0">
+                </a>
+              </div>
+              <p class="footer_main_para">Strawpath is an innovation, solution design and product development lab and
+                consultancy.</p>
+              <span class="footer_para fw-bold color_darkGreen d-block d-inline-sm-block">Questions?</span>
+              <i class="d-block footer_para footer_custom_padding">
                 Email:
-                <a href="https://mail.google.com" target="_blank"
-                  class="text-decoration-none footer_para fw-normal  color_darkGreen all_transition email_hover">
+                <a href="mailto:explore@strawpath.com" target="_blank"
+                  class="text-decoration-none footer_para fw-normal  color_darkGreen all_transition footer_link_hover ">
                   explore@strawpath.com</a>
               </i>
               <div class="my-4 pt-sm-0 my-sm-0">
                 <a href="https://www.youtube.com/" class="text-decoration-none footer_icon" target="_blank">
-                  <img src="/assets/images/svg/youtube-icon.svg" class="footer_icon_hover footer_icon all_transition" alt="youtube">
+                  <img src="/assets/images/svg/youtube-icon.svg" class="footer_icon_hover footer_icon all_transition"
+                    alt="youtube">
                 </a>
                 <a href="https://www.linkedin.com/" class="text-decoration-none footer_icon ms-1" target="_blank">
                   <img src="/assets/images/svg/linkdin-icon.svg" class="footer_icon_hover footer_icon all_transition"
@@ -250,74 +199,75 @@
                   class="fs_12 ps-1 footer_devide_line fw-light email_hover text-capitalize ff_jost color_darkGreen text-decoration-none">privacy
                   policy</a>
               </div>
-           </div>
+            </div>
           </div>
           <div class="col-sm-auto d-none d-sm-block">
-              <a href="/">
-                <img src="/assets/images/svg/footer_icon.svg" alt="footer_icon" class="footer_logo_w">
-              </a>
+            <a href="/">
+              <img src="/assets/images/svg/footer_icon.svg" alt="footer_icon" class="footer_logo_w">
+            </a>
           </div>
           <div class="col-sm-auto d-none d-sm-block">
-              <div class="footer_content_box">
-                <div class="d-flex justify-content-between  ">
-                  <div class="col-sm-auto">
-                    <h5 class="ff_montserrat color_darkGreen footer_heading fw-bold footer_heading">WHAT WE DO</h5>
-                    <ul class="list-unstyled ff_jost mb-0">
-                      <li class="footer_link">
-                        <a class="text-decoration-none text-capitalize  all_transition color_darkGreen fw-normal"
-                          href="#what-we-do">Innovation
-                        </a>
-                      </li>
-                      <li class="footer_link">
-                        <a class="text-decoration-none text-capitalize  all_transition color_darkGreen fw-normal"
-                          href="#what-we-do">Consultancy
-                        </a>
-                      </li>
-                      <li class="footer_link">
-                        <a class="text-decoration-none text-capitalize  all_transition color_darkGreen fw-normal"
-                          href="#what-we-do">insights
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="col-sm-auto">
-                    <h5 class="ff_montserrat color_darkGreen text-uppercase footer_heading fw-bold footer_heading">Company</h5>
-                    <ul class="list-unstyled ff_jost mb-0">
-                      <li class="footer_link">
-                        <a class="text-decoration-none text-capitalize  all_transition color_darkGreen fw-normal"
-                          href="/Our-story.html">Our
-                          story
-                        </a>
-                      </li>
-                      <li class="footer_link">
-                        <a class="text-decoration-none text-capitalize  all_transition color_darkGreen fw-normal"
-                          href="#https://www.linkedin.com/">LinkedIn
-                        </a>
-                      </li>
-                      <li class="footer_link">
-                        <a class="text-decoration-none text-capitalize  all_transition color_darkGreen fw-normal"
-                          href="#https://www.youtube.com/">youTube
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="col-sm-auto">
-                    <h5 class="ff_montserrat color_darkGreen footer_heading fw-bold fw-bold footer_heading">LEGAL</h5>
-                    <ul class="list-unstyled ff_jost mb-0">
-                      <li class="footer_link">
-                        <a class="text-decoration-none text-capitalize  all_transition color_darkGreen fw-normal"
-                          href="#">privacy policy
-                        </a>
-                      </li>
-                      <li class="footer_link">
-                        <a class="text-decoration-none text-capitalize  all_transition color_darkGreen fw-normal"
-                          href="#">cookie policy
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
+            <div class="footer_content_box">
+              <div class="d-flex justify-content-between  ">
+                <div class="col-sm-auto">
+                  <h5 class="ff_montserrat color_darkGreen footer_heading fw-bold footer_heading">WHAT WE DO</h5>
+                  <ul class="list-unstyled ff_jost mb-0">
+                    <li class="footer_link">
+                      <a class="text-decoration-none text-capitalize  all_transition footer_link_hover color_darkGreen fw-normal"
+                        href="#what-we-do">Innovation
+                      </a>
+                    </li>
+                    <li class="footer_link">
+                      <a class="text-decoration-none text-capitalize  all_transition footer_link_hover color_darkGreen fw-normal"
+                        href="#what-we-do">Consultancy
+                      </a>
+                    </li>
+                    <li class="footer_link">
+                      <a class="text-decoration-none text-capitalize  all_transition footer_link_hover color_darkGreen fw-normal"
+                        href="#what-we-do">insights
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-sm-auto">
+                  <h5 class="ff_montserrat color_darkGreen text-uppercase footer_heading fw-bold footer_heading">Company
+                  </h5>
+                  <ul class="list-unstyled ff_jost mb-0">
+                    <li class="footer_link">
+                      <a class="text-decoration-none text-capitalize  all_transition footer_link_hover color_darkGreen fw-normal"
+                        href="/Our-story.html">Our
+                        story
+                      </a>
+                    </li>
+                    <li class="footer_link">
+                      <a class="text-decoration-none text-capitalize  all_transition footer_link_hover color_darkGreen fw-normal"
+                        href="#https://www.linkedin.com/">LinkedIn
+                      </a>
+                    </li>
+                    <li class="footer_link">
+                      <a class="text-decoration-none text-capitalize  all_transition footer_link_hover color_darkGreen fw-normal"
+                        href="#https://www.youtube.com/">youTube
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-sm-auto">
+                  <h5 class="ff_montserrat color_darkGreen footer_heading fw-bold fw-bold footer_heading">LEGAL</h5>
+                  <ul class="list-unstyled ff_jost mb-0">
+                    <li class="footer_link">
+                      <a class="text-decoration-none text-capitalize  all_transition footer_link_hover color_darkGreen fw-normal"
+                        href="#">privacy policy
+                      </a>
+                    </li>
+                    <li class="footer_link">
+                      <a class="text-decoration-none text-capitalize  all_transition footer_link_hover color_darkGreen fw-normal"
+                        href="#">cookie policy
+                      </a>
+                    </li>
+                  </ul>
                 </div>
               </div>
+            </div>
           </div>
         </div>
       </div>
