@@ -497,9 +497,28 @@ video {
   .overflow_hidden {
     overflow: hidden !important;
   }
+
+  .menu {
+    width: 12px;
+    height: 1px;
+    right: 10px;
+    z-index: 1;
+  }
+
+  .toggle_icon {
+    height: 20px;
+  }
 }
 
 @media (max-width:575.98px) {
+  .ourStory_header_bg {
+    background: transparent !important;
+  }
+
+  .strawpath_main_heading {
+    line-height: 21px !important;
+  }
+
   .video_container {
     padding: 0px 30px;
   }
@@ -628,8 +647,8 @@ video {
   }
 
   .andrew_rotate_logo {
-    right: 35%;
-    bottom: 48px;
+    right: 40%;
+    bottom: 40px;
   }
 
   .strapath_rounded_stamp_2 {
@@ -643,4 +662,10 @@ video {
   .footer_custom_padding {
     padding-bottom: 24px;
   }
+
+  .ourstory_hero_heading {
+    font-size: 20px;
+  }
+
+
 }

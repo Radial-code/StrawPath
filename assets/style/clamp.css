@@ -403,13 +403,13 @@
 
  .our_andrew_rotate_logo {
      left: 22%;
-     bottom: 23%;
+     bottom: 14.166667vw;
      z-index: 5;
  }
 
  .our_strapath_rounded_stamp_2 {
      width: 7vw;
-     transform: translate(41%, 27%);
+     transform: translate(39%, 25%);
  }
 
  /* ==================== BACK-TO-TOP-CSS-START ====================*/
@@ -517,7 +517,7 @@
  @media (max-width: 575px) {
      .our_strapath_rounded_stamp_2 {
          width: 75px !important;
-         transform: translate(41%, 27%);
+         transform: translate(38%, 23%);
      }
 
      .our_strapath_rounded_stamp {
@@ -525,8 +525,8 @@
      }
 
      .our_andrew_rotate_logo {
-         left: 220px;
-         bottom: 5%;
+         left: 236px;
+         bottom: 7%;
      }
 
      .straight_spacing {
@@ -582,9 +582,8 @@
 
      .work_cards {
          height: 207px;
-         max-width: 355px;
+         max-width: 300px;
          margin: 0 auto !important;
-         margin-bottom: 30px !important;
      }
 
      .what_we_main_heading {
