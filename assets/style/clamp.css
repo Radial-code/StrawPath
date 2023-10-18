@@ -175,7 +175,7 @@
 
  .global_logo_grand_parent {
      gap: 2.5vw;
-     padding: min(90px, 4.6vw) 0;
+     padding: min(82px, 4.2vw) 0px min(98px, 5.10vw) 0px;
  }
 
  .global_logo_parent {
@@ -224,12 +224,12 @@
  .we_do_heading {
      font-size: clamp(12px, 1.5vw, 30px);
      margin: min(31px, 1.61vw) 0 min(20px, 10.4vw) 0;
-     line-height: 0.8;
+     line-height: 93.5%;
  }
 
  .we_do_para {
      font-size: clamp(7px, 1.35vw, 25px);
-     line-height: 1.36;
+     line-height: 136%;
  }
 
  .what_we_main_heading {
@@ -262,7 +262,7 @@
  }
 
  .aproch_image_lg {
-     padding: min(163px, 9.5vw) 0 min(236px, 12vw) 0;
+     padding: min(163px, 9.5vw) 0 min(236px, 8.02vw) 0;
  }
 
  /* ================ SLICK SLIDER CODE================ */
@@ -324,7 +324,7 @@
  }
 
  .we_work_space {
-     padding: min(40px, 8.6vw) 24px min(80px, 8.6vw) 24px;
+     padding: min(74px, 3.854vw) 24px min(149px, 7.760vw) 24px;
  }
 
  .we_work_card {
