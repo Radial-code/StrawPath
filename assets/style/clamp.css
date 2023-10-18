@@ -308,6 +308,16 @@
      height: unset !important;
  }
 
+ /*---------------------------- About Para Section css Start  ---------------------------- */
+ .my_journey_container {
+     max-width: 0 min(100px, 75vw, 1400px) !important;
+     padding: min(95px, 4.8vw) 0;
+ }
+
+ .my_journey_para {
+     font-size: clamp(12px, 2.0vw, 40px);
+ }
+
  /*---------------------------- we work with css Start  ---------------------------- */
  .insights_heading {
      font-size: clamp(12px, 1.5vw, 30px);
