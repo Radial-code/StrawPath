@@ -236,13 +236,13 @@ video {
 .hero_btn {
   font-size: clamp(12px, 1.3vw, 25px);
   border-radius: 0.56em;
-  border: 3px solid var(--Cream, #FFF9F0);
+  border:min(2px, 0.156vw) solid var(--Cream, #FFF9F0);
   color: #FFF9F0;
   background: rgba(255, 249, 240, 0.25);
   line-height: 93.5%;
   letter-spacing: 3.125px;
   padding: 0.9em 2.2em;
-  transition: all 0.3s ease-in;
+  /* transition: all 0.3s ease-in; */
   margin-top: 2.8em;
 }
 
@@ -260,9 +260,9 @@ video {
   max-width: min(1440px, 80vw);
 }
 
-.all_transition {
+/* .all_transition {
   transition: all 0.2s ease-in-out !important;
-}
+} */
 
 .footer_icon_hover:hover {
   transform: scale(1.2);
