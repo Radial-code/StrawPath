@@ -223,12 +223,12 @@
 
  .we_do_heading {
      font-size: clamp(12px, 1.5vw, 30px);
-     margin: min(31px, 1.61vw) 0 min(20px, 10.4vw) 0;
+     margin: min(31px, 1.61vw) 0 min(20px, 1.041vw) 0;
      line-height: 93.5%;
  }
 
  .we_do_para {
-     font-size: clamp(7px, 1.35vw, 25px);
+     font-size: clamp(7px, 1.24vw, 25px);
      line-height: 136%;
  }
 
