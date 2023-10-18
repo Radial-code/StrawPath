@@ -260,6 +260,24 @@ video {
   max-width: min(1440px, 80vw);
 }
 
+.all_transition {
+  transition: all 0.2s ease-in-out !important;
+}
+
+.footer_icon_hover:hover {
+  transform: scale(1.2);
+}
+
+.footer_link_hover:hover {
+  font-weight: 700;
+  color: #89886D !important;
+}
+
+.email_hover:hover {
+  font-weight: 700;
+  color: var(--color-darkGreen) !important;
+}
+
 .footer_logo_w {
   width: min(14vw, 290px);
 }
@@ -297,6 +315,10 @@ video {
 
 .footer_panding {
   padding: min(78px, 4.0625vw) 0;
+}
+
+.footer_custom_padding {
+  padding-bottom: min(20px, 1.041vw);
 }
 
 /* =====================DEFINE ANDREW SECTION===================== */
@@ -492,5 +514,9 @@ video {
 
   .strapath_rounded_stamp {
     width: 28.104167vw !important;
+  }
+
+  .footer_custom_padding {
+    padding-bottom: 24px;
   }
 }
