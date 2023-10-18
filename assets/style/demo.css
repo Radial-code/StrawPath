@@ -667,5 +667,15 @@ video {
     font-size: 20px;
   }
 
+  .footer_custom_padding {
+    padding-bottom: 0px !important;
+  }
 
+}
+
+@media (max-width:475px) {
+  .andrew_rotate_logo {
+    right: 35%;
+    bottom: 22px;
+  }
 }

@@ -194,7 +194,7 @@
 
  .biege-background {
      background-color: #E3DDD6;
-     padding: min(106px, 9.5vw) min(230px, 12vw);
+     padding: min(83px, 4.2vw) min(230px, 12vw) min(186px, 9.7vw) min(230px, 12vw);
  }
 
  .mb_m_1 {
@@ -644,7 +644,7 @@
          display: flex;
          flex-direction: column;
          max-width: 300px;
-         gap: 60px
+         gap: 16px
      }
 
      .we_do_card {
