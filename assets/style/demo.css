@@ -207,7 +207,6 @@
 
 .hero_heading {
   color: #FFF9F0;
-  /* font-weight: 700; */
   font-size: clamp(10px, 3.5vw, 70px);
   line-height: 116.5%;
   padding-top: 1.3em;
@@ -215,7 +214,8 @@
 
 .hero_para {
   color: #FFF9F0;
-  font-size: clamp(8px, 1.3vw, 30px);
+  font-size: clamp(8px,1.6vw, 30px);
+  font-weight: 500 !important;
   line-height: 108.5%;
   padding-top: 0.7em;
   margin: 0;
@@ -381,7 +381,38 @@ video {
     transform: rotate(360deg);
   }
 }
+/* ==============DEIFNE OUR STORY SECTION============== */
+.ourstory_hero_heading{
+  color: var(--color-whiteCream);
+  font-size: clamp(14px, 2.497vw, 48px);
+  line-height: 116.5%;
+  padding-top: 2.2em;
+  margin-bottom: 0.7em;
+  }
+.ourstory_hero_para{
+  letter-spacing: min(2.25px, 0.117vw);
+}
 
+.ourStory_header_bg {
+  background: linear-gradient(0deg, #FFF9F0 -3.62%, rgba(255, 249, 240, 0.63) 25.35%, rgba(255, 249, 240, 0.00) 42.55%), linear-gradient(180deg, #BEC9C0 50%, #FFF9F0 100%);
+}
+
+.hero_shade {
+  background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 50%, #FFF9F0 99.48%);
+}
+
+.mix_blend_mode {
+  mix-blend-mode: difference !important;
+}
+
+.header_bottom_shade {
+  min-height: min(350px,18.22vw);
+  transform: rotate(-180deg);
+  background: linear-gradient(180deg, #FFF9F0 40%, rgba(0, 0, 0, 0.00) 90.89%);
+  box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0.25);
+  z-index: 5;
+  /* margin-bottom: -5px !important; */
+}
 @media (max-width:991.98px) {
   .founder_heading {
     letter-spacing: 1px;
@@ -510,7 +541,7 @@ video {
 
   .andrew_rotate_logo {
     right: 35%;
-    bottom: 2%;
+    bottom: 48px;
   }
 
   .strapath_rounded_stamp_2 {
