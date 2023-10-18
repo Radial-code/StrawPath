@@ -29,8 +29,9 @@
     <!-- ==================== Fav -Icon  ======================== -->
     <link rel="shortcut icon" href="/assets/images/svg/fav-icon.svg" type="image/x-icon">
     <!-- ==================== CSS  ======================== -->
-    <link rel="stylesheet" href="/assets/style/style.css">
-    <link rel="stylesheet" href="/assets/style/about.css">
+    <!-- <link rel="stylesheet" href="/assets/style/style.css">
+    <link rel="stylesheet" href="/assets/style/about.css"> -->
+    <link rel="stylesheet" href="/assets/style/clamp.css">
     <link rel="stylesheet" href="/assets/style/demo.css">
     <!-- ==================== Title  ======================== -->
     <title>Straw-Path</title>
@@ -52,116 +53,113 @@
   </head>
 
   <body>
-    <!-- DEFINE HEADER SECTION -->
-    <header class=" common_bg_property position-relative ourStory_header_bg">
-      <video id="headerVideo" class="position-absolute top-0 left-0 w-100 header_bg_height hero_shade mix_blend_mode"
-        playsinline autoplay muted loop>
+     <!-- DEFINE HEADER SECTION -->
+     <header class="hero_section_height  common_bg_property position-relative">
+      <video id="headerVideo" class="position-absolute top-0 left-0 w-100" playsinline autoplay muted loop>
         <source class="w-100" src="./assets/video/header-bg-video.mp4" type="video/mp4">
         <source class="w-100" src="./assets/video/header-bg-video.mp4" type="video/webm">
       </video>
       <!-- =================DEFINE NAVBAR CODE================= -->
-      <nav class="text-center pt-4 position-absolute w-100 z-index-5 ">
-        <div class="container pt-xl-3">
-          <div class="d-flex align-items-center">
-            <div class="nav_logo mx-auto">
-              <a href="/">
-                <img class="w-100" src="./assets/images/svg/nav-logo.svg" alt="navbar-logo">
+      <section id="home" class="position-relative hero_bg hero_section_height ">
+        <nav class="text-center">
+          <div class="hero_container mx-auto">
+            <div class="d-flex align-items-center">
+              <a href="/" class="mx-auto">
+                <img class="nav_logo" src="./assets/images/svg/nav-logo.svg" alt="navbar-logo">
               </a>
-
+              <div onclick="Togleside()" class="d-md-none menu border-0 bg-transparent position-relative"
+                id="toggle_btn">
+                <svg class="toggle_icon" xmlns="http://www.w3.org/2000/svg" width="21" height="17" viewBox="0 0 21 17"
+                  fill="none">
+                  <path
+                    d="M0.166748 2.04167C0.166748 1.6991 0.302834 1.37056 0.545069 1.12832C0.787303 0.886086 1.11584 0.75 1.45841 0.75H19.5417C19.8843 0.75 20.2129 0.886086 20.4551 1.12832C20.6973 1.37056 20.8334 1.6991 20.8334 2.04167C20.8334 2.38424 20.6973 2.71278 20.4551 2.95501C20.2129 3.19725 19.8843 3.33333 19.5417 3.33333H1.45841C1.11584 3.33333 0.787303 3.19725 0.545069 2.95501C0.302834 2.71278 0.166748 2.38424 0.166748 2.04167ZM0.166748 8.5C0.166748 8.15743 0.302834 7.82889 0.545069 7.58665C0.787303 7.34442 1.11584 7.20833 1.45841 7.20833H19.5417C19.8843 7.20833 20.2129 7.34442 20.4551 7.58665C20.6973 7.82889 20.8334 8.15743 20.8334 8.5C20.8334 8.84257 20.6973 9.17111 20.4551 9.41335C20.2129 9.65558 19.8843 9.79167 19.5417 9.79167H1.45841C1.11584 9.79167 0.787303 9.65558 0.545069 9.41335C0.302834 9.17111 0.166748 8.84257 0.166748 8.5ZM0.166748 14.9583C0.166748 14.6158 0.302834 14.2872 0.545069 14.045C0.787303 13.8028 1.11584 13.6667 1.45841 13.6667H19.5417C19.8843 13.6667 20.2129 13.8028 20.4551 14.045C20.6973 14.2872 20.8334 14.6158 20.8334 14.9583C20.8334 15.3009 20.6973 15.6294 20.4551 15.8717C20.2129 16.1139 19.8843 16.25 19.5417 16.25H1.45841C1.11584 16.25 0.787303 16.1139 0.545069 15.8717C0.302834 15.6294 0.166748 15.3009 0.166748 14.9583Z"
+                    fill="#FFF9F0" />
+                </svg>
+              </div>
             </div>
-            <div onclick="Togleside()" class="d-md-none menu border-0 bg-transparent position-relative" id="toggle_btn">
-              <svg class="toggle_icon" xmlns="http://www.w3.org/2000/svg" width="21" height="17" viewBox="0 0 21 17"
-                fill="none">
-                <path
-                  d="M0.166748 2.04167C0.166748 1.6991 0.302834 1.37056 0.545069 1.12832C0.787303 0.886086 1.11584 0.75 1.45841 0.75H19.5417C19.8843 0.75 20.2129 0.886086 20.4551 1.12832C20.6973 1.37056 20.8334 1.6991 20.8334 2.04167C20.8334 2.38424 20.6973 2.71278 20.4551 2.95501C20.2129 3.19725 19.8843 3.33333 19.5417 3.33333H1.45841C1.11584 3.33333 0.787303 3.19725 0.545069 2.95501C0.302834 2.71278 0.166748 2.38424 0.166748 2.04167ZM0.166748 8.5C0.166748 8.15743 0.302834 7.82889 0.545069 7.58665C0.787303 7.34442 1.11584 7.20833 1.45841 7.20833H19.5417C19.8843 7.20833 20.2129 7.34442 20.4551 7.58665C20.6973 7.82889 20.8334 8.15743 20.8334 8.5C20.8334 8.84257 20.6973 9.17111 20.4551 9.41335C20.2129 9.65558 19.8843 9.79167 19.5417 9.79167H1.45841C1.11584 9.79167 0.787303 9.65558 0.545069 9.41335C0.302834 9.17111 0.166748 8.84257 0.166748 8.5ZM0.166748 14.9583C0.166748 14.6158 0.302834 14.2872 0.545069 14.045C0.787303 13.8028 1.11584 13.6667 1.45841 13.6667H19.5417C19.8843 13.6667 20.2129 13.8028 20.4551 14.045C20.6973 14.2872 20.8334 14.6158 20.8334 14.9583C20.8334 15.3009 20.6973 15.6294 20.4551 15.8717C20.2129 16.1139 19.8843 16.25 19.5417 16.25H1.45841C1.11584 16.25 0.787303 16.1139 0.545069 15.8717C0.302834 15.6294 0.166748 15.3009 0.166748 14.9583Z"
-                  fill="#FFF9F0" />
-              </svg>
-            </div>
-          </div>
-          <ul class="d-none d-md-flex align-items-center justify-content-center list-unstyled px-0 gap-4 mb-0">
+            <ul class="d-none d-md-flex align-items-center justify-content-center list-unstyled px-0 gap-4 mb-0">
 
-            <li>
-              <a class="color_whiteCream text_underline font_sm ff_montserrat text-uppercase fw-semibold text-decoration-none"
-                href="/">Home</a>
-            </li>
-            <li class="mx-1">
-              <a class="color_whiteCream text_underline font_sm ff_montserrat text-uppercase fw_extrablod text-decoration-none"
-                href="#our-story">Our
-                story</a>
-            </li>
-            <li>
-              <a class="color_whiteCream text_underline font_sm ff_montserrat text-uppercase fw-semibold text-decoration-none"
-                href="#contact">Contact</a>
-            </li>
-          </ul>
+              <li>
+                <a class="color_whiteCream text_underline font_sm ff_montserrat text-uppercase fw_extrablod text-decoration-none"
+                  href="#home">Home</a>
+              </li>
+              <li class="mx-1">
+                <a class="color_whiteCream text_underline font_sm ff_montserrat text-uppercase fw-semibold text-decoration-none"
+                  href="/Our-story.html">Our
+                  story</a>
+              </li>
+              <li>
 
-          <div class="overlay  position-fixed navbar_bg d-flex d-md-none flex-column justify-content-start w-100 "
-            id="overlay">
-            <ul class="list-unstyled mb-0 ">
-              <li class="d-flex align-items-center px-2 px-sm-4  pt-4 justify-content-between ">
-                <a class="nav_logo mx-auto" href="/">
-                  <img class="w-100" src="./assets/images/svg/nav-logo.svg" alt="navbar-logo">
-                </a>
-                <button class="cross_btn border-0 bg-transparent position-absolute end-0" onclick="hideNav()">
-                  <img width="40" height="40" onclick="hideNav()" class=" d-xl-none d-block w_45"
-                    src="./assets/images/svg/nav-cross-icon.svg" alt="cross-icon">
-                </button>
-              </li>
-              <li class="mt-3 mt-sm-4 pb-1 pb-sm-3  px-2 px-sm-4" onclick="hideNav()">
-                <a class="color_whiteCream fw-normal ff_tenor font_md nav_link text-uppercase text-decoration-none"
-                  href="/">Home</a>
-              </li>
-              <li class="mt-4 mb-sm-3 pb-2 pb-4  px-2 px-sm-4 border_bottom_2 d-inline-block" onclick="hideNav()">
-                <a class="color_whiteCream fw-normal pb-2 ff_tenor font_md nav_link text-uppercase text-decoration-none"
-                  href="#our-story">our story</a>
-              </li>
-              <li class="mt-3 pb-2 pb-sm-4 mb-2 mb-sm-4  px-2 px-sm-4" onclick="hideNav()">
-                <a class="text-white text-decoration-none " href="https://youtube.com/"><svg
-                    class="nav_hover nav_icons_custom_hw" width="26" height="25" viewBox="0 0 26 25" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M13.2132 10.3173L10.7567 9.17109C10.5423 9.07156 10.3662 9.18312 10.3662 9.42047V11.5795C10.3662 11.8169 10.5423 11.9284 10.7567 11.8289L13.2121 10.6827C13.4276 10.582 13.4276 10.418 13.2132 10.3173ZM11.46 0C5.6609 0 0.959961 4.70094 0.959961 10.5C0.959961 16.2991 5.6609 21 11.46 21C17.259 21 21.96 16.2991 21.96 10.5C21.96 4.70094 17.259 0 11.46 0ZM11.46 14.7656C6.08527 14.7656 5.99121 14.2811 5.99121 10.5C5.99121 6.71891 6.08527 6.23438 11.46 6.23438C16.8346 6.23438 16.9287 6.71891 16.9287 10.5C16.9287 14.2811 16.8346 14.7656 11.46 14.7656Z"
-                      fill="#FFF9F0" />
-                  </svg>
-                </a>
-                <a class="text-white text-decoration-none  mt-3" href="https://youtube.com/">
-                  <svg class="nav_hover nav_icons_custom_hw" width="26" height="25" viewBox="0 0 26 25" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <g clip-path="url(#clip0_67_669)">
-                      <path
-                        d="M10.5407 0.420654C4.97359 0.420654 0.460693 4.93355 0.460693 10.5007C0.460693 16.0678 4.97359 20.5807 10.5407 20.5807C16.1078 20.5807 20.6207 16.0678 20.6207 10.5007C20.6207 4.93355 16.1078 0.420654 10.5407 0.420654ZM8.07319 14.6786H6.03199V8.1098H8.07319V14.6786ZM7.03999 7.3034C6.39529 7.3034 5.97844 6.84665 5.97844 6.28175C5.97844 5.7053 6.40789 5.2622 7.06624 5.2622C7.72459 5.2622 8.12779 5.7053 8.14039 6.28175C8.14039 6.84665 7.72459 7.3034 7.03999 7.3034ZM15.5282 14.6786H13.487V11.0383C13.487 10.1909 13.1909 9.6155 12.4527 9.6155C11.8889 9.6155 11.5539 10.0051 11.4059 10.3799C11.3513 10.5133 11.3376 10.7023 11.3376 10.8902V14.6776H9.29539V10.2046C9.29539 9.3845 9.26914 8.69885 9.24184 8.10875H11.0153L11.1087 9.0212H11.1497C11.4185 8.5928 12.0768 7.9607 13.1783 7.9607C14.5212 7.9607 15.5282 8.86055 15.5282 10.7947V14.6786Z"
-                        fill="#FFF9F0" />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_67_669">
-                        <rect width="21" height="21" fill="white" transform="translate(0.0400391)" />
-                      </clipPath>
-                    </defs>
-                  </svg>
-
+                <a class="color_whiteCream text_underline font_sm ff_montserrat text-uppercase fw-semibold text-decoration-none"
+                  href="/Our-story.html#contact">Contact
                 </a>
               </li>
             </ul>
-
-
+            <div class="overlay  position-fixed navbar_bg d-flex d-md-none flex-column justify-content-start w-100 "
+              id="overlay">
+              <ul class="list-unstyled mb-0 ">
+                <li class="d-flex align-items-center px-2 px-sm-4  pt-4 justify-content-between ">
+                  <a class="nav_logo mx-auto" href="/">
+                    <img class="w-100" src="./assets/images/svg/nav-logo.svg" alt="navbar-logo">
+                  </a>
+                  <button class="cross_btn border-0 bg-transparent position-absolute " onclick="hideNav()">
+                    <img width="40" height="40" onclick="hideNav()" class=" d-xl-none d-block w_45"
+                      src="./assets/images/svg/nav-cross-icon.svg" alt="cross-icon">
+                  </button>
+                </li>
+                <li class="mt-3 mt-sm-4 pb-1 pb-sm-3  px-2 px-sm-4" onclick="hideNav()">
+                  <a class="color_whiteCream fw-normal ff_tenor font_base nav_link text-uppercase text-decoration-none"
+                    href="#home">Home</a>
+                </li>
+                <li class="mt-4 mb-sm-3 pb-2 pb-4  px-2 px-sm-4 border_bottom_2 d-inline-block" onclick="hideNav()">
+                  <a class="color_whiteCream fw-normal pb-2 ff_tenor font_base nav_link text-uppercase text-decoration-none"
+                    href="/Our-story.html">our story</a>
+                </li>
+                <li class="mt-3 pb-2 pb-sm-4 mb-2 mb-sm-4  px-2 px-sm-4" onclick="hideNav()">
+                  <a class="text-white text-decoration-none " href="https://youtube.com/"><svg class="nav_hover"
+                      width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M13.2132 10.3173L10.7567 9.17109C10.5423 9.07156 10.3662 9.18312 10.3662 9.42047V11.5795C10.3662 11.8169 10.5423 11.9284 10.7567 11.8289L13.2121 10.6827C13.4276 10.582 13.4276 10.418 13.2132 10.3173ZM11.46 0C5.6609 0 0.959961 4.70094 0.959961 10.5C0.959961 16.2991 5.6609 21 11.46 21C17.259 21 21.96 16.2991 21.96 10.5C21.96 4.70094 17.259 0 11.46 0ZM11.46 14.7656C6.08527 14.7656 5.99121 14.2811 5.99121 10.5C5.99121 6.71891 6.08527 6.23438 11.46 6.23438C16.8346 6.23438 16.9287 6.71891 16.9287 10.5C16.9287 14.2811 16.8346 14.7656 11.46 14.7656Z"
+                        fill="#FFF9F0" />
+                    </svg>
+                  </a>
+                  <a class="text-white text-decoration-none  mt-3" href="https://youtube.com/">
+                    <svg class="nav_hover" width="26" height="25" viewBox="0 0 26 25" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_67_669)">
+                        <path
+                          d="M10.5407 0.420654C4.97359 0.420654 0.460693 4.93355 0.460693 10.5007C0.460693 16.0678 4.97359 20.5807 10.5407 20.5807C16.1078 20.5807 20.6207 16.0678 20.6207 10.5007C20.6207 4.93355 16.1078 0.420654 10.5407 0.420654ZM8.07319 14.6786H6.03199V8.1098H8.07319V14.6786ZM7.03999 7.3034C6.39529 7.3034 5.97844 6.84665 5.97844 6.28175C5.97844 5.7053 6.40789 5.2622 7.06624 5.2622C7.72459 5.2622 8.12779 5.7053 8.14039 6.28175C8.14039 6.84665 7.72459 7.3034 7.03999 7.3034ZM15.5282 14.6786H13.487V11.0383C13.487 10.1909 13.1909 9.6155 12.4527 9.6155C11.8889 9.6155 11.5539 10.0051 11.4059 10.3799C11.3513 10.5133 11.3376 10.7023 11.3376 10.8902V14.6776H9.29539V10.2046C9.29539 9.3845 9.26914 8.69885 9.24184 8.10875H11.0153L11.1087 9.0212H11.1497C11.4185 8.5928 12.0768 7.9607 13.1783 7.9607C14.5212 7.9607 15.5282 8.86055 15.5282 10.7947V14.6786Z"
+                          fill="#FFF9F0" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_67_669">
+                          <rect width="21" height="21" fill="white" transform="translate(0.0400391)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
-      <section id="home"
-        class="position-relative z_index4 hero_section_height hero_shade d-flex flex-column justify-content-center">
-        <div class="container">
-
+        </nav>
+        <div class="hero_container z_index4 mx-auto">
           <!-- =================DEFINE HERO SECTION CODE================= -->
-          <div class="row justify-content-center align-items-center ">
+          <div class="row justify-content-center align-items-center">
             <div class="col-md-12 ">
               <div class="text-center position-relative z-index-5">
-                <h1
-                  class="font_3xl_bold fw-bold lh_116 ff_jost color_whiteCream  text-uppercase mb-3 pb-1 text-zoomIn animation-duration3">
-                  IMAGINATION. <br class="d-sm-none"> EXPLORATION. INNOVATION.</h1>
-                <p
-                  class="font_lg lh_117 mx-4 px-3 text-capitalize fw-normal ff_montserrat color_whiteCream mb-0 text-zoomIn animation-duration4">
-                  Harnessing years of experience in startups, <br class="d-none d-xl-block"> corporate and
-                  entrepreneurship.</p>
+                <h1 class="hero_heading fw-normal ff_tenor text-uppercase text-zoomIn animation-duration3">
+                  Turning innovative ideas into <br class="d-none d-sm-block"> market ready products</h1>
+                <p class="hero_para fw-normal ff_montserrat color_whiteCream text-zoomIn animation-duration4">
+                  Strawpath is an
+                  innovation, solution design and product <br class="d-none d-sm-block"> development
+                  lab and
+                  consultancy</p>
+                <a href="#lettalk"
+                  class="text-decoration-none d-inline-block hero_btn sub_para ff_montserrat fw-semibold color_whiteCream text-uppercase text-zoomIn animation-duration4">
+                  let’s talk
+                </a>
+                </a>
               </div>
             </div>
           </div>
@@ -310,35 +308,37 @@
         </i>
       </div>
     </div>
-    <!------------------------- FOOTER SECTION ------------------------->
-    <footer class="mt-lg-0 bg_Teal  " id="footer_faq">
-      <div class="container custom_container pt-3 py-xl-4">
-        <div class="row text-center text-md-start py-md-5 justify-content-between ">
-          <div class="col-md-4 col-xl-4 order-1 order-md-0  pt-4 mt-lg-1">
-            <div class="max_w_375 ff_jost mx-auto mx-lg-0">
-              <p class="font_sm fw-normal color_darkGreen lh_103p mb-xl-4">Strawpath is an innovation,
-                solution
-                design and
-                product
-                development lab and consultancy.
-              </p>
-              <span class="font_sm fw-bold color_darkGreen mt-3 d-block d-inline-md-block lh_103p">Questions?</span>
-              <i class="d-block mb-4 ">
+    <!-- ============DEIFINE FOOTER SECTION============ -->
+    <footer class="bg_Teal footer_panding">
+      <div class="modify_container  justify-content-center mx-auto ">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-12 col-sm-auto">
+            <div class="footer_box text-center text-sm-start">
+              <div class="d-sm-none">
+                <a href="/">
+                  <img src="/assets/images/svg/footer_icon.svg" alt="footer_icon" class="footer_logo_w  my-4 my-sm-0">
+                </a>
+              </div>
+              <p class="footer_main_para">Strawpath is an innovation, solution design and product development lab and
+                consultancy.</p>
+              <span class="footer_para fw-bold color_darkGreen d-block d-inline-sm-block">Questions?</span>
+              <i class="d-block footer_para footer_custom_padding">
                 Email:
-                <a href="https://mail.google.com" target="_blank"
-                  class="text-decoration-none font_sm fw-normal pb-2 lh_103p pb-xl-1 color_darkGreen all_transition email_hover">
+                <a href="mailto:explore@strawpath.com" target="_blank"
+                  class="text-decoration-none footer_para fw-normal  color_darkGreen all_transition footer_link_hover ">
                   explore@strawpath.com</a>
               </i>
-              <div class="pb-4 mb-1 mb-1">
-                <a href="https://www.youtube.com/" class="text-decoration-none" target="_blank">
-                  <img src="/assets/images/svg/youtube-icon.svg" class="footer_icon_hover all_transition" alt="youtube">
+              <div class="my-4 pt-sm-0 my-sm-0">
+                <a href="https://www.youtube.com/" class="text-decoration-none footer_icon" target="_blank">
+                  <img src="/assets/images/svg/youtube-icon.svg" class="footer_icon_hover footer_icon all_transition"
+                    alt="youtube">
                 </a>
-                <a href="https://www.linkedin.com/" class="text-decoration-none ms-1" target="_blank">
-                  <img src="/assets/images/svg/linkdin-icon.svg" class="footer_icon_hover all_transition"
+                <a href="https://www.linkedin.com/" class="text-decoration-none footer_icon ms-1" target="_blank">
+                  <img src="/assets/images/svg/linkdin-icon.svg" class="footer_icon_hover footer_icon all_transition"
                     alt="linkedIn">
                 </a>
               </div>
-              <div class="mb-2 d-md-none pb-1">
+              <div class="mb-2 d-sm-none pb-1">
                 <a href="#"
                   class="fs_12 fw-light email_hover text-capitalize ff_jost color_darkGreen text-decoration-none">cookie
                   policy</a>
@@ -348,68 +348,71 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-xl-3 my-auto">
+          <div class="col-sm-auto d-none d-sm-block">
             <a href="/">
-              <img src="/assets/images/svg/footer_icon.svg" alt="footer_icon" class="footer_logo_w w-100">
+              <img src="/assets/images/svg/footer_icon.svg" alt="footer_icon" class="footer_logo_w">
             </a>
           </div>
-          <div class="d-none d-md-block col-md-auto col-xl-5 col-xxl-4 order-1 order-lg-0 pt-4 mt-lg-1">
-            <div class="d-flex gap-3 justify-content-between justify-content-lg-end ">
-              <div class="col-md-auto">
-                <h5 class="ff_montserrat color_darkGreen font_base fw-bold pb-2">WHAT WE DO</h5>
-                <ul class="list-unstyled ff_jost mb-0">
-                  <li class="py-1 mt-xxl-1">
-                    <a class="text-decoration-none text-capitalize footer_link_hover all_transition color_darkGreen font_xs fw-normal"
-                      href="/#what-we-do">Innovation
-                    </a>
-                  </li>
-                  <li class="py-1 mt-xxl-1">
-                    <a class="text-decoration-none text-capitalize footer_link_hover all_transition color_darkGreen font_xs fw-normal"
-                      href="/#what-we-do">Consultancy
-                    </a>
-                  </li>
-                  <li class="py-1 mt-xxl-1">
-                    <a class="text-decoration-none text-capitalize footer_link_hover all_transition color_darkGreen font_xs fw-normal"
-                      href="/#what-we-do">insights
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-md-auto">
-                <h5 class="ff_montserrat color_darkGreen text-uppercase font_base fw-bold pb-2">Company</h5>
-                <ul class="list-unstyled ff_jost mb-0">
-                  <li class="py-1 mt-xxl-1">
-                    <a class="text-decoration-none text-capitalize footer_link_hover all_transition color_darkGreen font_xs fw-normal"
-                      href="#Our-story">Our
-                      story
-                    </a>
-                  </li>
-                  <li class="py-1 mt-xxl-1">
-                    <a class="text-decoration-none text-capitalize footer_link_hover all_transition color_darkGreen font_xs fw-normal"
-                      href="#https://www.linkedin.com/">LinkedIn
-                    </a>
-                  </li>
-                  <li class="py-1 mt-xxl-1">
-                    <a class="text-decoration-none text-capitalize footer_link_hover all_transition color_darkGreen font_xs fw-normal"
-                      href="#https://www.youtube.com/">youTube
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-md-auto">
-                <h5 class="ff_montserrat color_darkGreen font_base fw-bold fw-bold pb-2">LEGAL</h5>
-                <ul class="list-unstyled ff_jost mb-0">
-                  <li class="py-1 mt-xxl-1">
-                    <a class="text-decoration-none text-capitalize footer_link_hover all_transition color_darkGreen font_xs fw-normal"
-                      href="#">privacy policy
-                    </a>
-                  </li>
-                  <li class="py-1 mt-xxl-1">
-                    <a class="text-decoration-none text-capitalize footer_link_hover all_transition color_darkGreen font_xs fw-normal"
-                      href="#">cookie policy
-                    </a>
-                  </li>
-                </ul>
+          <div class="col-sm-auto d-none d-sm-block">
+            <div class="footer_content_box">
+              <div class="d-flex justify-content-between  ">
+                <div class="col-sm-auto">
+                  <h5 class="ff_montserrat color_darkGreen footer_heading fw-bold footer_heading">WHAT WE DO</h5>
+                  <ul class="list-unstyled ff_jost mb-0">
+                    <li class="footer_link">
+                      <a class="text-decoration-none text-capitalize  all_transition footer_link_hover color_darkGreen fw-normal"
+                        href="/#what-we-do">Innovation
+                      </a>
+                    </li>
+                    <li class="footer_link">
+                      <a class="text-decoration-none text-capitalize  all_transition footer_link_hover color_darkGreen fw-normal"
+                        href="/#what-we-do">Consultancy
+                      </a>
+                    </li>
+                    <li class="footer_link">
+                      <a class="text-decoration-none text-capitalize  all_transition footer_link_hover color_darkGreen fw-normal"
+                        href="/#what-we-do">insights
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-sm-auto">
+                  <h5 class="ff_montserrat color_darkGreen text-uppercase footer_heading fw-bold footer_heading">Company
+                  </h5>
+                  <ul class="list-unstyled ff_jost mb-0">
+                    <li class="footer_link">
+                      <a class="text-decoration-none text-capitalize  all_transition footer_link_hover color_darkGreen fw-normal"
+                        href="#Our-story.html">Our
+                        story
+                      </a>
+                    </li>
+                    <li class="footer_link">
+                      <a class="text-decoration-none text-capitalize  all_transition footer_link_hover color_darkGreen fw-normal"
+                        href="#https://www.linkedin.com/">LinkedIn
+                      </a>
+                    </li>
+                    <li class="footer_link">
+                      <a class="text-decoration-none text-capitalize  all_transition footer_link_hover color_darkGreen fw-normal"
+                        href="#https://www.youtube.com/">youTube
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-sm-auto">
+                  <h5 class="ff_montserrat color_darkGreen footer_heading fw-bold fw-bold footer_heading">LEGAL</h5>
+                  <ul class="list-unstyled ff_jost mb-0">
+                    <li class="footer_link">
+                      <a class="text-decoration-none text-capitalize  all_transition footer_link_hover color_darkGreen fw-normal"
+                        href="#">privacy policy
+                      </a>
+                    </li>
+                    <li class="footer_link">
+                      <a class="text-decoration-none text-capitalize  all_transition footer_link_hover color_darkGreen fw-normal"
+                        href="#">cookie policy
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
