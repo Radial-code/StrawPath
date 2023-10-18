@@ -366,22 +366,50 @@
 
  /* < !-------------------- NO STRAIGHT LINES SECTION --------------------> */
  .straight_spacing {
-     padding: min(99px, 5.15vw) 0px min(136px, 7.08vw) 0px;
+     padding: min(99px, 5.15vw) min(390px, 20.3vw) min(136px, 7.08vw) 0px;
      border-radius: 0 min(168px, 8.75vw) 0 0;
  }
 
  .straight_heading {
-     font-size: clamp(12px, 2.4vw, 45px);
+     font-size: clamp(10px, 2.4vw, 45px);
+     line-height: 93.5%;
  }
 
  .straight_heading_two {
-     font-size: clamp(10px, 1.5vw, 20px);
+     letter-spacing: 2.5px;
+     line-height: 128.5%;
+     font-size: clamp(8px, 1.5vw, 20px);
      padding: min(24px, 1.6vw) 0;
  }
 
  .sub_para {
-     font-size: clamp(10px, 1.4vw, 25px);
-     /* padding: 0 min(16px, 1.6vw) 0 0; */
+     font-size: clamp(8px, 1.4vw, 25px);
+     line-height: 116%;
+     padding: 0 0 min(28px, 1.5vw)0;
+ }
+
+ .straignt_cuntent {
+     max-width: min(709px, 37vw);
+ }
+
+ .demo {
+     padding: 0 0 0 min(248px, 12.91vw);
+ }
+
+ .our_andrew {
+     width: min(580px, 30.21vw);
+     top: -9%;
+ }
+
+ .our_andrew_rotate_logo {
+     left: 22%;
+     bottom: 23%;
+     z-index: 5;
+ }
+
+ .our_strapath_rounded_stamp_2 {
+     width: 7vw;
+     transform: translate(41%, 27%);
  }
 
  /* ==================== BACK-TO-TOP-CSS-START ====================*/
@@ -427,6 +455,12 @@
      box-shadow: 0px 0px 4px 4px #122B18;
      border: 1px solid white;
      color: white !important;
+ }
+
+ @media (max-width: 1399.98px) {
+     .straight_heading_two {
+         letter-spacing: 0px;
+     }
  }
 
  @media (max-width: 991.98px) {
@@ -481,6 +515,53 @@
  }
 
  @media (max-width: 575px) {
+     .our_strapath_rounded_stamp_2 {
+         width: 75px !important;
+         transform: translate(41%, 27%);
+     }
+
+     .our_strapath_rounded_stamp {
+         width: 140px !important;
+     }
+
+     .our_andrew_rotate_logo {
+         left: 220px;
+         bottom: 5%;
+     }
+
+     .straight_spacing {
+         border-radius: 0 100px 0 0;
+     }
+
+     .straight_heading {
+         font-size: 27px;
+         line-height: 93.5%;
+     }
+
+     .straight_heading_two {
+         font-size: 16px;
+         letter-spacing: 2px;
+         padding: 22px 0 28px 0;
+     }
+
+     .sub_para {
+         font-size: 15.5px;
+     }
+
+     .straignt_cuntent {
+         max-width: 100%;
+     }
+
+     .straight_spacing {
+         padding: 43px 31px 154px 31px;
+         margin-bottom: 303px;
+     }
+
+     .our_andrew_mob {
+         max-width: 296px;
+         bottom: -303px;
+     }
+
      .my_journey_container {
          width: 100%;
          padding: 38px 24px;

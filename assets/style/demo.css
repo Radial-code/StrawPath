@@ -214,7 +214,7 @@
 
 .hero_para {
   color: #FFF9F0;
-  font-size: clamp(8px,1.6vw, 30px);
+  font-size: clamp(8px, 1.6vw, 30px);
   font-weight: 500 !important;
   line-height: 108.5%;
   padding-top: 0.7em;
@@ -236,7 +236,7 @@ video {
 .hero_btn {
   font-size: clamp(12px, 1.3vw, 25px);
   border-radius: 0.56em;
-  border:min(2px, 0.156vw) solid var(--Cream, #FFF9F0);
+  border: min(2px, 0.156vw) solid var(--Cream, #FFF9F0);
   color: #FFF9F0;
   background: rgba(255, 249, 240, 0.25);
   line-height: 93.5%;
@@ -332,9 +332,11 @@ video {
   transform: translate(-15%, -12%);
   width: min(536px, 27.91vw) !important;
 }
-.andrew_content_box{
+
+.andrew_content_box {
   transform: translateX(-10%);
 }
+
 .ardrew_heading {
   font-size: clamp(18px, 2.34375vw, 45px);
 }
@@ -381,15 +383,17 @@ video {
     transform: rotate(360deg);
   }
 }
+
 /* ==============DEIFNE OUR STORY SECTION============== */
-.ourstory_hero_heading{
+.ourstory_hero_heading {
   color: var(--color-whiteCream);
   font-size: clamp(14px, 2.497vw, 48px);
   line-height: 116.5%;
   padding-top: 2.2em;
   margin-bottom: 0.7em;
-  }
-.ourstory_hero_para{
+}
+
+.ourstory_hero_para {
   letter-spacing: min(2.25px, 0.117vw);
 }
 
@@ -410,51 +414,61 @@ video {
 }
 
 .header_bottom_shade {
-  min-height: min(350px,18.22vw);
+  min-height: min(350px, 18.22vw);
   transform: rotate(-180deg);
   background: linear-gradient(180deg, #FFF9F0 40%, rgba(0, 0, 0, 0.00) 90.89%);
   box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0.25);
   z-index: 5;
   /* margin-bottom: -5px !important; */
 }
+
 /* ===================DEFINE VIDEO SECTION=================== */
-.the_legend_line{
-border: min(2px,0.1041vw) solid var(--color-Bandicoot);
+.the_legend_line {
+  border: min(2px, 0.1041vw) solid var(--color-Bandicoot);
 }
-.lh_93{
+
+.lh_93 {
   line-height: 93.5% !important;
 }
-.video_container{
-  padding: 0px min(107px,5.572vw);
+
+.video_container {
+  padding: 0px min(107px, 5.572vw);
 }
-.video_parent{
+
+.video_parent {
   width: min(1040px, 54.53vw);
 }
-.video_heading{
+
+.video_heading {
   font-size: min(179.692px, 9.358vw);
   letter-spacing: 2.012vw;
+  padding-bottom: 0.6em;
 }
-.video_side_icon{
+
+.video_side_icon {
   width: 11.25vw;
 }
-.video_content_box{
+
+.video_content_box {
   margin-top: min(-85px, -18vw);
 }
-.strawpath_main_heading{
+
+.strawpath_main_heading {
   color: #B7AC84 !important;
-  font-size: min(30
-  px, 1.8vw) !important;
-  line-height:  93.5%;
+  font-size: min(30px, 1.8vw) !important;
+  line-height: 93.5%;
   padding: 1.6em 0px 2.3em 0px;
 }
+
 .the_legend_heading {
   background-color: var(--color-Bandicoot);
   padding: min(38px, 1.2vw) min(65px, 3.38vw);
   font-size: clamp(12px, 1.56vw, 30px);
   border-radius: min(26px, 1.35vw);
   line-height: 93.5%;
-  letter-spacing:0.195vw;
+  letter-spacing: 0.195vw;
 }
+
 @media (max-width:991.98px) {
   .founder_heading {
     letter-spacing: 1px;
@@ -486,24 +500,42 @@ border: min(2px,0.1041vw) solid var(--color-Bandicoot);
 }
 
 @media (max-width:575.98px) {
-  .video_parent{
+  .video_container {
+    padding: 0px 30px;
+  }
+
+  .px_xs_0 {
+    padding: 0px
+  }
+
+  .video_parent {
     width: 100%;
   }
+
   .video_content_box {
-    margin-top: min(0px, -3vw);
-}
-.the_legend_heading{
-  font-size: 14px;
-  padding: 10px min(65px, 3.38vw);
-}
-.strawpath_main_heading{
-  font-size: 16px !important ;
-  padding: 18px 0px 24px 0px;
-}
+    margin-top: min(0px, -4vw);
+  }
+
+  .the_legend_heading {
+    font-size: 12px;
+    padding: 10px min(65px, 3.38vw);
+  }
+
+  .video_heading {
+    padding-bottom: 0px !important;
+    letter-spacing: 1.6vw;
+  }
+
+  .strawpath_main_heading {
+    font-size: 16px !important;
+    padding: 18px 0px 24px 0px;
+  }
+
   .ardrew_heading {
     font-size: 24px;
   }
-  .andrew_content_box{
+
+  .andrew_content_box {
     transform: translateX(0%) !important;
   }
 
@@ -521,7 +553,7 @@ border: min(2px,0.1041vw) solid var(--color-Bandicoot);
   }
 
   .andrew_img {
-    transform: translate(0% , 40px) ;
+    transform: translate(0%, 40px);
     width: unset !important;
   }
 
