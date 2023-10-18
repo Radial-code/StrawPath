@@ -1,4 +1,5 @@
  @import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800&family=Tenor+Sans&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
  * {
      margin: 0;
@@ -89,6 +90,10 @@
 
  .ff_montserrat {
      font-family: 'Montserrat', sans-serif;
+ }
+
+ .ff_Libre {
+     font-family: 'Libre Baskerville', serif;
  }
 
  /*---------------------------- DEFINE-ALL = FONT-WEIGHT ---------------------------- */
@@ -310,12 +315,17 @@
 
  /*---------------------------- About Para Section css Start  ---------------------------- */
  .my_journey_container {
-     max-width: 0 min(100px, 75vw, 1400px) !important;
+     width: min(1440px, 74.4vw);
      padding: min(95px, 4.8vw) 0;
  }
 
  .my_journey_para {
-     font-size: clamp(12px, 2.0vw, 40px);
+     font-size: clamp(12px, 2.1vw, 40px);
+     line-height: 143.5%;
+ }
+
+ .my_journey_m {
+     font-size: clamp(12px, 2.7vw, 50px);
  }
 
  /*---------------------------- we work with css Start  ---------------------------- */
@@ -352,6 +362,26 @@
 
  .we_do_card img {
      width: min(73px, 3.8vw);
+ }
+
+ /* < !-------------------- NO STRAIGHT LINES SECTION --------------------> */
+ .straight_spacing {
+     padding: min(99px, 5.15vw) 0px min(136px, 7.08vw) 0px;
+     border-radius: 0 min(168px, 8.75vw) 0 0;
+ }
+
+ .straight_heading {
+     font-size: clamp(12px, 2.4vw, 45px);
+ }
+
+ .straight_heading_two {
+     font-size: clamp(10px, 1.5vw, 20px);
+     padding: min(24px, 1.6vw) 0;
+ }
+
+ .sub_para {
+     font-size: clamp(10px, 1.4vw, 25px);
+     /* padding: 0 min(16px, 1.6vw) 0 0; */
  }
 
  /* ==================== BACK-TO-TOP-CSS-START ====================*/
@@ -451,6 +481,19 @@
  }
 
  @media (max-width: 575px) {
+     .my_journey_container {
+         width: 100%;
+         padding: 38px 24px;
+     }
+
+     .my_journey_para {
+         font-size: clamp(18px, 2.1vw, 40px);
+         line-height: 143.5%;
+     }
+
+     .my_journey_m {
+         font-size: clamp(22px, 2.7vw, 50px);
+     }
 
      .slider_icon_w {
          width: 45px !important;
